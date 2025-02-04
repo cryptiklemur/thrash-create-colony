@@ -45,7 +45,7 @@ jobs:
           output: CHANGELOG.md
           stripGeneratorNotice: true
       - name: Store changelog
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: changelog
           path: CHANGELOG.md
