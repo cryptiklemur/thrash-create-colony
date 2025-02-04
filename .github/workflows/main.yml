@@ -5,6 +5,10 @@ on:
     tags:
       - 'v*'
 
+permissions:
+  contents: write
+  pull-requests: read
+
 env:
   PROJECT_ID: "1192573"
 
@@ -120,7 +124,7 @@ jobs:
             *beta*) rel_type="beta" ;;
             *) rel_type="release" ;;
           esac
-          echo "type=$rel_type"  >> $GITHUB_OUTPUT
+          echo "type=$rel_type" >> $GITHUB_OUTPUT
       - name: Create release
         uses: itsmeow/curseforge-upload@v3
         with:
@@ -129,6 +133,5 @@ jobs:
           game_endpoint: minecraft
           file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
           changelog: "${{ needs.changelog.outputs.changelog }}"
-          changelog_type: markdown
-          game_versions: "Minecraft ${{ needs.modpack-info.outputs.version }}" 
+          game_versions: "Minecraft 1.20:${{ needs.modpack-info.outputs.version }},Forge" 
           release_type: ${{ steps.release-type.outputs.type }}
