@@ -2,7 +2,8 @@ name: main
 
 on: 
   push:
-    tag: 'v*'
+    tag:
+      - 'v*'
 
 permissions:
   contents: write
