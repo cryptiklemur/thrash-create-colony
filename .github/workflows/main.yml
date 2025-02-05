@@ -68,8 +68,6 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: changelog
-      - name: Move changelog
-        run:  mv ./CHANGELOG.md ./modpack/CHANGELOG.md
       - name: Export modpack
         run: java -jar pakku.jar export
       - name: Rename server pack zip
