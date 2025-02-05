@@ -18,7 +18,7 @@ jobs:
     outputs:
       projectname: ${{ steps.info.outputs.projectname }}
       version: ${{ steps.info.outputs.version }}
-      tag: ${{ steps.info.outputs.tag }}
+      tag: ${{ steps.info.version.tag }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -34,10 +34,10 @@ jobs:
             version=`echo $(jq -r '.mc_versions[0]' <<< "$manifestlockjson")`
             echo "version=$version" >> $GITHUB_OUTPUT
             
-            tag=`echo $(jq -r '.version' <<< "$manifestjson")`
-            echo "tag=$tag" >> $GITHUB_OUTPUT
-            
             echo "$projectname@$tag - $version"
+      - name: Get tag
+        id: version
+        uses: "WyriHaximus/github-action-get-previous-tag@v1"
 
   changelog:
     runs-on: ubuntu-latest
