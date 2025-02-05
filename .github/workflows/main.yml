@@ -28,7 +28,7 @@ jobs:
             projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
             echo "projectname=$projectname" >> $GITHUB_OUTPUT
             
-            version=`echo $(jq -r '.mc_versions[0]' <<< "$manifestjson")`
+            version=`echo $(jq -r '.mc_versions[0]' <<< "$manifestlockjson")`
             echo "version=$version" >> $GITHUB_OUTPUT
             
             tag=`echo $(jq -r '.version' <<< "$manifestjson")`
@@ -74,18 +74,18 @@ jobs:
           name: changelog
       - name: Export modpack
         run: java -jar pakku.jar export
-      - name: Rename server pack zip
-        run: |
-          mv "build/serverpack/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip" "build/serverpack/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-server.zip"
       - name: Upload Curseforge Zip
         uses: actions/upload-artifact@v4 
         with:
           name: modpack
           path: "build/curseforge/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip"
+      - name: Rename server pack zip
+        run: |
+          mv "build/serverpack/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip" "build/serverpack/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-server.zip"
       - name: Upload Server Pack zip
         uses: actions/upload-artifact@v4
         with:
-          name: modpack
+          name: server-modpack
           path: "build/serverpack/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-server.zip"
   
   release-github:
