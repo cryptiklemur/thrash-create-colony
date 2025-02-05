@@ -15,7 +15,7 @@ jobs:
     outputs:
       projectname: ${{ steps.info.outputs.projectname }}
       version: ${{ steps.info.outputs.version }}
-      tag: ${{ steps.version.outputs.tag }}
+      tag: ${{ steps.info.outputs.tag }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -24,13 +24,17 @@ jobs:
         run: |
             manifestjson=`cat ./pakku.json`
             manifestlockjson=`cat ./pakku-lock.json`
+            
             projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
             echo "projectname=$projectname" >> $GITHUB_OUTPUT
+            
             version=`echo $(jq -r '.mc_versions[0]' <<< "$manifestjson")`
             echo "version=$version" >> $GITHUB_OUTPUT
+            
             tag=`echo $(jq -r '.version' <<< "$manifestjson")`
             echo "tag=$tag" >> $GITHUB_OUTPUT
-            echo "$projectname@$tag"
+            
+            echo "$projectname@$tag - $version"
 
   changelog:
     runs-on: ubuntu-latest
@@ -74,7 +78,7 @@ jobs:
         run: |
           mv "build/serverpack/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip" "build/serverpack/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-server.zip"
       - name: Upload Curseforge Zip
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v4 
         with:
           name: modpack
           path: "build/curseforge/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip"
