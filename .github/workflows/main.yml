@@ -1,9 +1,6 @@
 name: main
 
-on:
-  push:
-    tags:
-      - 'v*'
+on: [push]
 
 permissions:
   contents: write
@@ -25,16 +22,15 @@ jobs:
       - name: Get modpack info
         id: info
         run: |
-            manifestjson=`cat ./modpack/manifest.json`
+            manifestjson=`cat ./pakku.json`
+            manifestlockjson=`cat ./pakku-lock.json`
             projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
             echo "projectname=$projectname" >> $GITHUB_OUTPUT
-            version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
+            version=`echo $(jq -r '.mc_versions[0]' <<< "$manifestjson")`
             echo "version=$version" >> $GITHUB_OUTPUT
-            echo "$projectname@$version"
-      - name: Get tag
-        id: version
-        uses: "WyriHaximus/github-action-get-previous-tag@v1"
-        
+            tag=`echo $(jq -r '.version' <<< "$manifestjson")`
+            echo "tag=$tag" >> $GITHUB_OUTPUT
+            echo "$projectname@$tag"
 
   changelog:
     runs-on: ubuntu-latest
