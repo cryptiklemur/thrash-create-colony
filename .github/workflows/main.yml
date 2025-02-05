@@ -18,7 +18,7 @@ jobs:
     outputs:
       projectname: ${{ steps.info.outputs.projectname }}
       version: ${{ steps.info.outputs.version }}
-      tag: ${{ steps.info.version.tag }}
+      tag: ${{ steps.version.outputs.tag }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
