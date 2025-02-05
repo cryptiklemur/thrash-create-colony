@@ -73,24 +73,26 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: changelog
+      - name: Fetch modpack
+        run: java -jar pakku.jar fetch
       - name: Export modpack
         run: java -jar pakku.jar export
       - name: Rename curseforge pack zip
         run: |
-          mv "build/serverpack/${{ needs.modpack-info.outputs.projectname }}.zip" "build/serverpack/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip"
+          mv "./build/serverpack/${{ needs.modpack-info.outputs.projectname }}.zip" "build/serverpack/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip"
       - name: Rename server pack zip
         run: |
-          mv "build/serverpack/${{ needs.modpack-info.outputs.projectname }}.zip" "build/serverpack/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-server.zip"
+          mv "./build/serverpack/${{ needs.modpack-info.outputs.projectname }}.zip" "build/serverpack/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-server.zip"
       - name: Upload Curseforge Zip
         uses: actions/upload-artifact@v4 
         with:
           name: modpack
-          path: "build/curseforge/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip"
+          path: "./build/curseforge/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip"
       - name: Upload Server Pack zip
         uses: actions/upload-artifact@v4
         with:
           name: server-modpack
-          path: "build/serverpack/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-server.zip"
+          path: "./build/serverpack/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-server.zip"
   
   release-github:
     runs-on: ubuntu-latest
