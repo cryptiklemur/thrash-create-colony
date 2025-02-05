@@ -1,0 +1,10 @@
+{
+    "name": "Thrash - Create Colonies",
+    "version": "0.1.0-beta",
+    "description": "Hardcore & Realistic Create/Minecolonies pack",
+    "author": "CryptikLemur",
+    "overrides": [
+        "config",
+        "kubejs"
+    ]
+}
