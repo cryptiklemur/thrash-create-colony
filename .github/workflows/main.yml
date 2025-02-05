@@ -1,6 +1,8 @@
 name: main
 
-on: [push]
+on: 
+  push:
+    tag: 'v*'
 
 permissions:
   contents: write
