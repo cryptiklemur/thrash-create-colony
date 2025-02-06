@@ -1744,42 +1744,6 @@
             ]
         },
         {
-            "pakku_id": "8PMgZ49pXYPRW8QI",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "create-clockwork"
-            },
-            "name": {
-                "curseforge": "Clockwork: Create x Valkyrien Skies"
-            },
-            "id": {
-                "curseforge": "807792"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "clockwork-1.20.1-0.1.16-forge-b3b22e39fe.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/5580/456/clockwork-1.20.1-0.1.16-forge-b3b22e39fe.jar",
-                    "id": "5580456",
-                    "parent_id": "807792",
-                    "hashes": {
-                        "sha1": "8005a91686ddd2197668d2a5fa41d7f7247273de",
-                        "md5": "cc52ebfe03509678566aa5bc1a95ff35"
-                    },
-                    "required_dependencies": [],
-                    "size": 3205758,
-                    "date_published": "2024-07-30T12:37:38.107Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "TaEJA0YocatKZw1t",
             "type": "MOD",
             "slug": {
@@ -2357,6 +2321,44 @@
                     ],
                     "size": 2032016,
                     "date_published": "2025-01-15T02:17:23.247Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "HyR8sJ7AVwMz1XKE",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "craftable-create-casings"
+            },
+            "name": {
+                "curseforge": "Craftable Create Casings (Forge/Fabric)"
+            },
+            "id": {
+                "curseforge": "935720"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "CraftableCreateCasings1.1HOTFIXmc1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4858/329/CraftableCreateCasings1.1HOTFIXmc1.20.1.jar",
+                    "id": "4858329",
+                    "parent_id": "935720",
+                    "hashes": {
+                        "sha1": "61f674ddb8dbbdd7df30993df013e1e9384565f6",
+                        "md5": "83ec7f536e42a37fec82c1af9699cf46"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 270145,
+                    "date_published": "2023-11-11T03:00:50.757Z"
                 }
             ]
         },
@@ -3217,6 +3219,42 @@
             ]
         },
         {
+            "pakku_id": "yhV7LQQxvUzapDky",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-netherrack"
+            },
+            "name": {
+                "curseforge": "Create Netherrack"
+            },
+            "id": {
+                "curseforge": "946379"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Create-Netherrack-1.20.1-3.4.3-_FORGE_.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5109/813/Create-Netherrack-1.20.1-3.4.3-_FORGE_.jar",
+                    "id": "5109813",
+                    "parent_id": "946379",
+                    "hashes": {
+                        "sha1": "251dd8983ee7ab4e2ec06786d8fcff09f0cc4f56",
+                        "md5": "81b92fa92c76d22c5e3143aa0b9a07c1"
+                    },
+                    "required_dependencies": [],
+                    "size": 4559,
+                    "date_published": "2024-02-15T11:50:00.837Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "tbRa6T2TCTMYuvYZ",
             "type": "MOD",
             "slug": {
@@ -3951,43 +3989,6 @@
             ]
         },
         {
-            "pakku_id": "MbnbZliQEtfE6Mnv",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "create-eureka"
-            },
-            "name": {
-                "curseforge": "Create: Eureka!"
-            },
-            "id": {
-                "curseforge": "1005816"
-            },
-            "redistributable": false,
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "create_eureka-1.0.0+forge-1.20.1.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5274/307/create_eureka-1.0.0+forge-1.20.1.jar",
-                    "id": "5274307",
-                    "parent_id": "1005816",
-                    "hashes": {
-                        "sha1": "13787586f39f766d75764ecde15ecc22303140eb",
-                        "md5": "bc63c1413cc1b6f0fdab9536cbdfe6a3"
-                    },
-                    "required_dependencies": [],
-                    "size": 569186,
-                    "date_published": "2024-04-19T13:40:37.113Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "Ikm1IT4zG6qaSLNJ",
             "type": "MOD",
             "slug": {
@@ -4146,6 +4147,46 @@
                     ],
                     "size": 6713753,
                     "date_published": "2025-01-30T04:22:26.093Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "2gVI4Xucln02obVa",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-fuel-and-water-information"
+            },
+            "name": {
+                "curseforge": "Create: Fuel & Water Information"
+            },
+            "id": {
+                "curseforge": "1023209"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cfwinfo-1.2.0.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5407/435/cfwinfo-1.2.0.jar",
+                    "id": "5407435",
+                    "parent_id": "1023209",
+                    "hashes": {
+                        "sha1": "70bbde52645d89ee3c6d24b70dcda5ba3efd412a",
+                        "md5": "36a5996d4070b2c5973abc20556ab879"
+                    },
+                    "required_dependencies": [
+                        "466792",
+                        "328085"
+                    ],
+                    "size": 22054,
+                    "date_published": "2024-06-07T21:58:43.603Z"
                 }
             ]
         },
@@ -4734,6 +4775,48 @@
             ]
         },
         {
+            "pakku_id": "vhvoVzJH26JsaUWJ",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-trainutilities"
+            },
+            "name": {
+                "curseforge": "Create: TrainUtilities(Fabric/Forge)"
+            },
+            "id": {
+                "curseforge": "1028420"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "trainutilities-forge-2.3.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5824/646/trainutilities-forge-2.3.0.jar",
+                    "id": "5824646",
+                    "parent_id": "1028420",
+                    "hashes": {
+                        "sha1": "022604eb8dca2603089a99da0dcb263c97781dcd",
+                        "md5": "2e4db9244c35516a73da97d70682c003"
+                    },
+                    "required_dependencies": [
+                        "624165",
+                        "328085",
+                        "419699"
+                    ],
+                    "size": 2116100,
+                    "date_published": "2024-10-19T13:40:23.020Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "viK9RBeC218wyrNA",
             "type": "RESOURCE_PACK",
             "slug": {
@@ -4918,6 +5001,45 @@
                     ],
                     "size": 31176,
                     "date_published": "2023-11-28T06:10:25.850Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "X9IHqtmQ8VQ5I0pP",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "croptopia-and-create"
+            },
+            "name": {
+                "curseforge": "Croptopia and Create"
+            },
+            "id": {
+                "curseforge": "1119798"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "croptopia_and_create-1.0.7-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6091/637/croptopia_and_create-1.0.7-1.20.1.jar",
+                    "id": "6091637",
+                    "parent_id": "1119798",
+                    "hashes": {
+                        "sha1": "0d62aed6fed1f86036352edd9c46ba45254237cd",
+                        "md5": "e04135b378d24a8cdaaeba41239593a6"
+                    },
+                    "required_dependencies": [
+                        "328085",
+                        "415438"
+                    ],
+                    "size": 476270,
+                    "date_published": "2025-01-16T00:38:49.333Z"
                 }
             ]
         },
@@ -6160,44 +6282,6 @@
                     ],
                     "size": 31704,
                     "date_published": "2023-07-17T19:56:32.790Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "teOWacirvz6EysE7",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "eureka-ships"
-            },
-            "name": {
-                "curseforge": "Eureka! Ships! for Valkyrien Skies (Forge/Fabric)"
-            },
-            "id": {
-                "curseforge": "654384"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "eureka-1201-1.5.1-beta.3.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/5321/630/eureka-1201-1.5.1-beta.3.jar",
-                    "id": "5321630",
-                    "parent_id": "654384",
-                    "hashes": {
-                        "sha1": "e506f80fb2ece9c54b80df2256980b0b97705b40",
-                        "md5": "47fa26554269a74449fc5159501a7cc2"
-                    },
-                    "required_dependencies": [
-                        "258371"
-                    ],
-                    "size": 501311,
-                    "date_published": "2024-05-06T20:18:03.517Z"
                 }
             ]
         },
@@ -12216,45 +12300,6 @@
             ]
         },
         {
-            "pakku_id": "J3l0IexC1RAjbeGs",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "trackwork"
-            },
-            "name": {
-                "curseforge": "Trackwork"
-            },
-            "id": {
-                "curseforge": "1057662"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "trackwork-1.20.1-1.1.1b.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/6158/89/trackwork-1.20.1-1.1.1b.jar",
-                    "id": "6158089",
-                    "parent_id": "1057662",
-                    "hashes": {
-                        "sha1": "c8918f41a2b058d45049948d0175549738423735",
-                        "md5": "38d5ea9c24c811035a7097c780c0ab95"
-                    },
-                    "required_dependencies": [
-                        "328085",
-                        "258371"
-                    ],
-                    "size": 495267,
-                    "date_published": "2025-02-04T18:32:10.503Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "DHIC0SHGoUiUDDmD",
             "type": "MOD",
             "slug": {
@@ -12529,42 +12574,6 @@
                     "required_dependencies": [],
                     "size": 1045910,
                     "date_published": "2025-01-14T21:30:24.660Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "TbWgCX7veEPaYvVn",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "valkyrien-skies"
-            },
-            "name": {
-                "curseforge": "Valkyrien Skies (Forge/Fabric)"
-            },
-            "id": {
-                "curseforge": "258371"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "valkyrienskies-120-2.3.0-beta.5.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/5212/232/valkyrienskies-120-2.3.0-beta.5.jar",
-                    "id": "5212232",
-                    "parent_id": "258371",
-                    "hashes": {
-                        "sha1": "cf2ad09ca6b53f621b2a6af507ccacbc88fbba5a",
-                        "md5": "edbddf585b74a4c4e505bf8273c69ebe"
-                    },
-                    "required_dependencies": [],
-                    "size": 13774983,
-                    "date_published": "2024-03-26T06:47:54.333Z"
                 }
             ]
         },
@@ -12897,7 +12906,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "XaeroPlus-2.25.3+forge-1.20.1-WM1.39.2-MM25.0.0.jar",
+                    "file_name": "XaeroPlus-2.26.1+forge-1.20.1-WM1.39.2-MM25.0.0.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12906,19 +12915,19 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6143/939/XaeroPlus-2.25.3+forge-1.20.1-WM1.39.2-MM25.0.0.jar",
-                    "id": "6143939",
+                    "url": "https://edge.forgecdn.net/files/6163/313/XaeroPlus-2.26.1+forge-1.20.1-WM1.39.2-MM25.0.0.jar",
+                    "id": "6163313",
                     "parent_id": "866084",
                     "hashes": {
-                        "sha1": "72aef486fd8b18f178c23c5caa0ee7a2af3ba9ae",
-                        "md5": "325f7d1052268e987f764174097ba74e"
+                        "sha1": "4a01fd3488c3c2928ad877f637933cb174a3bd94",
+                        "md5": "ae3a8749732e9148ef53e322bee59c2a"
                     },
                     "required_dependencies": [
-                        "263420",
-                        "317780"
+                        "317780",
+                        "263420"
                     ],
-                    "size": 4880645,
-                    "date_published": "2025-01-31T21:26:05.240Z"
+                    "size": 4899850,
+                    "date_published": "2025-02-06T07:16:43.090Z"
                 }
             ]
         },
