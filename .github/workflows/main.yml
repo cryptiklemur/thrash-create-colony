@@ -79,7 +79,7 @@ jobs:
         run: java -jar pakku.jar export
       - name: Rename curseforge pack zip
         run: |
-          mv "./build/serverpack/${{ needs.modpack-info.outputs.projectname }}.zip" "build/serverpack/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip"
+          mv "./build/curseforge/${{ needs.modpack-info.outputs.projectname }}.zip" "build/serverpack/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip"
       - name: Rename server pack zip
         run: |
           mv "./build/serverpack/${{ needs.modpack-info.outputs.projectname }}.zip" "build/serverpack/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-server.zip"
