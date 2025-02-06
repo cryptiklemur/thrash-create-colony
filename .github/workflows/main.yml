@@ -86,7 +86,7 @@ jobs:
       - name: Upload Curseforge Zip
         uses: actions/upload-artifact@v4 
         with:
-          name: modpacks
+          name: modpack
           path: "./build/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip"
       - name: Upload Server Pack zip
         uses: actions/upload-artifact@v4
