@@ -2,7 +2,7 @@ name: main
 
 on: 
   push:
-    tag:
+    tags:
       - 'v*'
 
 permissions:
