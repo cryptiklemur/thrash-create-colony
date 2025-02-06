@@ -2,7 +2,7 @@
 #Settings for Inventory HUD
 [inventoryhud]
 	#Inventory HUD mini mode
-	invMini = false
+	invMini = true
 	#Inventory HUD vertical mode
 	invVert = false
 	#Inventory HUD alpha
@@ -11,7 +11,7 @@
 	#Toggle on by default
 	byDefault = true
 	#Animate recently picked up items
-	animatedInv = false
+	animatedInv = true
 	#Hide background if inventory is empty
 	hideBackground = false
 	#Show Inventory HUD when debug menu is open
@@ -92,7 +92,7 @@
 	xPos = 0
 	#Inventory HUD position (Y)
 	#Range: -9999 ~ 9999
-	yPos = 150
+	yPos = 92
 	#Armor HUD vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	armValign = "BOTTOM"

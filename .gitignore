@@ -1,4 +1,5 @@
 .vscode
+.idea
 blueprints
 build
 crash-reports
@@ -18,6 +19,9 @@ xaero
 kubejs/probe
 profileImage
 .curseclient
+
+
+config/forgeendertech/
 
 TrashSlotSaveState.json
 emi.json
