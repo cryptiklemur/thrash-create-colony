@@ -9,6 +9,7 @@ local
 logs
 modernfix
 mods
+config
 patchouli_books
 resourcepacks
 saves
@@ -19,10 +20,9 @@ xaero
 kubejs/probe
 profileImage
 .curseclient
+Distant_Horizons_server_data
 
-
-config/forgeendertech/
-
+servers.dat*
 TrashSlotSaveState.json
 emi.json
 usernamecache.json
