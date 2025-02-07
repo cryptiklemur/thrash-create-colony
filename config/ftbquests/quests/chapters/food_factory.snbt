@@ -85,30 +85,6 @@
 			y: 2.5d
 		}
 		{
-			id: "471BE7D73C6CAF92"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "44DB27FCE0685881"
-				table_id: 5001068052608706388L
-				type: "random"
-			}]
-			tasks: [{
-				id: "207E7B78AB8D3350"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							NeedWater: 0b
-						}
-					}
-					id: "create_central_kitchen:brewing_guide"
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: 1.5d
-		}
-		{
 			id: "3B23DADD58293E16"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -193,7 +169,7 @@
 			}]
 			tasks: [{
 				id: "305293CB66E26FD3"
-				item: "extradelight:oven"
+				item: "ratatouille:oven"
 				type: "item"
 			}]
 			x: -7.5d
@@ -340,157 +316,6 @@
 			}]
 			x: 0.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["343F8C9CA5A76E77"]
-			id: "5EE35322E7597E9A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3D44C198FEFDEC06"
-				table_id: 5249651026717322459L
-				type: "random"
-			}]
-			tasks: [{
-				id: "224F2DF5ED94A4BA"
-				item: "extradelight:food_display"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 6.5d
-		}
-		{
-			id: "74526CF7B3B4E56F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "319867D835A87EAD"
-				table_id: 5249651026717322459L
-				type: "random"
-			}]
-			tasks: [{
-				id: "55C8727CF31221D6"
-				item: "extradelight:dough_shaping"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -1.5d
-		}
-		{
-			id: "1862FD803D9A5782"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4FF3801B6E1CEB54"
-				table_id: 5249651026717322459L
-				type: "random"
-			}]
-			tasks: [{
-				id: "757A756D11164BE8"
-				item: "decoration_delight:trash_bin"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["17EF3C6E8517AA5C"]
-			id: "118F15D92698219A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "761EA037DCAB77E2"
-				table_id: 5001068052608706388L
-				type: "random"
-			}]
-			tasks: [{
-				id: "7A3EB19FE293264D"
-				item: "extradelight:mint_lamb_feast"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["17EF3C6E8517AA5C"]
-			id: "76B0545D9A7B0AAF"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "09FEA85DE0CEBB35"
-				table_id: 5001068052608706388L
-				type: "random"
-			}]
-			tasks: [{
-				id: "7E2EA233BEC5B1D5"
-				item: "extradelight:quiche"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["17EF3C6E8517AA5C"]
-			id: "129BA0C0C3BACC49"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "58AA98D72372FC8B"
-				table_id: 5001068052608706388L
-				type: "random"
-			}]
-			tasks: [{
-				id: "74BB42D45E72BCDB"
-				item: "extradelight:salisbury_steak_block_item"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["7599D791332DA094"]
-			id: "4CAE3A68E07C967F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3FCE7CBCA0AA2432"
-				table_id: 5001068052608706388L
-				type: "random"
-			}]
-			tasks: [{
-				id: "475C80AD83327A86"
-				item: "extradelight:milkshake"
-				type: "item"
-			}]
-			x: -3.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["7599D791332DA094"]
-			id: "6C069A7D0ED5E8B5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "03EC5404CE268008"
-				table_id: 5001068052608706388L
-				type: "random"
-			}]
-			tasks: [{
-				id: "6AC497D996C5C3AC"
-				item: "extradelight:sweet_berry_jam"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["7599D791332DA094"]
-			id: "2014B66CE6F78AF5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0700A735F50CEA74"
-				table_id: 5001068052608706388L
-				type: "random"
-			}]
-			tasks: [{
-				id: "186708E09DF74024"
-				item: "miners_delight:hot_cocoa_cup"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -1.5d
 		}
 		{
 			dependencies: ["17EF3C6E8517AA5C"]
@@ -1009,7 +834,7 @@
 			}]
 			tasks: [{
 				id: "6A6709A86F94EFA1"
-				item: "extradelight:glow_berry_juice"
+				item: "fruitsdelight:orange_juice"
 				type: "item"
 			}]
 			x: -1.5d
@@ -1063,57 +888,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["5F04784385878452"]
-			id: "2851ADA2E1A6ECA4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "467F3FA20BB95DEB"
-				table_id: 5499456467321392182L
-				type: "random"
-			}]
-			tasks: [{
-				id: "578C2CBB7B9F0DCB"
-				item: "extradelight:cookie_dough_milkshake"
-				type: "item"
-			}]
-			x: -3.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["5F04784385878452"]
-			id: "49AB3948B3589251"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "41C5C9159442A514"
-				table_id: 5001068052608706388L
-				type: "random"
-			}]
-			tasks: [{
-				id: "57FD88C771CA35F6"
-				item: "extradelight:chocolate_milkshake"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["5F04784385878452"]
-			id: "41FF9D9B0874D12B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2A569245C550589F"
-				table_id: 5249651026717322459L
-				type: "random"
-			}]
-			tasks: [{
-				id: "7C9CBD3773DA58A3"
-				item: "extradelight:glow_berry_milkshake"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -3.5d
-		}
-		{
 			dependencies: ["503C02B6D2D19338"]
 			id: "77018D4852E3AFBB"
 			rewards: [{
@@ -1163,56 +937,6 @@
 			}]
 			x: -1.5d
 			y: -5.0d
-		}
-		{
-			dependencies: ["503C02B6D2D19338"]
-			id: "63E19D7C57611D99"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "60F3DFFA9D4E6F0D"
-				table_id: 5249651026717322459L
-				type: "random"
-			}]
-			tasks: [{
-				id: "7B7EA92745137797"
-				item: "extradelight:macaroni_cheese_feast"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["0561AE9897F69341"]
-			id: "3847B9253FB71C01"
-			tasks: [{
-				id: "17C2A0FCE814744B"
-				item: "extradelight:gingerbread_steve"
-				type: "item"
-			}]
-			x: -3.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["0561AE9897F69341"]
-			id: "44755A145F375AF4"
-			tasks: [{
-				id: "2B6B218AAAD34AAD"
-				item: "extradelight:grilled_cheese"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["0561AE9897F69341"]
-			id: "3C447DC2DB11E061"
-			tasks: [{
-				id: "6014FAA8B4DC9FA9"
-				item: "extradelight:omelette"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -6.5d
 		}
 	]
 	title: " &eFood, Sweets and Cafe"

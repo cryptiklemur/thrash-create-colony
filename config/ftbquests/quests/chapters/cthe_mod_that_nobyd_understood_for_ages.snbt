@@ -19,7 +19,7 @@
 			}]
 			tasks: [{
 				id: "5574BC320A807532"
-				item: "createindustry:rebar_formwork_block"
+				item: "tfmg:rebar_formwork_block"
 				type: "item"
 			}]
 			title: "Craft Concrete Formwork"
@@ -38,7 +38,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "0CF9F0D886A98FD0"
-				item: "createindustry:limesand"
+				item: "tfmg:limesand"
 				type: "item"
 			}]
 			title: "Obtain Limesand"
@@ -56,7 +56,7 @@
 			}]
 			tasks: [{
 				id: "32B3F2C98D561948"
-				item: "createindustry:cement"
+				item: "tfmg:cement"
 				type: "item"
 			}]
 			title: "Obtain Cement"
@@ -74,7 +74,7 @@
 			}]
 			tasks: [{
 				id: "304499270AC83329"
-				item: "createindustry:blasting_mixture"
+				item: "tfmg:blasting_mixture"
 				type: "item"
 			}]
 			x: -6.5d
@@ -91,7 +91,7 @@
 			}]
 			tasks: [{
 				id: "734BB633A59643F5"
-				item: "createindustry:liquid_concrete_bucket"
+				item: "tfmg:liquid_concrete_bucket"
 				type: "item"
 			}]
 			x: -8.5d
@@ -110,7 +110,7 @@
 			subtitle: "Press &c\"Z\"&r To see How to Build It"
 			tasks: [{
 				id: "051A370EEFB5B968"
-				item: "createindustry:coke_oven"
+				item: "tfmg:coke_oven"
 				type: "item"
 			}]
 			title: "Build Coke "
@@ -128,7 +128,7 @@
 			}]
 			tasks: [{
 				id: "7D4238EDEE284CBA"
-				item: "createindustry:creosote_bucket"
+				item: "tfmg:creosote_bucket"
 				type: "item"
 			}]
 			x: -2.5d
@@ -145,7 +145,7 @@
 			}]
 			tasks: [{
 				id: "3E1A0F884B68E7BB"
-				item: "createindustry:exhaust"
+				item: "tfmg:exhaust"
 				type: "item"
 			}]
 			title: "Craft Exhaust"
@@ -163,7 +163,7 @@
 			}]
 			tasks: [{
 				id: "2B27ECCA9B96CB5D"
-				item: "createindustry:steel_casing"
+				item: "tfmg:steel_casing"
 				type: "item"
 			}]
 			x: -2.5d
@@ -181,7 +181,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "3F511383E1CEB928"
-				item: "createindustry:heavy_machinery_casing"
+				item: "tfmg:heavy_machinery_casing"
 				type: "item"
 			}]
 			x: -1.5d
@@ -199,19 +199,19 @@
 			tasks: [
 				{
 					id: "1699C1263694578E"
-					item: "createindustry:blast_furnace_output"
+					item: "tfmg:blast_furnace_output"
 					type: "item"
 				}
 				{
 					count: 15L
 					id: "3083C9A2B7F058DD"
-					item: "createindustry:fireproof_bricks"
+					item: "tfmg:fireproof_bricks"
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "594A974F661A96F3"
-					item: "createindustry:fireproof_brick_reinforcement"
+					item: "tfmg:fireproof_brick_reinforcement"
 					type: "item"
 				}
 			]
@@ -231,7 +231,7 @@
 			shape: "octagon"
 			tasks: [{
 				id: "32E5603162A5D82C"
-				item: "createindustry:molten_slag_bucket"
+				item: "tfmg:molten_slag_bucket"
 				type: "item"
 			}]
 			title: "Obtain Molten Slag"
@@ -250,7 +250,7 @@
 			shape: "octagon"
 			tasks: [{
 				id: "5AC7D81C1D460857"
-				item: "createindustry:molten_steel_bucket"
+				item: "tfmg:molten_steel_bucket"
 				type: "item"
 			}]
 			title: "Obtain Molten Steel"
@@ -268,7 +268,7 @@
 			}]
 			tasks: [{
 				id: "1610D18FCC526299"
-				item: "createindustry:steel_ingot"
+				item: "tfmg:steel_ingot"
 				type: "item"
 			}]
 			title: "Obtain Steel"
@@ -286,7 +286,7 @@
 			}]
 			tasks: [{
 				id: "3544BA366CA2EAA0"
-				item: "createindustry:slag"
+				item: "tfmg:slag"
 				type: "item"
 			}]
 			title: "Obtain Slag"
@@ -304,7 +304,7 @@
 			}]
 			tasks: [{
 				id: "7BE751C4EB28ED13"
-				item: "createindustry:steel_mechanism"
+				item: "tfmg:steel_mechanism"
 				type: "item"
 			}]
 			title: "Craft Steel Mechanism"
@@ -323,7 +323,7 @@
 			subtitle: "Press &c\"Z\"&r To see How to Use It"
 			tasks: [{
 				id: "192BDEDCC9B0A9B1"
-				item: "createindustry:surface_scanner"
+				item: "tfmg:surface_scanner"
 				type: "item"
 			}]
 			title: "Find Petrol"
@@ -342,22 +342,22 @@
 			tasks: [
 				{
 					id: "115F93D1E3F2DDC7"
-					item: "createindustry:machine_input"
+					item: "tfmg:machine_input"
 					type: "item"
 				}
 				{
 					id: "03467EF028464010"
-					item: "createindustry:pumpjack_crank"
+					item: "tfmg:pumpjack_crank"
 					type: "item"
 				}
 				{
 					id: "3A0305DD724D11FD"
-					item: "createindustry:pumpjack_base"
+					item: "tfmg:pumpjack_base"
 					type: "item"
 				}
 				{
 					id: "7D1834266EC16D28"
-					item: "createindustry:pumpjack_hammer"
+					item: "tfmg:pumpjack_hammer"
 					type: "item"
 				}
 			]
@@ -381,7 +381,7 @@
 			size: 1.2d
 			tasks: [{
 				id: "159A109D6EAA3BE7"
-				item: "createindustry:crude_oil_bucket"
+				item: "tfmg:crude_oil_bucket"
 				type: "item"
 			}]
 			title: "Obtain Crude Oil"
@@ -414,12 +414,12 @@
 			tasks: [
 				{
 					id: "5C49BAF3F16D77FF"
-					item: "createindustry:steel_distillation_controller"
+					item: "tfmg:steel_distillation_controller"
 					type: "item"
 				}
 				{
 					id: "4089254DB7DF1CDB"
-					item: "createindustry:steel_distillation_output"
+					item: "tfmg:steel_distillation_output"
 					type: "item"
 				}
 			]
@@ -440,27 +440,27 @@
 			tasks: [
 				{
 					id: "23F7A47D6F97C68B"
-					item: "createindustry:heavy_oil_bucket"
+					item: "tfmg:heavy_oil_bucket"
 					type: "item"
 				}
 				{
 					id: "2C2B21F438E54925"
-					item: "createindustry:kerosene_bucket"
+					item: "tfmg:kerosene_bucket"
 					type: "item"
 				}
 				{
 					id: "243A3E93E4156188"
-					item: "createindustry:diesel_bucket"
+					item: "tfmg:diesel_bucket"
 					type: "item"
 				}
 				{
 					id: "1C8166577E747D57"
-					item: "createindustry:gasoline_bucket"
+					item: "tfmg:gasoline_bucket"
 					type: "item"
 				}
 				{
 					id: "0F349BA8E3ACE31B"
-					item: "createindustry:naphtha_bucket"
+					item: "tfmg:naphtha_bucket"
 					type: "item"
 				}
 			]
@@ -481,32 +481,32 @@
 			tasks: [
 				{
 					id: "61815F118422CBA0"
-					item: "createindustry:gasoline_engine"
+					item: "tfmg:gasoline_engine"
 					type: "item"
 				}
 				{
 					id: "30A8594E1F902D6F"
-					item: "createindustry:gasoline_engine_back"
+					item: "tfmg:gasoline_engine_back"
 					type: "item"
 				}
 				{
 					id: "15956A2813C64BBA"
-					item: "createindustry:turbine_engine"
+					item: "tfmg:turbine_engine"
 					type: "item"
 				}
 				{
 					id: "2247FA2495B23B76"
-					item: "createindustry:turbine_engine_back"
+					item: "tfmg:turbine_engine_back"
 					type: "item"
 				}
 				{
 					id: "354F388C6A3358AA"
-					item: "createindustry:lpg_engine"
+					item: "tfmg:lpg_engine"
 					type: "item"
 				}
 				{
 					id: "5B983FA7D6A8B95B"
-					item: "createindustry:lpg_engine_back"
+					item: "tfmg:lpg_engine_back"
 					type: "item"
 				}
 			]
@@ -528,12 +528,12 @@
 			tasks: [
 				{
 					id: "34B86AA9428BEFCF"
-					item: "createindustry:diesel_engine"
+					item: "tfmg:diesel_engine"
 					type: "item"
 				}
 				{
 					id: "7DCF6B3E106453AB"
-					item: "createindustry:diesel_engine_expansion"
+					item: "tfmg:diesel_engine_expansion"
 					type: "item"
 				}
 			]
@@ -555,12 +555,12 @@
 			tasks: [
 				{
 					id: "3677CDB425AAF727"
-					item: "createindustry:steel_distillation_output"
+					item: "tfmg:steel_distillation_output"
 					type: "item"
 				}
 				{
 					id: "107457E84E36D979"
-					item: "createindustry:steel_distillation_controller"
+					item: "tfmg:steel_distillation_controller"
 					type: "item"
 				}
 			]
@@ -579,7 +579,7 @@
 			}]
 			tasks: [{
 				id: "066A13CC2D64975F"
-				item: "createindustry:plastic_sheet"
+				item: "tfmg:plastic_sheet"
 				type: "item"
 			}]
 			title: "Obtain Plastic"

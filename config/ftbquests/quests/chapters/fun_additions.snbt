@@ -127,7 +127,7 @@
 				type: "item"
 			}]
 			title: "GamePad for MC"
-			x: -4.0d
+			x: -3.0d
 			y: 0.5d
 		}
 		{
@@ -145,30 +145,6 @@
 			}]
 			title: "Crank it all the way!"
 			x: -5.0d
-			y: 0.5d
-		}
-		{
-			id: "5403A239E1F1C4D3"
-			rewards: [{
-				id: "51907FD9732C7D0D"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "So a conductor's cap is actually a very versatile item that allows one to create essentially a Create Golem. Ponder about its uses and consider this golem an assistant you'll need."
-			tasks: [{
-				id: "45AB837D1A05E10E"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "railways:conductor_caps"
-					}
-				}
-				title: "Any Conductor Cap"
-				type: "item"
-			}]
-			title: "Conductor's Cap"
-			x: -3.0d
 			y: 0.5d
 		}
 		{

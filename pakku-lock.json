@@ -5317,6 +5317,45 @@
             ]
         },
         {
+            "pakku_id": "Xk1RJYOpjBKAxIAz",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-vintage-improvements"
+            },
+            "name": {
+                "curseforge": "Create: Vintage Improvements"
+            },
+            "id": {
+                "curseforge": "946579"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "vintageimprovements-1.20.1-0.2.0.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5661/407/vintageimprovements-1.20.1-0.2.0.3.jar",
+                    "id": "5661407",
+                    "parent_id": "946579",
+                    "hashes": {
+                        "sha1": "7a0f9807a148ae1a433149ef88c5c6dd4ed93d5a",
+                        "md5": "19cc1e567129ac86a438a637589b0d68"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 1382006,
+                    "date_published": "2024-08-25T08:36:45.260Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "viK9RBeC218wyrNA",
             "type": "RESOURCE_PACK",
             "slug": {
