@@ -1,0 +1,40 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: "create_questing:blueprint"
+	id: "3E34934F09B08365"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"This tutorial will guide you through some basic features of &eCreate Colonies&r. Don't worry, it won't take &otoo &rlong!"
+			""
+			"To start, open your &9Quest Book&r and look under the &9Tasks&r section. Then, click on the checkmark and claim the &6Quest Reward&r. As you progress, new quests will appear to help you learn more about the modpack!"
+			""
+			"If you notice that new quests aren’t showing up, try rejoining your world. Also, be sure not to eat the starting &ebread&r until the tutorial is complete—you might need it for one of the quests!"
+			""
+			"Good luck, and have fun building your colony!"
+		]
+		icon: "create:wrench"
+		id: "6A52090D6BC064D7"
+		rewards: [{
+			count: 3
+			id: "26B707F49F695DEA"
+			item: "minecraft:bread"
+			type: "item"
+		}]
+		size: 2.0d
+		subtitle: "To start the tutorial, click on this quest and read the description."
+		tasks: [{
+			id: "1B0800437C68C43A"
+			title: "Click me!"
+			type: "checkmark"
+		}]
+		title: "&eWelcome to Create Colonies!"
+		x: 1.5d
+		y: 2.0d
+	}]
+	title: " &eTutorial"
+}

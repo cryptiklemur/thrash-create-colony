@@ -89,6 +89,11 @@
   "appliedcooking": {
     "kitchen_station": true
   },
+  "delightful": {
+    "crop_progress": true,
+    "pie_icons": true,
+    "mushroom_colony": true
+  },
   "jadecolonies": {
     "colony.citizens": true,
     "colony.visitor_cost": true,

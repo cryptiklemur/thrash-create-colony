@@ -1,0 +1,105 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eestrogen"
+	group: "4EFDC21157CBCB13"
+	icon: "estrogen:estrogen_pill"
+	id: "63E6C1AA76987146"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "estrogen:estrogen_pill"
+			id: "5B7634CE82DEF523"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Based around expressing yourself, fluid handling and expanding your factory!"
+			tasks: [{
+				id: "2EED11AD48BFAD2D"
+				type: "checkmark"
+			}]
+			title: "Estrogen"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B7634CE82DEF523"]
+			id: "1A88DB52EB3FAA17"
+			tasks: [{
+				id: "1B53E0E677EF01EE"
+				item: "estrogen:uwu"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B7634CE82DEF523"]
+			id: "1D87880EAC335129"
+			subtitle: "Collect Horse Urine by \"milking\" a horse with a bottle."
+			tasks: [{
+				id: "17F9010B74CA9845"
+				item: "estrogen:horse_urine_bottle"
+				type: "item"
+			}]
+			title: "Collect Horse Urine"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D87880EAC335129"]
+			id: "001B6ED37355CE57"
+			subtitle: "Use a filter to remove the impurities from the Horse Urine you collected."
+			tasks: [{
+				id: "12A30660EB7B9125"
+				item: "estrogen:used_filter"
+				type: "item"
+			}]
+			title: "First Step in Processing"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["001B6ED37355CE57"]
+			id: "721FAF784829D344"
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "Collect a Bucket of Liquid Estrogen."
+			tasks: [{
+				id: "53D8363680936180"
+				item: "estrogen:liquid_estrogen_bucket"
+				type: "item"
+			}]
+			title: "The Source of (Girl) Power"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["721FAF784829D344"]
+			id: "4E8D3CEF2950E465"
+			subtitle: "Craft the Estrogen Patches and enjoy your long lasting femininity."
+			tasks: [{
+				id: "1D9B85D207D95431"
+				item: "estrogen:estrogen_patches"
+				type: "item"
+			}]
+			title: "(Almost) Permanent!"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["721FAF784829D344"]
+			id: "569D382481186F74"
+			subtitle: "Craft the elusive Estrogen Pill."
+			tasks: [{
+				id: "48A8C088242164AF"
+				item: "estrogen:estrogen_pill"
+				type: "item"
+			}]
+			title: "Pill up gals!"
+			x: 5.5d
+			y: 1.0d
+		}
+	]
+	title: " &eEstrogen"
+}
