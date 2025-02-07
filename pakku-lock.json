@@ -9243,6 +9243,43 @@
             ]
         },
         {
+            "pakku_id": "8FgXSmmPyTmQSBre",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "lootjs"
+            },
+            "name": {
+                "curseforge": "LootJS: KubeJS Addon"
+            },
+            "id": {
+                "curseforge": "570630"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "lootjs-forge-1.20.1-2.12.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5404/565/lootjs-forge-1.20.1-2.12.0.jar",
+                    "id": "5404565",
+                    "parent_id": "570630",
+                    "hashes": {
+                        "sha1": "5e0d8b4d398780946f295b31b7b65bf201d7dcc7",
+                        "md5": "6f74c321a57853a86e674bae5d019c3b"
+                    },
+                    "required_dependencies": [],
+                    "size": 241907,
+                    "date_published": "2024-06-06T20:16:06.950Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Msj1FIltuItLmDKJ",
             "type": "MOD",
             "slug": {
