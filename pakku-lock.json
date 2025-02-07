@@ -10477,48 +10477,6 @@
             ]
         },
         {
-            "pakku_id": "ZSVQPlDl9VPdftcX",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "nocubes"
-            },
-            "name": {
-                "curseforge": "NoCubes"
-            },
-            "id": {
-                "curseforge": "309664"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "NoCubes-forge-1.20.1-0.5.2-dev-38904f7.jar",
-                    "mc_versions": [
-                        "1.20.2",
-                        "1.20.5",
-                        "1.20.3",
-                        "1.20.1",
-                        "1.20",
-                        "1.20.6",
-                        "1.20.4"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/5646/328/NoCubes-forge-1.20.1-0.5.2-dev-38904f7.jar",
-                    "id": "5646328",
-                    "parent_id": "309664",
-                    "hashes": {
-                        "sha1": "989b2baf146bb2b52a3bf000054f26a2372341ec",
-                        "md5": "21d82a9cc82d10bebca77b6a8d06d1db"
-                    },
-                    "required_dependencies": [],
-                    "size": 498928,
-                    "date_published": "2024-08-20T08:04:51.223Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "SX0Ak58mQbZxnTXb",
             "type": "MOD",
             "slug": {
