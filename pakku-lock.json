@@ -8579,6 +8579,44 @@
             ]
         },
         {
+            "pakku_id": "Nb7GDlpeJFvz9PVt",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "item-filters"
+            },
+            "name": {
+                "curseforge": "Item Filters"
+            },
+            "id": {
+                "curseforge": "309674"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "item-filters-forge-2001.1.0-build.59.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/4838/266/item-filters-forge-2001.1.0-build.59.jar",
+                    "id": "4838266",
+                    "parent_id": "309674",
+                    "hashes": {
+                        "sha1": "55a7f032c59489eca96069a7841601de2ff97590",
+                        "md5": "4155fd7faf7daf46f9dcb914e93893e1"
+                    },
+                    "required_dependencies": [
+                        "419699"
+                    ],
+                    "size": 110191,
+                    "date_published": "2023-11-03T18:45:29.927Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ju0abvcivQhP8Gx4",
             "type": "MOD",
             "slug": {
