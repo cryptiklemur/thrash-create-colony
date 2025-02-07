@@ -5,4 +5,7 @@ StartupEvents.registry('item', (x) => {
   x.create('nickel_nugget')
     .maxStackSize(64)
     .displayName('Nickel Nugget')
+  x.create('lithium_nugget')
+    .maxStackSize(64)
+    .displayName('Lithium Nugget')
 })
