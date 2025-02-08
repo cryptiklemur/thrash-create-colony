@@ -41,6 +41,7 @@ const metals = {
     mod: 'create',
     crushed: 'create:crushed_raw_copper',
     compressed: true,
+    ingot: 'minecraft:copper_ingot',
     washing: Item.of('minecraft:clay_ball').withChance(0.75),
   },
   gold: {
@@ -209,7 +210,7 @@ ServerEvents.recipes((x) => {
   for (const metal of Object.keys(metals)) {
     let { mod, crushed, compressed, washing, raw, ore } = metals[metal];
     let compressedBlock = `create_compressed:crushed_${metal}_pile`;
-    let ingot = metals[metal].nugget || `${mod}:${metal}`;
+    let ingot = metals[metal].ingot || `${mod}:${metal}_ingot`;
     let nugget = metals[metal].nugget || `${mod}:${metal}_nugget`;
 
     if (crushed) {
@@ -278,10 +279,10 @@ ServerEvents.recipes((x) => {
             x.remove({ type: type, input: compressedBlock });
           }
 
-          console.log(`[ADD][minecraft:blasting] ${compressedBlock} -> 9x ${nugget}`);
-          x.blasting(nuggets, compressedBlock);
-          console.log(`[ADD][create_dd:seething] ${compressedBlock} -> 9x ${nugget} + .75% 7x ${nugget}`);
-          seething([nuggets, Item.of(nugget, 7).withChance(0.75)], compressedBlock);
+          console.log(`[ADD][minecraft:blasting] ${compressedBlock} -> ${ingot}`);
+          x.blasting(ingot, compressedBlock);
+          console.log(`[ADD][create_dd:seething] ${compressedBlock} -> ${ingot} + .6666% ${ingot}`);
+          seething([ingot, Item.of(ingot).withChance(0.6666666)], compressedBlock);
 
           if (washing) {
             console.log(`[ADD][create:splashing] ${compressedBlock} -> 9x ${washing}`);
