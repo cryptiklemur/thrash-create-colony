@@ -8,6 +8,99 @@
     },
     "projects": [
         {
+            "pakku_id": "YWjCIweNTf2cFthD",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "macaws-fences-biomes-o-plenty"
+            },
+            "name": {
+                "curseforge": " [DISCONTINUED] Macaw's Fences - Biomes O' Plenty"
+            },
+            "id": {
+                "curseforge": "605641"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "mcwfencesbop-1.20-1.2.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5663/285/mcwfencesbop-1.20-1.2.jar",
+                    "id": "5663285",
+                    "parent_id": "605641",
+                    "hashes": {
+                        "sha1": "9df88a2ac3a69b055589034a83cfa965efebaf4e",
+                        "md5": "989e7e6eaf3128df5defc2c211b794db"
+                    },
+                    "required_dependencies": [
+                        "453925",
+                        "563928",
+                        "220318",
+                        "940057",
+                        "955399"
+                    ],
+                    "size": 449408,
+                    "date_published": "2024-08-25T20:10:45.110Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Xfy7Xyt74xmFDWth",
+            "pakku_links": [
+                "vh4E5LYSQJyFM6O3",
+                "XxuTB30I2j20tKoH",
+                "UtHLtAdnHE4xTJBk"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "macaws-roofs-biomes-o-plenty"
+            },
+            "name": {
+                "curseforge": " [DISCONTINUED] Macaw's Roofs - Biomes O' Plenty"
+            },
+            "id": {
+                "curseforge": "558344"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "macawsroofsbop-1.20-1.1.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5563/46/macawsroofsbop-1.20-1.1.jar",
+                    "id": "5563046",
+                    "parent_id": "558344",
+                    "hashes": {
+                        "sha1": "4fa966027a2a2182682502b2166b617ad71fd6ed",
+                        "md5": "8c7f6bfdf64d70bc4039d566d84d8d3c"
+                    },
+                    "required_dependencies": [
+                        "563928",
+                        "220318",
+                        "352039"
+                    ],
+                    "size": 530022,
+                    "date_published": "2024-07-25T00:12:13.143Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "KcAco3ZCtnw5qqk8",
             "type": "MOD",
             "slug": {
@@ -530,7 +623,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "aquamirae_delight-1.5.1-forge-1.20.1.jar",
+                    "file_name": "aquamirae_delight-1.5.2-forge-1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -538,19 +631,19 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6014/846/aquamirae_delight-1.5.1-forge-1.20.1.jar",
-                    "id": "6014846",
+                    "url": "https://edge.forgecdn.net/files/6169/315/aquamirae_delight-1.5.2-forge-1.20.1.jar",
+                    "id": "6169315",
                     "parent_id": "1094104",
                     "hashes": {
-                        "sha1": "0d08426f533b6bec1917267fd3dbf130a167bf5b",
-                        "md5": "b4b87029c781f4854fb141b7c6d33af0"
+                        "sha1": "3486cd1765ed0f84144f57ba039b818852b2cf54",
+                        "md5": "c5f36044be23c8c6eb6e736c0ae93f63"
                     },
                     "required_dependencies": [
-                        "536254",
-                        "398521"
+                        "398521",
+                        "536254"
                     ],
-                    "size": 199822,
-                    "date_published": "2024-12-22T22:32:21.387Z"
+                    "size": 202434,
+                    "date_published": "2025-02-07T23:24:07.410Z"
                 }
             ]
         },
@@ -718,7 +811,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "balm-forge-1.20.1-7.3.11-all.jar",
+                    "file_name": "balm-forge-1.20.1-7.3.14-all.jar",
                     "mc_versions": [
                         "1.20.1",
                         "1.20"
@@ -727,16 +820,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6077/684/balm-forge-1.20.1-7.3.11-all.jar",
-                    "id": "6077684",
+                    "url": "https://edge.forgecdn.net/files/6170/423/balm-forge-1.20.1-7.3.14-all.jar",
+                    "id": "6170423",
                     "parent_id": "531761",
                     "hashes": {
-                        "sha1": "55e98bd34d43210f492d3aababe6583db96e3077",
-                        "md5": "1ff3ff55f1968b426e7b808e8827f244"
+                        "sha1": "c0dd945794c9521c423dbfbac55ae2bc14d52db0",
+                        "md5": "d74217314517a69c06d51d47da9b9342"
                     },
                     "required_dependencies": [],
-                    "size": 373787,
-                    "date_published": "2025-01-11T19:21:45.637Z"
+                    "size": 403390,
+                    "date_published": "2025-02-08T08:27:29.943Z"
                 }
             ]
         },
@@ -2647,7 +2740,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "createteleporters2.2-1.20.1.jar",
+                    "file_name": "createteleporters2.3-1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -2655,20 +2748,20 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5512/163/createteleporters2.2-1.20.1.jar",
-                    "id": "5512163",
+                    "url": "https://edge.forgecdn.net/files/6173/176/createteleporters2.3-1.20.1.jar",
+                    "id": "6173176",
                     "parent_id": "829272",
                     "hashes": {
-                        "sha1": "8369bffc10e82eb3e7d3babe89cd9c518fd02b0e",
-                        "md5": "7a5e1127b6c59d7482b67dbc999453c0"
+                        "sha1": "1ccd6755dea952add65abc22e9ad5d058613ed08",
+                        "md5": "0966b2b8f6a670a7e5ac0b75dbcabf34"
                     },
                     "required_dependencies": [
-                        "854949",
                         "388172",
+                        "854949",
                         "328085"
                     ],
-                    "size": 1882032,
-                    "date_published": "2024-07-07T22:47:02.870Z"
+                    "size": 2132844,
+                    "date_published": "2025-02-09T00:07:21.073Z"
                 }
             ]
         },
@@ -3659,7 +3752,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "create-stuff-additions1.20.1_v2.0.7.jar",
+                    "file_name": "create-stuff-additions1.20.1_v2.0.8.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -3667,18 +3760,16 @@
                         "forge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/6135/248/create-stuff-additions1.20.1_v2.0.7.jar",
-                    "id": "6135248",
+                    "url": "https://edge.forgecdn.net/files/6168/370/create-stuff-additions1.20.1_v2.0.8.jar",
+                    "id": "6168370",
                     "parent_id": "466792",
                     "hashes": {
-                        "sha1": "27a42133dc687714aafa08502e946977b5873c6c",
-                        "md5": "28f8a908dee8ab860bb65aac48a9a52d"
+                        "sha1": "bc2e1eda54e1e26312fb92b79ca1474d65df4c2b",
+                        "md5": "459e28cfd3a322986263e0f7abf2d68e"
                     },
-                    "required_dependencies": [
-                        "328085"
-                    ],
-                    "size": 1319597,
-                    "date_published": "2025-01-28T23:44:03.180Z"
+                    "required_dependencies": [],
+                    "size": 1350638,
+                    "date_published": "2025-02-07T18:51:53.070Z"
                 }
             ]
         },
@@ -5747,7 +5838,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Delightful-1.20.1-3.6.2.jar",
+                    "file_name": "Delightful-1.20.1-3.7.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -5756,18 +5847,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6066/815/Delightful-1.20.1-3.6.2.jar",
-                    "id": "6066815",
+                    "url": "https://edge.forgecdn.net/files/6168/851/Delightful-1.20.1-3.7.jar",
+                    "id": "6168851",
                     "parent_id": "637529",
                     "hashes": {
-                        "sha1": "e0bafd10f77b2c89fa426b0d5a6b92b27b1b67db",
-                        "md5": "4cce7144690f8a346fbe30f7af8a5ebc"
+                        "sha1": "e36ebdaa9c069a829e1ba393a713382efd2b094f",
+                        "md5": "99430cee473b0540d9a97de353aaf300"
                     },
                     "required_dependencies": [
                         "398521"
                     ],
-                    "size": 1101408,
-                    "date_published": "2025-01-08T20:56:19.763Z"
+                    "size": 1110714,
+                    "date_published": "2025-02-07T20:58:09.733Z"
                 }
             ]
         },
@@ -7064,7 +7155,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ftb-quests-forge-2001.4.10.jar",
+                    "file_name": "ftb-quests-forge-2001.4.11.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -7072,20 +7163,20 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6133/440/ftb-quests-forge-2001.4.10.jar",
-                    "id": "6133440",
+                    "url": "https://edge.forgecdn.net/files/6167/56/ftb-quests-forge-2001.4.11.jar",
+                    "id": "6167056",
                     "parent_id": "289412",
                     "hashes": {
-                        "sha1": "e6006326994ae7a39cc7a7a07078bb80bde8c250",
-                        "md5": "1b50bc18c3072f76f51c82831acc7bfc"
+                        "sha1": "8d128193018b64efec3a6dda14c7cffbca7d20ec",
+                        "md5": "9a517a062ee32a9daba22b65a534b415"
                     },
                     "required_dependencies": [
+                        "404468",
                         "404465",
-                        "419699",
-                        "404468"
+                        "419699"
                     ],
-                    "size": 1192063,
-                    "date_published": "2025-01-28T12:45:34.893Z"
+                    "size": 1192604,
+                    "date_published": "2025-02-07T10:19:05.973Z"
                 }
             ]
         },
@@ -7651,7 +7742,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "fabric-api-0.92.2+1.11.10+1.20.1.jar",
+                    "file_name": "fabric-api-0.92.2+1.11.11+1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -7659,16 +7750,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6136/695/fabric-api-0.92.2+1.11.10+1.20.1.jar",
-                    "id": "6136695",
+                    "url": "https://edge.forgecdn.net/files/6169/304/fabric-api-0.92.2+1.11.11+1.20.1.jar",
+                    "id": "6169304",
                     "parent_id": "889079",
                     "hashes": {
-                        "sha1": "f1013f0f8d627b295508cbb8b2d074e458e32bc9",
-                        "md5": "fb1e2a2238b3f967ec8fe4079bfdbcca"
+                        "sha1": "88d7d65c27ea7999e4f5b040ae1a944c363dc1ce",
+                        "md5": "a435b4d6381c5e4284d88b4bc0f5e109"
                     },
                     "required_dependencies": [],
-                    "size": 3041221,
-                    "date_published": "2025-01-29T14:28:55.183Z"
+                    "size": 3041233,
+                    "date_published": "2025-02-07T23:19:37.917Z"
                 }
             ]
         },
@@ -9433,51 +9524,6 @@
             ]
         },
         {
-            "pakku_id": "YWjCIweNTf2cFthD",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "macaws-fences-biomes-o-plenty"
-            },
-            "name": {
-                "curseforge": "Macaw's Fences - Biomes O' Plenty"
-            },
-            "id": {
-                "curseforge": "605641"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "mcwfencesbop-1.20-1.2.jar",
-                    "mc_versions": [
-                        "1.20.2",
-                        "1.20.3",
-                        "1.20.1",
-                        "1.20"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5663/285/mcwfencesbop-1.20-1.2.jar",
-                    "id": "5663285",
-                    "parent_id": "605641",
-                    "hashes": {
-                        "sha1": "9df88a2ac3a69b055589034a83cfa965efebaf4e",
-                        "md5": "989e7e6eaf3128df5defc2c211b794db"
-                    },
-                    "required_dependencies": [
-                        "453925",
-                        "563928",
-                        "220318",
-                        "940057",
-                        "955399"
-                    ],
-                    "size": 449408,
-                    "date_published": "2024-08-25T20:10:45.110Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "UludopG20ZPiVbCa",
             "type": "MOD",
             "slug": {
@@ -9546,53 +9592,6 @@
                     "required_dependencies": [],
                     "size": 1882792,
                     "date_published": "2024-08-02T15:28:32.770Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "gpBhr1B9K6xAg8GL",
-            "pakku_links": [
-                "UtHLtAdnHE4xTJBk",
-                "EsDKAZxrupfVcAME"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "macaws-furnitures-biomes-o-plenty"
-            },
-            "name": {
-                "curseforge": "Macaw's Furnitures - Biomes O' Plenty"
-            },
-            "id": {
-                "curseforge": "683252"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "mcwfurnituresbop-1.20-1.2.jar",
-                    "mc_versions": [
-                        "1.20.2",
-                        "1.20.3",
-                        "1.20.1",
-                        "1.20"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5595/825/mcwfurnituresbop-1.20-1.2.jar",
-                    "id": "5595825",
-                    "parent_id": "683252",
-                    "hashes": {
-                        "sha1": "07461b8c3038a9330d44c5cd1f0d80e6e46478a5",
-                        "md5": "067a22c8ff8ad74478106fd2df8ccb01"
-                    },
-                    "required_dependencies": [
-                        "220318",
-                        "563928",
-                        "359540"
-                    ],
-                    "size": 3274387,
-                    "date_published": "2024-08-04T15:04:15.193Z"
                 }
             ]
         },
@@ -9737,54 +9736,6 @@
                     "required_dependencies": [],
                     "size": 1837373,
                     "date_published": "2024-07-22T17:14:56.553Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "Xfy7Xyt74xmFDWth",
-            "pakku_links": [
-                "vh4E5LYSQJyFM6O3",
-                "XxuTB30I2j20tKoH",
-                "UtHLtAdnHE4xTJBk"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "macaws-roofs-biomes-o-plenty"
-            },
-            "name": {
-                "curseforge": "Macaw's Roofs - Biomes O' Plenty"
-            },
-            "id": {
-                "curseforge": "558344"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "macawsroofsbop-1.20-1.1.jar",
-                    "mc_versions": [
-                        "1.20.2",
-                        "1.20.3",
-                        "1.20.1",
-                        "1.20"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5563/46/macawsroofsbop-1.20-1.1.jar",
-                    "id": "5563046",
-                    "parent_id": "558344",
-                    "hashes": {
-                        "sha1": "4fa966027a2a2182682502b2166b617ad71fd6ed",
-                        "md5": "8c7f6bfdf64d70bc4039d566d84d8d3c"
-                    },
-                    "required_dependencies": [
-                        "563928",
-                        "220318",
-                        "352039"
-                    ],
-                    "size": 530022,
-                    "date_published": "2024-07-25T00:12:13.143Z"
                 }
             ]
         },
@@ -11597,46 +11548,6 @@
             ]
         },
         {
-            "pakku_id": "m4I3kINpbMnPwYRA",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "serene-seasons-extended"
-            },
-            "name": {
-                "curseforge": "Serene Seasons Extended"
-            },
-            "id": {
-                "curseforge": "1144487"
-            },
-            "redistributable": false,
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "SereneSeasonsExtended-1.20.1-1.0.1.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5927/708/SereneSeasonsExtended-1.20.1-1.0.1.jar",
-                    "id": "5927708",
-                    "parent_id": "1144487",
-                    "hashes": {
-                        "sha1": "343b356509b7e73186ae98901d8389009fc25d10",
-                        "md5": "54320383649466054c779a29af77830e"
-                    },
-                    "required_dependencies": [
-                        "511172",
-                        "291874"
-                    ],
-                    "size": 11396,
-                    "date_published": "2024-11-22T10:02:47.610Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "BFCLZf5HdSXBh3ke",
             "pakku_links": [
                 "BeGXrSklqBBh7Skb"
@@ -12087,49 +11998,6 @@
             ]
         },
         {
-            "pakku_id": "D8wJADwsefjuyX5v",
-            "pakku_links": [
-                "qIU70yipf6sGYH0R"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "snow-real-magic"
-            },
-            "name": {
-                "curseforge": "Snow! Real Magic! ⛄ (Neo/Forge)"
-            },
-            "id": {
-                "curseforge": "308663"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "SnowRealMagic-1.20.1-Forge-10.5.4.jar",
-                    "mc_versions": [
-                        "1.20.1",
-                        "1.20"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/6094/925/SnowRealMagic-1.20.1-Forge-10.5.4.jar",
-                    "id": "6094925",
-                    "parent_id": "308663",
-                    "hashes": {
-                        "sha1": "4eaf3b82eab2e0264170c66144ea752a8058d663",
-                        "md5": "513fd0c5d73cfcc5cfa2de5317cc8563"
-                    },
-                    "required_dependencies": [
-                        "303657"
-                    ],
-                    "size": 343625,
-                    "date_published": "2025-01-17T03:33:18.463Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "H0NbzbdJaxiy2AzB",
             "pakku_links": [
                 "dgeuhhwaEITI7SFv"
@@ -12345,7 +12213,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sophisticatedstorage-1.20.1-1.3.3.1058.jar",
+                    "file_name": "sophisticatedstorage-1.20.1-1.3.4.1061.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12354,18 +12222,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6158/803/sophisticatedstorage-1.20.1-1.3.3.1058.jar",
-                    "id": "6158803",
+                    "url": "https://edge.forgecdn.net/files/6168/986/sophisticatedstorage-1.20.1-1.3.4.1061.jar",
+                    "id": "6168986",
                     "parent_id": "619320",
                     "hashes": {
-                        "sha1": "22b9635512ae76c3fccfb2bc6f058d0b63468188",
-                        "md5": "11184daadc69571248f0ce774fa6fb6a"
+                        "sha1": "c05bb18d39bb1aa7750b5fa3915ff1ebe0612c89",
+                        "md5": "3afc1fcfe00e9185e6f7ced3a22da56b"
                     },
                     "required_dependencies": [
                         "618298"
                     ],
-                    "size": 1506375,
-                    "date_published": "2025-02-04T22:56:12.123Z"
+                    "size": 1520314,
+                    "date_published": "2025-02-07T21:37:08.973Z"
                 }
             ]
         },
@@ -14285,6 +14153,53 @@
                     ],
                     "size": 1111897,
                     "date_published": "2024-12-04T21:02:45.487Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "gpBhr1B9K6xAg8GL",
+            "pakku_links": [
+                "UtHLtAdnHE4xTJBk",
+                "EsDKAZxrupfVcAME"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "macaws-furnitures-biomes-o-plenty"
+            },
+            "name": {
+                "curseforge": "[DISCONTINUED] Macaw's Furnitures - Biomes O' Plenty"
+            },
+            "id": {
+                "curseforge": "683252"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "mcwfurnituresbop-1.20-1.2.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5595/825/mcwfurnituresbop-1.20-1.2.jar",
+                    "id": "5595825",
+                    "parent_id": "683252",
+                    "hashes": {
+                        "sha1": "07461b8c3038a9330d44c5cd1f0d80e6e46478a5",
+                        "md5": "067a22c8ff8ad74478106fd2df8ccb01"
+                    },
+                    "required_dependencies": [
+                        "220318",
+                        "563928",
+                        "359540"
+                    ],
+                    "size": 3274387,
+                    "date_published": "2024-08-04T15:04:15.193Z"
                 }
             ]
         },
