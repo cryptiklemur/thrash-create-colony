@@ -5,5 +5,10 @@
     "overrides": [
         "config",
         "kubejs"
-    ]
+    ],
+    "projects": {
+        "cupboard": {
+            "update_strategy": "NONE"
+        }
+    }
 }

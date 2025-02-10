@@ -1,57 +1,55 @@
+const map = {
+  'minecraft:sand': {
+    'minecraft:redstone': [0.05, 0.1, 0.15, 0.25, [0.45, 0.15]],
+    'minecraft:bone_meal': [0.4, 0.4, 0.4, 0.4, 0.5],
+    'minecraft:quartz': [0.01, 0.02, 0.05, 0.1, [0.3, 0.1]],
+    'create:experience_nugget': [0, 0, 0.1, 0.1, 0.2],
+    'minecraft:blaze_powder': [0, 0, 0, 0.05, 0.1],
+    'minecraft:glowstone_dust': [0, 0, 0, 0.15, 0.2],
+  },
+  'minecraft:gravel': {
+    'minecraft:lapis_lazuli': [0, 0, 0.05, 0.1, 0.1],
+    'minecraft:coal': [0, 0.1, 0.1, 0.15, 0.15],
+    'minecraft:flint': [0, 0.1, 0.1, 0.1, 0.1],
+    'minecraft:diamond': [0, 0, 0, 0, 0.05],
+    'minecraft:emerald': [0, 0, 0, 0, 0.02],
+    'create:experience_nugget': [0, 0, 0.1, 0.1, 0.2],
+    'create:crushed_raw_copper': [0, 0, 0.05, 0.1, [0.1, 0.1]],
+    'create:crushed_raw_iron': [0, 0.01, 0.05, 0.1, [0.15, 0.05]],
+    'create:crushed_raw_zinc': [0, 0.05, 0.1, [0.1, 0.1], [0.2, 0.1]],
+    'create:crushed_raw_gold': [0, 0, 0.01, 0.05, [0.1, 0.05]],
+  },
+};
+
+const meshes = [
+  'createsifter:string_mesh',
+  'createsifter:andesite_mesh',
+  'createsifter:zinc_mesh',
+  'createsifter:brass_mesh',
+  'createsifter:advanced_brass_mesh',
+];
+
 ServerEvents.recipes((x) => {
-  x.remove([
-    { mod: 'createsifter', input: 'minecraft:sand' }
-  ])
+  for (const type of Object.keys(map)) {
+    x.remove({ mod: 'createsifter', input: type });
+    for (let i = 0; i < 5; i++) {
+      let mesh = meshes[i];
+      let ingredients = [type, mesh];
+      let results = Object.keys(map[type]).reduce((curr, output) => {
+        let chances = map[type][output][i];
+        if (!Array.isArray(chances)) {
+          chances = [chances];
+        }
+        for (const chance of chances) {
+          if (chance > 0) {
+            curr.push(Item.of(output).withChance(chance));
+          }
+        }
 
-  x.recipes.createsifter.sifting(
-    [
-      Item.of('minecraft:redstone').withChance(0.05),
-      Item.of('minecraft:bone_meal').withChance(0.40),
-      Item.of('minecraft:quartz').withChance(0.01),
-    ],
-    ['minecraft:sand', 'createsifter:string_mesh']
-  )
+        return curr;
+      }, []);
 
-  x.recipes.createsifter.sifting(
-    [
-      Item.of('minecraft:redstone').withChance(0.10),
-      Item.of('minecraft:bone_meal').withChance(0.40),
-      Item.of('minecraft:quartz').withChance(0.02),
-      Item.of('create:experience_nugget').withChance(0.10),
-    ],
-    ['minecraft:sand', 'createsifter:andesite_mesh']
-  )
-  x.recipes.createsifter.sifting(
-    [
-      Item.of('minecraft:redstone').withChance(0.15),
-      Item.of('minecraft:bone_meal').withChance(0.40),
-      Item.of('minecraft:quartz').withChance(0.05),
-      Item.of('create:experience_nugget').withChance(0.10),
-    ],
-    ['minecraft:sand', 'createsifter:zinc_mesh']
-  )
-  x.recipes.createsifter.sifting(
-    [
-      Item.of('minecraft:redstone', 2).withChance(0.25),
-      Item.of('minecraft:glowstone_dust').withChance(0.15),
-      Item.of('minecraft:blaze_powder').withChance(0.05),
-      Item.of('minecraft:bone_meal').withChance(0.40),
-      Item.of('minecraft:quartz').withChance(0.1),
-      Item.of('create:experience_nugget').withChance(0.20),
-    ],
-    ['minecraft:sand', 'createsifter:brass_mesh']
-  )
-  x.recipes.createsifter.sifting(
-    [
-      Item.of('minecraft:quartz').withChance(0.30),
-      Item.of('minecraft:quartz').withChance(0.10),
-      Item.of('minecraft:redstone').withChance(0.45),
-      Item.of('minecraft:redstone').withChance(0.15),
-      Item.of('minecraft:blaze_powder').withChance(0.1),
-      Item.of('minecraft:glowstone_dust').withChance(0.15),
-      Item.of('minecraft:bone_meal').withChance(0.50),
-      Item.of('create:experience_nugget').withChance(0.20),
-    ],
-    ['minecraft:sand', 'createsifter:advanced_brass_mesh']
-  )
-})
+      x.recipes.createsifter.sifting(results, ingredients);
+    }
+  }
+});
