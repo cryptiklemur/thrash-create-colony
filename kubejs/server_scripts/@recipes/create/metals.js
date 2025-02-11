@@ -6,6 +6,7 @@
  * - Fix the ore processing.
  *   - Update all metals[meta].ore to drop metals[metal].raw.item * metals[metal].raw.count
  *   - If metal has crushed, or nugget
+ *     - Ore in crusher should give (raw.item * raw.count) + (75% raw.item * raw.count) + (25% raw.item * raw.count)
  *     - Add recipe for hammer + raw.item -> 2x crushed/nugget
  *     - Remove all smelting/blasting/etc recipes for ore, raw, and crushed
  *     - Add smelting/blasting/etc recipes for crushed to be metals[metal][nugget] with % for extra, or nothing
@@ -131,7 +132,10 @@ const metals = {
 ServerEvents.tags('item', (x) => {
   for (const metal of Object.keys(metals)) {
     if (metals[metal].compressed) {
-      x.add('create:compressed_raw_materials', `create_compressed:crushed_${metal}_pile`);
+      x.add(
+        'create:compressed_raw_materials',
+        `create_compressed:crushed_${metal}_pile`,
+      );
     }
   }
 });
@@ -159,7 +163,9 @@ ServerEvents.recipes((x) => {
     if (!Array.isArray(output)) {
       output = [output];
     }
-    output = output.map((item) => (typeof item === 'string' ? Item.of(item) : item));
+    output = output.map((item) =>
+      typeof item === 'string' ? Item.of(item) : item,
+    );
 
     const recipe = {
       type: 'create_dd:seething',
@@ -169,7 +175,8 @@ ServerEvents.recipes((x) => {
         },
       ],
       results: output.map((item) => {
-        const outputItem = item instanceof OutputItem ? item : OutputItem.of(item);
+        const outputItem =
+          item instanceof OutputItem ? item : OutputItem.of(item);
 
         return {
           item: outputItem.item.id,
@@ -186,7 +193,10 @@ ServerEvents.recipes((x) => {
   for (const metal of ['lead', 'nickel', 'lithium']) {
     x.shapeless(`tfmg:${metal}_ingot`, Item.of(`kubejs:${metal}_nugget`, 9));
     x.shapeless(Item.of(`kubejs:${metal}_nugget`, 9), `tfmg:${metal}_ingot`);
-    x.recipes.create.crushing(Item.of(`kubejs:${metal}_nugget`, 9), `tfmg:${metal}_ingot`);
+    x.recipes.create.crushing(
+      Item.of(`kubejs:${metal}_nugget`, 9),
+      `tfmg:${metal}_ingot`,
+    );
   }
 
   // Remove all seething recipes, and add a few back
@@ -209,15 +219,38 @@ ServerEvents.recipes((x) => {
     let compressedBlock = `create_compressed:crushed_${metal}_pile`;
     let ingot = metals[metal].ingot || `${mod}:${metal}_ingot`;
     let nugget = metals[metal].nugget || `${mod}:${metal}_nugget`;
-    let crushedOrNugget = crushed && Item.exists(crushed) ? crushed : Item.exists(nugget) ? nugget : null;
-    let nuggetOrIngot = Item.exists(nugget) ? nugget : Item.exists(ingot) ? ingot : null;
+    let crushedOrNugget =
+      crushed && Item.exists(crushed)
+        ? crushed
+        : Item.exists(nugget)
+          ? nugget
+          : null;
+    let nuggetOrIngot = Item.exists(nugget)
+      ? nugget
+      : Item.exists(ingot)
+        ? ingot
+        : null;
     if (!crushedOrNugget) {
       console.error(`${metal} doesn't have crushed or nugget`);
       continue;
     }
 
-    // Simple Ore Doubling Recipe
-    x.shapeless(Item.of(crushedOrNugget, 2), ['#forge:hammers', raw.item]).damageIngredient(0);
+    // Simple Raw Ore Doubling Recipe
+    x.shapeless(Item.of(crushedOrNugget, 2), [
+      '#forge:hammers',
+      raw.item,
+    ]).damageIngredient(0);
+
+    x.remove({ type: 'create:crushing', input: ore });
+    // Ore Block "doubler"
+    x.recipes.create.crushing(
+      [
+        Item.of(raw.item, raw.count),
+        Item.of(raw.item, raw.count).withChance(0.75),
+        Item.of(raw.item, raw.count).withChance(0.25),
+      ],
+      ore,
+    );
 
     for (const type of [
       'create:splashing',
@@ -236,9 +269,19 @@ ServerEvents.recipes((x) => {
     console.log(`[REMOVE][create:compacting] ${raw.item}`);
     x.remove({ type: 'create:compacting', input: raw.item });
 
-    x.recipes.create.compacting([Item.of(crushedOrNugget, 2), slag.withChance(0.05)], [raw.item, Fluid.lava(50)]);
-    x.recipes.create.compacting([Item.of(crushedOrNugget, 3), slag.withChance(0.15)], raw.item).heated();
-    x.recipes.create.compacting([Item.of(crushedOrNugget, 5), slag.withChance(0.3)], raw.item).superheated();
+    x.recipes.create.compacting(
+      [Item.of(crushedOrNugget, 2), slag.withChance(0.05)],
+      [raw.item, Fluid.lava(50)],
+    );
+    x.recipes.create
+      .compacting(
+        [Item.of(crushedOrNugget, 3), slag.withChance(0.15)],
+        raw.item,
+      )
+      .heated();
+    x.recipes.create
+      .compacting([Item.of(crushedOrNugget, 5), slag.withChance(0.3)], raw.item)
+      .superheated();
 
     // @TODO Revamp how minecolonies does all this. It should work together
     x.remove({ type: 'minecolonies:smelter' });
@@ -249,8 +292,12 @@ ServerEvents.recipes((x) => {
     // Add recipe: (in: crushed, out: nugget)
 
     if (Item.exists(nugget) && !Item.exists(crushed)) {
-      console.log(`[ADD][minecraft:smelting] ${ore} & ${raw.item} -> ${nugget}`);
-      console.log(`[ADD][minecraft:blasting] ${ore} & ${raw.item} -> ${nugget}`);
+      console.log(
+        `[ADD][minecraft:smelting] ${ore} & ${raw.item} -> ${nugget}`,
+      );
+      console.log(
+        `[ADD][minecraft:blasting] ${ore} & ${raw.item} -> ${nugget}`,
+      );
       [ore, raw.item].forEach((item) => {
         x.smelting(nugget, item);
         x.blasting(nugget, item);
@@ -260,11 +307,24 @@ ServerEvents.recipes((x) => {
     if (Item.exists(nugget) && Item.exists(crushed)) {
       console.log(`[ADD][minecraft:blasting] ${crushed} -> ${nuggetOrIngot}`);
       x.blasting(nuggetOrIngot, crushed);
-      console.log(`[ADD][minecraft:seething] ${crushed} -> ${nuggetOrIngot} + .75% ${nuggetOrIngot}`);
-      seething([nuggetOrIngot, Item.of(nuggetOrIngot).withChance(0.75)], crushed);
-      console.log(`[UPDATE][create:crushing] ${raw.item} -> 2x ${crushed} + .75% create:experience_nugget`);
+      console.log(
+        `[ADD][minecraft:seething] ${crushed} -> ${nuggetOrIngot} + .75% ${nuggetOrIngot}`,
+      );
+      seething(
+        [nuggetOrIngot, Item.of(nuggetOrIngot).withChance(0.75)],
+        crushed,
+      );
+      console.log(
+        `[UPDATE][create:crushing] ${raw.item} -> 2x ${crushed} + .75% create:experience_nugget`,
+      );
       x.remove({ type: 'create:crushing', input: raw.item });
-      x.recipes.create.crushing([Item.of(crushed, 2), Item.of('create:experience_nugget').withChance(0.75)], raw.item);
+      x.recipes.create.crushing(
+        [
+          Item.of(crushed, 2),
+          Item.of('create:experience_nugget').withChance(0.75),
+        ],
+        raw.item,
+      );
       if (washing) {
         console.log(`[ADDING][create:splashing] ${crushed} -> ${washing}`);
         x.recipes.create.splashing(washing, crushed);
@@ -273,10 +333,19 @@ ServerEvents.recipes((x) => {
 
     if (compressed) {
       let nuggets = Item.of(nugget, 9);
-      x.forEachRecipe({ type: 'create:fan_washing', input: compressedBlock }, (recipe) => {
-        console.log(`[UPDATE][${recipe.type}][${recipe.id}] Removing ${recipe.originalRecipeResult}`);
-        x.replaceOutput({ output: recipe.originalRecipeResult }, recipe.originalRecipeResult, '');
-      });
+      x.forEachRecipe(
+        { type: 'create:fan_washing', input: compressedBlock },
+        (recipe) => {
+          console.log(
+            `[UPDATE][${recipe.type}][${recipe.id}] Removing ${recipe.originalRecipeResult}`,
+          );
+          x.replaceOutput(
+            { output: recipe.originalRecipeResult },
+            recipe.originalRecipeResult,
+            '',
+          );
+        },
+      );
       for (const type of [
         'create:splashing',
         'create:fan_washing',
@@ -290,11 +359,15 @@ ServerEvents.recipes((x) => {
 
       console.log(`[ADD][minecraft:blasting] ${compressedBlock} -> ${ingot}`);
       x.blasting(ingot, compressedBlock);
-      console.log(`[ADD][create_dd:seething] ${compressedBlock} -> ${ingot} + .6666% ${ingot}`);
+      console.log(
+        `[ADD][create_dd:seething] ${compressedBlock} -> ${ingot} + .6666% ${ingot}`,
+      );
       seething([ingot, Item.of(ingot).withChance(0.6666666)], compressedBlock);
 
       if (washing) {
-        console.log(`[ADD][create:splashing] ${compressedBlock} -> 9x ${washing}`);
+        console.log(
+          `[ADD][create:splashing] ${compressedBlock} -> 9x ${washing}`,
+        );
         x.recipes.create.splashing(washing.withCount(9), compressedBlock);
       }
     }
