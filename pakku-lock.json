@@ -138,6 +138,48 @@
             ]
         },
         {
+            "pakku_id": "dPc8j45Rs1KWFHOu",
+            "pakku_links": [
+                "H4bwW6YolRbuuu27"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "advanced-finders"
+            },
+            "name": {
+                "curseforge": "Advanced Finders"
+            },
+            "id": {
+                "curseforge": "260925"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "AdFinders-1.20.1-9.1.10.0-build.0804.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5640/328/AdFinders-1.20.1-9.1.10.0-build.0804.jar",
+                    "id": "5640328",
+                    "parent_id": "260925",
+                    "hashes": {
+                        "sha1": "f9ffcecd0f8685c5f492100e75f8ab59acece7e5",
+                        "md5": "e6c053e451dea1dd035d9e056b872190"
+                    },
+                    "required_dependencies": [
+                        "244844"
+                    ],
+                    "size": 166468,
+                    "date_published": "2024-08-18T12:21:57.370Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "nVUS7zl0itubwsXO",
             "pakku_links": [
                 "TpjM49zxVjXpIexs",
@@ -5683,6 +5725,7 @@
             "id": {
                 "curseforge": "326652"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
