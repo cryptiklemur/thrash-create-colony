@@ -1,3 +1,5 @@
+const levels = ['basic', 'copper', 'iron', 'gold', 'diamond', 'netherite'];
+
 ServerEvents.recipes((x) => {
   x.shapeless('sophisticatedstorage:barrel', [
     'minecraft:barrel',
@@ -29,4 +31,18 @@ ServerEvents.recipes((x) => {
     'sophisticatedstorage:filter_upgrade',
     'sophisticatedstorage:filter_upgrade',
   ]);
+
+  levels.forEach((level) => {
+    ['chest', 'barrel'].forEach((type) => {
+      const item =
+        level === 'basic' ? type : `sophisticatedstorage:${level}_${type}`;
+      const upgrade =
+        level === 'basic'
+          ? 'basic_tier_upgrade'
+          : `basic to ${level}_tier_upgrade`;
+
+      x.shapeless(item, [`minecraft:${type}`, upgrade]);
+      x.shapeless(item, [`sophisticatedstorage:${type}`, upgrade]);
+    });
+  });
 });
