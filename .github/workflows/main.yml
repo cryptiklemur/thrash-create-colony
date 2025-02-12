@@ -93,6 +93,11 @@ jobs:
           esac
           echo "type=$rel_type" >> $GITHUB_OUTPUT
           echo "changelog=$(cat CHANGELOG.md)" >> $GITHUB_OUTPUT
+      - name: Read CHANGELOG.md
+        id: changelog
+        uses: jaywcjlove/github-action-read-file@main
+        with:
+          path: CHANGELOG.md
       - name: Create release
         uses: itsmeow/curseforge-upload@v3
         with:
@@ -100,6 +105,6 @@ jobs:
           project_id: ${{ env.PROJECT_ID }}
           game_endpoint: minecraft
           file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-          changelog: "${{ steps.modpack-info.outputs.changelog }}"
+          changelog: "${{ steps.changelog.outputs.content }}"
           game_versions: "Minecraft 1.20:${{ needs.modpack-info.outputs.version }},Forge" 
           release_type: ${{ steps.release-type.outputs.type }}
