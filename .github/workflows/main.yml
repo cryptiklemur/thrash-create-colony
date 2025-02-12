@@ -1,11 +1,10 @@
 name: main
 
 on:
-  release:
-    types: [released]
-  #push:
-  #  tags:
-  #    - 'v*'
+  #release:
+  #  types: [released]
+  push:
+    tags: ~
 
 permissions:
   contents: write
