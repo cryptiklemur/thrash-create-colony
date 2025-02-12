@@ -1,3 +1,10 @@
+## [0.9.12](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.9.11...v0.9.12) (2025-02-12)
+
+
+### Bug Fixes
+
+* **chore:** Fixing actions ([81a8afa](https://github.com/cryptiklemur/thrash-create-colony/commit/81a8afa2a647537b9c660e283b375bebe48a6305))
+
 ## [0.9.11](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.9.10...v0.9.11) (2025-02-12)
 
 
