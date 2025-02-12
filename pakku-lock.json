@@ -10265,6 +10265,47 @@
             ]
         },
         {
+            "pakku_id": "syrmsQ4n9i4CYMxv",
+            "pakku_links": [
+                "AIizzGFRD6XYBAkH"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "morejs"
+            },
+            "name": {
+                "curseforge": "MoreJS"
+            },
+            "id": {
+                "curseforge": "666198"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "morejs-forge-1.20.1-0.10.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5308/267/morejs-forge-1.20.1-0.10.0.jar",
+                    "id": "5308267",
+                    "parent_id": "666198",
+                    "hashes": {
+                        "sha1": "fd67b55b6ccc00c38ab31403152f8be230c041da",
+                        "md5": "573fc22f479c3f3a1f3d6c3e9117ee49"
+                    },
+                    "required_dependencies": [
+                        "238086"
+                    ],
+                    "size": 173523,
+                    "date_published": "2024-05-01T20:09:12.233Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "VTQBt8f4IcpcSyAn",
             "type": "MOD",
             "slug": {
@@ -11259,6 +11300,126 @@
                     "required_dependencies": [],
                     "size": 299140,
                     "date_published": "2024-12-16T05:37:49.990Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "xnJVic7puudiu7UI",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "pretty-pipes"
+            },
+            "name": {
+                "curseforge": "Pretty Pipes"
+            },
+            "id": {
+                "curseforge": "376737"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "PrettyPipes-1.15.0-all.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4769/646/PrettyPipes-1.15.0-all.jar",
+                    "id": "4769646",
+                    "parent_id": "376737",
+                    "hashes": {
+                        "sha1": "8e69a3719b89e67b0d26792d7ce0d77fbfaf02e4",
+                        "md5": "4f7fd0b7fabf0a843be6ece55ae15bdb"
+                    },
+                    "required_dependencies": [],
+                    "size": 2152378,
+                    "date_published": "2023-09-26T09:24:25.620Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "kr0flIaOCoy3eslC",
+            "pakku_links": [
+                "xnJVic7puudiu7UI"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "pretty-pipes-fluids"
+            },
+            "name": {
+                "curseforge": "Pretty Pipes: Fluids"
+            },
+            "id": {
+                "curseforge": "479142"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ppfluids-1.20.1-2.0.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4729/229/ppfluids-1.20.1-2.0.1.jar",
+                    "id": "4729229",
+                    "parent_id": "479142",
+                    "hashes": {
+                        "sha1": "6703bfb9bd28f9f7d053f0c51fd594b6d1de7c4f",
+                        "md5": "d76aa4392529dde8054e75f6f105a384"
+                    },
+                    "required_dependencies": [
+                        "376737"
+                    ],
+                    "size": 102903,
+                    "date_published": "2023-08-30T11:06:34.570Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "8DvjMotXrNtzGsdk",
+            "pakku_links": [
+                "TaEJA0YocatKZw1t"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "pretty-rain"
+            },
+            "name": {
+                "curseforge": "Pretty Rain"
+            },
+            "id": {
+                "curseforge": "1163800"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Pretty Rain-1.20.1-Forge-1.0.8.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6120/431/Pretty Rain-1.20.1-Forge-1.0.8.jar",
+                    "id": "6120431",
+                    "parent_id": "1163800",
+                    "hashes": {
+                        "sha1": "d1069f4e0aa0cb36e4de347e2c482ae5a80faf9f",
+                        "md5": "86ad87616692b020895a0f7de9038fc7"
+                    },
+                    "required_dependencies": [
+                        "348521"
+                    ],
+                    "size": 597375,
+                    "date_published": "2025-01-24T17:32:42.663Z"
                 }
             ]
         },

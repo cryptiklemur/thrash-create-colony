@@ -13,6 +13,12 @@
  * - Remove the OP recipe to create andesite alloy
  */
 
+function debug() {
+  if (false) {
+    console.log(arguments);
+  }
+}
+
 /**
  * @type {
  *    {
@@ -141,14 +147,14 @@ ServerEvents.tags('item', (x) => {
 });
 
 LootJS.modifiers((x) => {
-  //console.log('LootJS.modifiers:');
+  //debug('LootJS.modifiers:');
   for (const metal of Object.keys(metals)) {
     let {
       ore,
       raw: { item: itemName, count },
     } = metals[metal];
     let item = Item.of(itemName, count);
-    //console.log(`Updating ore ${ore} to drop ${item}`);
+    //debug(`Updating ore ${ore} to drop ${item}`);
     x.addBlockLootModifier(ore).replaceLoot(itemName, item);
   }
 });
@@ -186,7 +192,7 @@ ServerEvents.recipes((x) => {
       }),
     };
 
-    console.log(`[ADD][create_dd:seething] ${input} -> ${output.join(' & ')}`);
+    debug(`[ADD][create_dd:seething] ${input} -> ${output.join(' & ')}`);
     x.custom(recipe);
   }
 
@@ -200,7 +206,7 @@ ServerEvents.recipes((x) => {
   }
 
   // Remove all seething recipes, and add a few back
-  console.log(`[REMOVE][create_dd:seething]`);
+  debug(`[REMOVE][create_dd:seething]`);
   x.remove({ type: 'create_dd:seething' });
   seething('minecraft:crying_obsidian', 'minecraft:obsidian');
   seething('minecraft:cobbled_deepslate', 'minecraft:cobblestone');
@@ -259,14 +265,14 @@ ServerEvents.recipes((x) => {
       'minecraft:blasting',
       'create:fan_blasting',
     ]) {
-      console.log(`[REMOVE][${type}] ${crushed} & ${ore} & ${raw.item}`);
+      debug(`[REMOVE][${type}] ${crushed} & ${ore} & ${raw.item}`);
       x.remove({ type: type, input: crushed });
       x.remove({ type: type, input: ore });
       x.remove({ type: type, input: raw.item });
     }
 
     //
-    console.log(`[REMOVE][create:compacting] ${raw.item}`);
+    debug(`[REMOVE][create:compacting] ${raw.item}`);
     x.remove({ type: 'create:compacting', input: raw.item });
 
     x.recipes.create.compacting(
@@ -292,12 +298,8 @@ ServerEvents.recipes((x) => {
     // Add recipe: (in: crushed, out: nugget)
 
     if (Item.exists(nugget) && !Item.exists(crushed)) {
-      console.log(
-        `[ADD][minecraft:smelting] ${ore} & ${raw.item} -> ${nugget}`,
-      );
-      console.log(
-        `[ADD][minecraft:blasting] ${ore} & ${raw.item} -> ${nugget}`,
-      );
+      debug(`[ADD][minecraft:smelting] ${ore} & ${raw.item} -> ${nugget}`);
+      debug(`[ADD][minecraft:blasting] ${ore} & ${raw.item} -> ${nugget}`);
       [ore, raw.item].forEach((item) => {
         x.smelting(nugget, item);
         x.blasting(nugget, item);
@@ -305,16 +307,16 @@ ServerEvents.recipes((x) => {
     }
 
     if (Item.exists(nugget) && Item.exists(crushed)) {
-      console.log(`[ADD][minecraft:blasting] ${crushed} -> ${nuggetOrIngot}`);
+      debug(`[ADD][minecraft:blasting] ${crushed} -> ${nuggetOrIngot}`);
       x.blasting(nuggetOrIngot, crushed);
-      console.log(
+      debug(
         `[ADD][minecraft:seething] ${crushed} -> ${nuggetOrIngot} + .75% ${nuggetOrIngot}`,
       );
       seething(
         [nuggetOrIngot, Item.of(nuggetOrIngot).withChance(0.75)],
         crushed,
       );
-      console.log(
+      debug(
         `[UPDATE][create:crushing] ${raw.item} -> 2x ${crushed} + .75% create:experience_nugget`,
       );
       x.remove({ type: 'create:crushing', input: raw.item });
@@ -326,17 +328,16 @@ ServerEvents.recipes((x) => {
         raw.item,
       );
       if (washing) {
-        console.log(`[ADDING][create:splashing] ${crushed} -> ${washing}`);
+        debug(`[ADDING][create:splashing] ${crushed} -> ${washing}`);
         x.recipes.create.splashing(washing, crushed);
       }
     }
 
     if (compressed) {
-      let nuggets = Item.of(nugget, 9);
       x.forEachRecipe(
         { type: 'create:fan_washing', input: compressedBlock },
         (recipe) => {
-          console.log(
+          debug(
             `[UPDATE][${recipe.type}][${recipe.id}] Removing ${recipe.originalRecipeResult}`,
           );
           x.replaceOutput(
@@ -353,21 +354,19 @@ ServerEvents.recipes((x) => {
         'minecraft:blasting',
         'create:fan_blasting',
       ]) {
-        console.log(`[REMOVE][${type}] ${compressedBlock}`);
+        debug(`[REMOVE][${type}] ${compressedBlock}`);
         x.remove({ type: type, input: compressedBlock });
       }
 
-      console.log(`[ADD][minecraft:blasting] ${compressedBlock} -> ${ingot}`);
+      debug(`[ADD][minecraft:blasting] ${compressedBlock} -> ${ingot}`);
       x.blasting(ingot, compressedBlock);
-      console.log(
+      debug(
         `[ADD][create_dd:seething] ${compressedBlock} -> ${ingot} + .6666% ${ingot}`,
       );
       seething([ingot, Item.of(ingot).withChance(0.6666666)], compressedBlock);
 
       if (washing) {
-        console.log(
-          `[ADD][create:splashing] ${compressedBlock} -> 9x ${washing}`,
-        );
+        debug(`[ADD][create:splashing] ${compressedBlock} -> 9x ${washing}`);
         x.recipes.create.splashing(washing.withCount(9), compressedBlock);
       }
     }

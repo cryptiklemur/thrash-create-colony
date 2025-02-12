@@ -1,48 +1,46 @@
 const levels = ['basic', 'copper', 'iron', 'gold', 'diamond', 'netherite'];
 
+const mod = 'sophisticatedstorage';
 ServerEvents.recipes((x) => {
-  x.shapeless('sophisticatedstorage:barrel', [
+  x.shapeless(`${mod}:barrel`, [
     'minecraft:barrel',
-    'minecraft:redstone',
+    'minecraft:redstone_torch',
   ]);
-  x.shapeless('sophisticatedstorage:chest', [
-    'minecraft:chest',
-    'minecraft:redstone',
-  ]);
-  x.shapeless('sophisticatedstorage:limited_barrel_1', [
+  x.shapeless(`${mod}:chest`, ['minecraft:chest', 'minecraft:redstone_torch']);
+  x.shapeless(`${mod}:limited_barrel_1`, [
     '#forge:barrels',
-    'sophisticatedstorage:filter_upgrade',
+    `${mod}:filter_upgrade`,
   ]);
-  x.shapeless('sophisticatedstorage:limited_barrel_2', [
+  x.shapeless(`${mod}:limited_barrel_2`, [
     '#forge:barrels',
-    'sophisticatedstorage:filter_upgrade',
-    'sophisticatedstorage:filter_upgrade',
+    `${mod}:filter_upgrade`,
+    `${mod}:filter_upgrade`,
   ]);
-  x.shapeless('sophisticatedstorage:limited_barrel_3', [
+  x.shapeless(`${mod}:limited_barrel_3`, [
     '#forge:barrels',
-    'sophisticatedstorage:filter_upgrade',
-    'sophisticatedstorage:filter_upgrade',
-    'sophisticatedstorage:filter_upgrade',
+    `${mod}:filter_upgrade`,
+    `${mod}:filter_upgrade`,
+    `${mod}:filter_upgrade`,
   ]);
-  x.shapeless('sophisticatedstorage:limited_barrel_4', [
+  x.shapeless(`${mod}:limited_barrel_4`, [
     '#forge:barrels',
-    'sophisticatedstorage:filter_upgrade',
-    'sophisticatedstorage:filter_upgrade',
-    'sophisticatedstorage:filter_upgrade',
-    'sophisticatedstorage:filter_upgrade',
+    `${mod}:filter_upgrade`,
+    `${mod}:filter_upgrade`,
+    `${mod}:filter_upgrade`,
+    `${mod}:filter_upgrade`,
   ]);
 
   levels.forEach((level) => {
     ['chest', 'barrel'].forEach((type) => {
-      const item =
-        level === 'basic' ? type : `sophisticatedstorage:${level}_${type}`;
+      const item = Item.of(
+        level === 'basic' ? type : `${mod}:${level}_${type}`,
+      );
       const upgrade =
         level === 'basic'
-          ? 'basic_tier_upgrade'
-          : `basic to ${level}_tier_upgrade`;
+          ? `${mod}:basic_tier_upgrade`
+          : `${mod}:basic_to_${level}_tier_upgrade`;
 
-      x.shapeless(item, [`minecraft:${type}`, upgrade]);
-      x.shapeless(item, [`sophisticatedstorage:${type}`, upgrade]);
+      x.shapeless(item, [[`${mod}:${type}`, `minecraft:${type}`], upgrade]);
     });
   });
 });

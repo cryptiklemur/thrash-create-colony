@@ -2,7 +2,6 @@ ServerEvents.recipes((x) => {
   x.forEachRecipe(
     { output: '#forge:dyes', type: 'minecraft:crafting_shapeless' },
     (r) => {
-      console.log(`Recipe ID: ${r.id} ${r.getId()}`);
       x.shapeless(
         r.originalRecipeResult,
         [Item.of('croptopia:mortar_and_pestle')].concat(
@@ -18,6 +17,7 @@ ServerEvents.recipes((x) => {
     },
   );
 
-  x.shapeless('2x minecraft:green_dye', ['minecraft:large_fern']);
-  x.shapeless('2x minecraft:green_dye', ['minecraft:fern']);
+  x.shapeless('2x minecraft:green_dye', [
+    ['minecraft:large_fern', 'minecraft:fern'],
+  ]);
 });
