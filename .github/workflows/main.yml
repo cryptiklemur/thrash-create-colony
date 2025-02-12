@@ -92,7 +92,6 @@ jobs:
             *) rel_type="release" ;;
           esac
           echo "type=$rel_type" >> $GITHUB_OUTPUT
-          echo "changelog=$(cat CHANGELOG.md)" >> $GITHUB_OUTPUT
       - name: Read CHANGELOG.md
         id: changelog
         uses: jaywcjlove/github-action-read-file@main
