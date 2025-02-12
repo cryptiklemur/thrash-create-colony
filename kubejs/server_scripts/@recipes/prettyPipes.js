@@ -15,6 +15,7 @@ ServerEvents.recipes((x) => {
     C: '#forge:empty_buckets',
     D: ['#forge:ingots/copper', '#forge:ingots/zinc'],
   });
+
   x.replaceInput(
     { mod: 'prettypipes', output: 'prettypipes:pipe' },
     'minecraft:iron_bars',
