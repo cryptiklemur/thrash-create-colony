@@ -1,3 +1,16 @@
+# [0.12.0](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.11.2...v0.12.0) (2025-02-12)
+
+
+### Bug Fixes
+
+* **recipe:** Adding recipe for sophisticated storage chest and barrel ([6ed063e](https://github.com/cryptiklemur/thrash-create-colony/commit/6ed063ea98d74ec22ae314431365e6985be8c007))
+* **recipe:** Adding recipe for sophisticated storage chest and barrel ([3468d9f](https://github.com/cryptiklemur/thrash-create-colony/commit/3468d9f3ca72bb08f62a784e41ecd42410c7c00a))
+
+
+### Features
+
+* **plugin:** Adding pipes, MoreJS, pretty-rain. ([ddf2d0c](https://github.com/cryptiklemur/thrash-create-colony/commit/ddf2d0c7349efcb68e1e1a9cedfe1b72718e6d52))
+
 ## [0.11.2](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.11.1...v0.11.2) (2025-02-12)
 
 
