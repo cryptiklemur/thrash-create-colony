@@ -13660,43 +13660,6 @@
             ]
         },
         {
-            "pakku_id": "j0iqCLDCOmNTO0e9",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "weather-storms-tornadoes"
-            },
-            "name": {
-                "curseforge": "Weather, Storms & Tornadoes"
-            },
-            "id": {
-                "curseforge": "237746"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "weather2-1.20.1-2.8.3.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5244/118/weather2-1.20.1-2.8.3.jar",
-                    "id": "5244118",
-                    "parent_id": "237746",
-                    "hashes": {
-                        "sha1": "4ec7a372945874dd734a20fa61574f08d2b6763a",
-                        "md5": "c431d270fafa0f4ff138c36e44179ad2"
-                    },
-                    "required_dependencies": [],
-                    "size": 6852245,
-                    "date_published": "2024-04-07T19:13:55.953Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "YlogsSGnNZuSJTA0",
             "pakku_links": [
                 "0xtpMmBKdC70E4MU"
