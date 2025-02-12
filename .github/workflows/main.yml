@@ -39,22 +39,9 @@ jobs:
         id: version
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
 
-  changelog:
-    runs-on: ubuntu-latest
-    outputs:
-      changelog: ${{ steps.changelog.outputs.changelog }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Store changelog
-        uses: actions/upload-artifact@v4
-        with:
-          name: changelog
-          path: CHANGELOG.md
-
   build:
     runs-on: ubuntu-latest
-    needs: [changelog, modpack-info]
+    needs: [modpack-info]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -64,10 +51,6 @@ jobs:
           repo: juraj-hrivnak/Pakku
           file: "pakku.jar"
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Download changelog
-        uses: actions/download-artifact@v4
-        with:
-          name: changelog
       - name: Fetch modpack
         run: java -jar pakku.jar fetch
       - name: Export modpack
@@ -91,7 +74,7 @@ jobs:
   
   release-curseforge:
     runs-on: ubuntu-latest
-    needs: [build, changelog, modpack-info]
+    needs: [build, modpack-info]
     steps:
       - name: Download modpack
         uses: actions/download-artifact@v4
@@ -107,6 +90,7 @@ jobs:
             *) rel_type="release" ;;
           esac
           echo "type=$rel_type" >> $GITHUB_OUTPUT
+          echo "changelog=$(cat CHANGELOG.md) >> $GITHUB_OUTPUT
       - name: Create release
         uses: itsmeow/curseforge-upload@v3
         with:
@@ -114,6 +98,6 @@ jobs:
           project_id: ${{ env.PROJECT_ID }}
           game_endpoint: minecraft
           file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-          changelog: "${{ needs.changelog.outputs.changelog }}"
+          changelog: "${{ steps.release-type.outputs.changelog }}"
           game_versions: "Minecraft 1.20:${{ needs.modpack-info.outputs.version }},Forge" 
           release_type: ${{ steps.release-type.outputs.type }}
