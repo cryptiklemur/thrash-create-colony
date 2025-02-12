@@ -20,6 +20,7 @@ jobs:
     outputs:
       projectname: ${{ steps.info.outputs.projectname }}
       version: ${{ steps.info.outputs.version }}
+      changelog: ${{ steps.info.outputs.changelog }}
       tag: ${{ steps.version.outputs.tag }}
     steps:
       - name: Checkout
@@ -35,6 +36,7 @@ jobs:
             
             version=`echo $(jq -r '.mc_versions[0]' <<< "$manifestlockjson")`
             echo "version=$version" >> $GITHUB_OUTPUT
+            echo "changelog=$(cat CHANGELOG.md) >> $GITHUB_OUTPUT
       - name: Get tag
         id: version
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
@@ -90,7 +92,6 @@ jobs:
             *) rel_type="release" ;;
           esac
           echo "type=$rel_type" >> $GITHUB_OUTPUT
-          echo "changelog=$(cat CHANGELOG.md) >> $GITHUB_OUTPUT
       - name: Create release
         uses: itsmeow/curseforge-upload@v3
         with:
@@ -98,6 +99,6 @@ jobs:
           project_id: ${{ env.PROJECT_ID }}
           game_endpoint: minecraft
           file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-          changelog: "${{ steps.release-type.outputs.changelog }}"
+          changelog: "${{ steps.modpack-info.outputs.changelog }}"
           game_versions: "Minecraft 1.20:${{ needs.modpack-info.outputs.version }},Forge" 
           release_type: ${{ steps.release-type.outputs.type }}
