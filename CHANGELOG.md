@@ -1,3 +1,10 @@
+## [0.9.11](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.9.10...v0.9.11) (2025-02-12)
+
+
+### Bug Fixes
+
+* **chore:** Fixing semantic release ([18f2180](https://github.com/cryptiklemur/thrash-create-colony/commit/18f21802bd641522be58a44c7cd7a2e8d86f5f12))
+
 ## [0.9.10](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.9.9...v0.9.10) (2025-02-12)
 
 
