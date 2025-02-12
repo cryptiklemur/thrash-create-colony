@@ -4,7 +4,8 @@ on:
   #release:
   #  types: [released]
   push:
-    tags: ~
+    tags:
+      - '*'           # Push events to every tag not containing /
 
 permissions:
   contents: write
