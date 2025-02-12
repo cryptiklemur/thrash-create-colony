@@ -1,3 +1,10 @@
+# [0.11.0](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.10.0...v0.11.0) (2025-02-12)
+
+
+### Features
+
+* **plugin:** Removing Weather2 ([56e5b1e](https://github.com/cryptiklemur/thrash-create-colony/commit/56e5b1eb38ad50940bc0c676101e1367f166fd54))
+
 # [0.10.0](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.9.20...v0.10.0) (2025-02-12)
 
 
