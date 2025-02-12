@@ -7,6 +7,12 @@ export default {
     '@semantic-release/release-notes-generator',
     '@semantic-release/changelog',
     '@semantic-release/github',
-    '@semantic-release/git',
+    [
+      '@semantic-release/git',
+      {
+        message:
+          'chore(release): ${nextRelease.version}\n\n${nextRelease.notes}',
+      },
+    ],
   ],
 };
