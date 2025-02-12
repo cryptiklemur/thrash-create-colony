@@ -2852,6 +2852,52 @@
             ]
         },
         {
+            "pakku_id": "QmTRAZwjIkCY5EUd",
+            "pakku_links": [
+                "pEHulyHblXbQq7ZD",
+                "9KYyblYlxaJo3E1k"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-air-forge"
+            },
+            "name": {
+                "curseforge": "Create Air [Forge]"
+            },
+            "id": {
+                "curseforge": "880593"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "createair-1.0-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.1",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5047/180/createair-1.0-1.20.1.jar",
+                    "id": "5047180",
+                    "parent_id": "880593",
+                    "hashes": {
+                        "sha1": "9b0dba87681a090fced03398e810cf85019646bc",
+                        "md5": "3af08d44f972631544e8d58c805e9079"
+                    },
+                    "required_dependencies": [
+                        "878379",
+                        "328085"
+                    ],
+                    "size": 57634,
+                    "date_published": "2024-01-20T12:04:00.717Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "UNcrzeAJdLvqYenS",
             "pakku_links": [
                 "9KYyblYlxaJo3E1k"
@@ -3042,6 +3088,42 @@
                     ],
                     "size": 82089,
                     "date_published": "2023-08-20T21:56:28.657Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "VPZM0CpMzsLeLnym",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-compression"
+            },
+            "name": {
+                "curseforge": "Create Compression"
+            },
+            "id": {
+                "curseforge": "945214"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "CreateCompression-1.20.1-1.8.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5319/690/CreateCompression-1.20.1-1.8.2.jar",
+                    "id": "5319690",
+                    "parent_id": "945214",
+                    "hashes": {
+                        "sha1": "25f7b33e6ad4879ded5cd97128804de01f76385a",
+                        "md5": "6d240657104f5dfd163f110bed0dbcf5"
+                    },
+                    "required_dependencies": [],
+                    "size": 1811918,
+                    "date_published": "2024-05-06T02:52:41.660Z"
                 }
             ]
         },
@@ -3238,6 +3320,49 @@
                     ],
                     "size": 495595,
                     "date_published": "2024-05-10T05:33:26.787Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "OwbAjPKbTuuNm5hP",
+            "pakku_links": [
+                "9KYyblYlxaJo3E1k",
+                "unFVw5aOnq597s9m"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-goggles"
+            },
+            "name": {
+                "curseforge": "Create Goggles (Create Plus)"
+            },
+            "id": {
+                "curseforge": "377835"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "creategoggles-1.20.1-0.5.6-[FORGE].jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6049/904/creategoggles-1.20.1-0.5.6-[FORGE].jar",
+                    "id": "6049904",
+                    "parent_id": "377835",
+                    "hashes": {
+                        "sha1": "6106df4b6b49aea23d66e4e2a43906d48de80cc3",
+                        "md5": "3b786cec80daec53b89c023247c839d8"
+                    },
+                    "required_dependencies": [
+                        "328085",
+                        "419699"
+                    ],
+                    "size": 188634,
+                    "date_published": "2025-01-03T18:14:12.840Z"
                 }
             ]
         },
@@ -12905,6 +13030,47 @@
                     "required_dependencies": [],
                     "size": 254604,
                     "date_published": "2024-07-05T03:46:38.493Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "pEHulyHblXbQq7ZD",
+            "pakku_links": [
+                "aEYZ0vlEGdgLmp6z"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "new-thin-air"
+            },
+            "name": {
+                "curseforge": "Thin Air [Forge & Fabric]"
+            },
+            "id": {
+                "curseforge": "878379"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ThinAir-v8.1.5-1.20.1-Forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5068/247/ThinAir-v8.1.5-1.20.1-Forge.jar",
+                    "id": "5068247",
+                    "parent_id": "878379",
+                    "hashes": {
+                        "sha1": "a15d5f434c02a5a76e185835093acd3de4b15d95",
+                        "md5": "d2e12f20a51a1e4cd2cdb078da3ca95b"
+                    },
+                    "required_dependencies": [
+                        "495476"
+                    ],
+                    "size": 196867,
+                    "date_published": "2024-01-29T22:52:44.180Z"
                 }
             ]
         },
