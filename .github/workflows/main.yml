@@ -5,7 +5,7 @@ on:
   #  types: [released]
   push:
     tags:
-      - '*'           # Push events to every tag not containing /
+      - '*'
 
 permissions:
   contents: write
