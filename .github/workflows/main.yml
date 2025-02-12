@@ -36,7 +36,7 @@ jobs:
             
             version=`echo $(jq -r '.mc_versions[0]' <<< "$manifestlockjson")`
             echo "version=$version" >> $GITHUB_OUTPUT
-            echo "changelog=$(cat CHANGELOG.md) >> $GITHUB_OUTPUT
+            echo "changelog=$(cat CHANGELOG.md)" >> $GITHUB_OUTPUT
       - name: Get tag
         id: version
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
