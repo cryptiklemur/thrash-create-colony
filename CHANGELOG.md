@@ -1,3 +1,10 @@
+## [0.12.1](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.12.0...v0.12.1) (2025-02-12)
+
+
+### Bug Fixes
+
+* **recipe:** Adding tags to wooden bucket, making pipes recipes more create-y ([c8d0c8c](https://github.com/cryptiklemur/thrash-create-colony/commit/c8d0c8c03a540de7d99acb012187a929d8319d1b))
+
 # [0.12.0](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.11.2...v0.12.0) (2025-02-12)
 
 
