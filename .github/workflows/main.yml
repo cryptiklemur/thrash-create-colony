@@ -2,7 +2,7 @@ name: main
 
 on:
   release:
-    types: [published]
+    types: [released]
   #push:
   #  tags:
   #    - 'v*'
