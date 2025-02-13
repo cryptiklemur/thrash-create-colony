@@ -1,3 +1,10 @@
+# [0.14.0](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.13.0...v0.14.0) (2025-02-13)
+
+
+### Features
+
+* **plugin:** Adding oreganized, adds silver to make electrum ([dc851d6](https://github.com/cryptiklemur/thrash-create-colony/commit/dc851d63a2c2da56520fe26a57ab5ec9c9568acb))
+
 # [0.13.0](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.12.1...v0.13.0) (2025-02-13)
 
 
