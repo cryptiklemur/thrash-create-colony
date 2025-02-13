@@ -1,3 +1,10 @@
+# [0.13.0](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.12.1...v0.13.0) (2025-02-13)
+
+
+### Features
+
+* **mods:** Removing SimpleStorageNetworks, Adding Tom's Simple Storage Mod. Updating other mods ([e34512c](https://github.com/cryptiklemur/thrash-create-colony/commit/e34512cffe6c5d60dc16309f2f63dd7b31347181))
+
 ## [0.12.1](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.12.0...v0.12.1) (2025-02-12)
 
 
