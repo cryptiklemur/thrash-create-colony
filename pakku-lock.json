@@ -1381,6 +1381,43 @@
             ]
         },
         {
+            "pakku_id": "8w1YZztQfGzxyKRj",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "blueprint"
+            },
+            "name": {
+                "curseforge": "Blueprint"
+            },
+            "id": {
+                "curseforge": "382216"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "blueprint-1.20.1-7.1.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6143/229/blueprint-1.20.1-7.1.1.jar",
+                    "id": "6143229",
+                    "parent_id": "382216",
+                    "hashes": {
+                        "sha1": "9f5653787c8e871bfee462948f2093cf08734c61",
+                        "md5": "8173c5deebd5718e68de1a61a83449a7"
+                    },
+                    "required_dependencies": [],
+                    "size": 1136146,
+                    "date_published": "2025-01-31T17:25:29.153Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "SKg1CO214Gx2l5F2",
             "type": "MOD",
             "slug": {
@@ -11069,6 +11106,47 @@
                     "required_dependencies": [],
                     "size": 2851119,
                     "date_published": "2024-12-24T23:33:51.040Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ZkokvxYBqhJ4v3LH",
+            "pakku_links": [
+                "8w1YZztQfGzxyKRj"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "oreganized"
+            },
+            "name": {
+                "curseforge": "Oreganized"
+            },
+            "id": {
+                "curseforge": "769203"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Oreganized 1.20.1-3.1.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5890/510/Oreganized 1.20.1-3.1.2.jar",
+                    "id": "5890510",
+                    "parent_id": "769203",
+                    "hashes": {
+                        "sha1": "6b328b92bd44e00c9950fa105ccd719f3664661d",
+                        "md5": "0a9b20185f0356010308250c5880e0cd"
+                    },
+                    "required_dependencies": [
+                        "382216"
+                    ],
+                    "size": 6674089,
+                    "date_published": "2024-11-10T10:19:35.293Z"
                 }
             ]
         },

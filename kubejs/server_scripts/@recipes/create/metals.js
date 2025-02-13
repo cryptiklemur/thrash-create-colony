@@ -133,6 +133,14 @@ const metals = {
     crushed: false,
     compressed: false,
   },
+  silver: {
+    raw: { item: 'oreganized:raw_silver', count: 5 },
+    ore: '#forge:ores/silver',
+    mod: 'oreganized',
+    crushed: 'create:crushed_raw_silver',
+    washing: Item.of('minecraft:emerald').withChance(0.5),
+    compressed: false,
+  },
 };
 
 ServerEvents.tags('item', (x) => {
