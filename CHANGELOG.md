@@ -1,3 +1,10 @@
+# [0.15.0](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.14.1...v0.15.0) (2025-02-14)
+
+
+### Features
+
+* **plugin:** Adding Functional Storage mod ([225302e](https://github.com/cryptiklemur/thrash-create-colony/commit/225302ef80ad5ea08c29a66bf576f5e64b9f8549))
+
 ## [0.14.1](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.14.0...v0.14.1) (2025-02-14)
 
 
