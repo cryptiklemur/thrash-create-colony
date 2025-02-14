@@ -18,6 +18,7 @@ const map = {
     'create:crushed_raw_iron': [0, 0.005, 0.025, 0.05, [0.075, 0.025]],
     'create:crushed_raw_zinc': [0, 0.025, 0.05, [0.05, 0.05], [0.1, 0.05]],
     'create:crushed_raw_gold': [0, 0, 0.005, 0.025, [0.05, 0.025]],
+    'create:crushed_raw_silver': [0, 0, 0.005, 0.025, [0.05, 0.025]],
   },
 };
 
