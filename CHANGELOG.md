@@ -1,3 +1,10 @@
+## [0.14.1](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.14.0...v0.14.1) (2025-02-14)
+
+
+### Bug Fixes
+
+* **plugin:** Removing starlight, causing issues with AE2, adding silver to sifting output ([59fcbf2](https://github.com/cryptiklemur/thrash-create-colony/commit/59fcbf219bed82dd5e507d8c0c6cfd9dd2cbd637))
+
 # [0.14.0](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.13.0...v0.14.0) (2025-02-13)
 
 
