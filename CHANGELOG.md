@@ -1,3 +1,10 @@
+## [0.16.1](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.16.0...v0.16.1) (2025-02-15)
+
+
+### Bug Fixes
+
+* **config:** Fixing malformed config ([4c6431a](https://github.com/cryptiklemur/thrash-create-colony/commit/4c6431a2163aa187ff9df58d61be7468e968743f))
+
 # [0.16.0](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.15.0...v0.16.0) (2025-02-15)
 
 
