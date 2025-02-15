@@ -1244,7 +1244,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "biomemusic-1.20.1-3.3.jar",
+                    "file_name": "biomemusic-1.20.1-3.4.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -1253,16 +1253,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6193/616/biomemusic-1.20.1-3.3.jar",
-                    "id": "6193616",
+                    "url": "https://edge.forgecdn.net/files/6195/999/biomemusic-1.20.1-3.4.jar",
+                    "id": "6195999",
                     "parent_id": "840873",
                     "hashes": {
-                        "sha1": "8460d5fc0f6747f5bb28713fe36959fce0fc78b1",
-                        "md5": "3fda878de4e10ea4e2cb21e6c2bb9904"
+                        "sha1": "9d6c2b90252fe169e537af1659a6dcca7b975974",
+                        "md5": "391fea208b80962b6c341af776514a6a"
                     },
-                    "required_dependencies": [],
-                    "size": 35058,
-                    "date_published": "2025-02-14T19:16:15.120Z"
+                    "required_dependencies": [
+                        "326652"
+                    ],
+                    "size": 35263,
+                    "date_published": "2025-02-15T13:48:15.143Z"
                 }
             ]
         },
@@ -2507,28 +2509,28 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "corpsecurioscompat-1.18.x-1.20.x-Forge-2.1.0.jar",
+                    "file_name": "corpsecurioscompat-1.18.x-1.20.x-Forge-2.1.1.jar",
                     "mc_versions": [
-                        "1.20.2",
-                        "1.20.3",
                         "1.20.1",
-                        "1.20",
-                        "1.20.4"
+                        "1.20"
                     ],
                     "loaders": [
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6154/92/corpsecurioscompat-1.18.x-1.20.x-Forge-2.1.0.jar",
-                    "id": "6154092",
+                    "url": "https://edge.forgecdn.net/files/6195/383/corpsecurioscompat-1.18.x-1.20.x-Forge-2.1.1.jar",
+                    "id": "6195383",
                     "parent_id": "1138130",
                     "hashes": {
-                        "sha1": "150f2380d1100eb20318fa241ac7d122769ed41f",
-                        "md5": "34bccb42c34f7e127860d2975a3e5772"
+                        "sha1": "f11564ebe21ec983e7ded030d737bc2115d02674",
+                        "md5": "86a8c34f8f205caa086b1c95b7d5858a"
                     },
-                    "required_dependencies": [],
-                    "size": 9170,
-                    "date_published": "2025-02-03T16:38:10.287Z"
+                    "required_dependencies": [
+                        "309927",
+                        "316582"
+                    ],
+                    "size": 6963,
+                    "date_published": "2025-02-15T09:58:14.160Z"
                 }
             ]
         },
@@ -5847,27 +5849,28 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "CroptopiaDelight-1.20.1_1.2.2-forge.jar",
+                    "file_name": "croptopiadelight-1.3.0-1.16.5-1.20.1-forge.jar",
                     "mc_versions": [
-                        "1.20.1"
+                        "1.20.1",
+                        "1.20"
                     ],
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/4908/17/CroptopiaDelight-1.20.1_1.2.2-forge.jar",
-                    "id": "4908017",
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/6194/183/croptopiadelight-1.3.0-1.16.5-1.20.1-forge.jar",
+                    "id": "6194183",
                     "parent_id": "932098",
                     "hashes": {
-                        "sha1": "ef8af9a2317c0023d5234054e517f9c4333297de",
-                        "md5": "f5bd2235dbda3536ae97b4959529a9cc"
+                        "sha1": "18dbf5199def7bee7ba4f8b02761a0e616b337be",
+                        "md5": "0f73ea82c1304685308f2ed2d2129786"
                     },
                     "required_dependencies": [
                         "415438",
                         "398521"
                     ],
-                    "size": 31176,
-                    "date_published": "2023-11-28T06:10:25.850Z"
+                    "size": 84699,
+                    "date_published": "2025-02-14T22:56:18.080Z"
                 }
             ]
         },
@@ -10343,7 +10346,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "minecolonies-1.20.1-1.1.809-snapshot.jar",
+                    "file_name": "minecolonies-1.20.1-1.1.814-snapshot.jar",
                     "mc_versions": [
                         "1.20.1",
                         "1.20"
@@ -10352,22 +10355,22 @@
                         "forge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/6175/458/minecolonies-1.20.1-1.1.809-snapshot.jar",
-                    "id": "6175458",
+                    "url": "https://edge.forgecdn.net/files/6197/28/minecolonies-1.20.1-1.1.814-snapshot.jar",
+                    "id": "6197028",
                     "parent_id": "245506",
                     "hashes": {
-                        "sha1": "60a619aae2737c8ff85e2279502820a8fb761219",
-                        "md5": "51fb653acd5668da7027c5e63cba4967"
+                        "sha1": "5f13fa63da4f9b87583a2b40f6307d45e231fdfa",
+                        "md5": "3a92d27863c3c937fdb4eacc756ffdd3"
                     },
                     "required_dependencies": [
-                        "298744",
-                        "303278",
                         "527361",
-                        "900364",
-                        "522992"
+                        "303278",
+                        "522992",
+                        "298744",
+                        "900364"
                     ],
-                    "size": 71955015,
-                    "date_published": "2025-02-09T16:59:07.267Z"
+                    "size": 71955479,
+                    "date_published": "2025-02-15T19:47:12.790Z"
                 }
             ]
         },
@@ -11670,7 +11673,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Pretty Rain-1.20.1-Forge-1.0.8.jar",
+                    "file_name": "Pretty Rain-1.20.1-Forge-1.1.0.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -11679,18 +11682,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6120/431/Pretty Rain-1.20.1-Forge-1.0.8.jar",
-                    "id": "6120431",
+                    "url": "https://edge.forgecdn.net/files/6195/984/Pretty Rain-1.20.1-Forge-1.1.0.jar",
+                    "id": "6195984",
                     "parent_id": "1163800",
                     "hashes": {
-                        "sha1": "d1069f4e0aa0cb36e4de347e2c482ae5a80faf9f",
-                        "md5": "86ad87616692b020895a0f7de9038fc7"
+                        "sha1": "fefefeef1a81aafa2ddd83330129aa5d9eee6767",
+                        "md5": "8873937944f124161803dfa447c6c176"
                     },
                     "required_dependencies": [
                         "348521"
                     ],
-                    "size": 597375,
-                    "date_published": "2025-01-24T17:32:42.663Z"
+                    "size": 599372,
+                    "date_published": "2025-02-15T13:45:54.470Z"
                 }
             ]
         },
@@ -12705,7 +12708,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sophisticatedbackpacks-1.20.1-3.23.4.1196.jar",
+                    "file_name": "sophisticatedbackpacks-1.20.1-3.23.5.1200.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12714,18 +12717,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6178/588/sophisticatedbackpacks-1.20.1-3.23.4.1196.jar",
-                    "id": "6178588",
+                    "url": "https://edge.forgecdn.net/files/6194/202/sophisticatedbackpacks-1.20.1-3.23.5.1200.jar",
+                    "id": "6194202",
                     "parent_id": "422301",
                     "hashes": {
-                        "sha1": "b5399c545bf6b8b2071c9aba48c50651a31fb902",
-                        "md5": "5c4a7e8c695ccadedb97376197acbe01"
+                        "sha1": "0c37ad3ebe6c4383bb9a56a938e4c6cb0824405b",
+                        "md5": "0b62ab2f8491ca74a15fe416a0a7073f"
                     },
                     "required_dependencies": [
                         "618298"
                     ],
-                    "size": 896711,
-                    "date_published": "2025-02-10T15:14:43.693Z"
+                    "size": 896741,
+                    "date_published": "2025-02-14T23:01:43.803Z"
                 }
             ]
         },
@@ -12781,7 +12784,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sophisticatedstorage-1.20.1-1.3.7.1072.jar",
+                    "file_name": "sophisticatedstorage-1.20.1-1.3.8.1074.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12790,18 +12793,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6193/871/sophisticatedstorage-1.20.1-1.3.7.1072.jar",
-                    "id": "6193871",
+                    "url": "https://edge.forgecdn.net/files/6194/194/sophisticatedstorage-1.20.1-1.3.8.1074.jar",
+                    "id": "6194194",
                     "parent_id": "619320",
                     "hashes": {
-                        "sha1": "da9c2f80f8c91770155534fc80f64c2c8d732f01",
-                        "md5": "688cc61afdf065f86aa5e31d500cef77"
+                        "sha1": "a0fac9047f09b60f5d5622c39ec447ee7f96b746",
+                        "md5": "8c01ff49aa5b9f6caab404bc55efcbb6"
                     },
                     "required_dependencies": [
                         "618298"
                     ],
-                    "size": 1520528,
-                    "date_published": "2025-02-14T20:46:23.810Z"
+                    "size": 1520579,
+                    "date_published": "2025-02-14T22:59:03.097Z"
                 }
             ]
         },
