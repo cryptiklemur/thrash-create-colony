@@ -1,3 +1,10 @@
+# [0.16.0](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.15.0...v0.16.0) (2025-02-15)
+
+
+### Features
+
+* **plugin:** Adding thirst, and eureka/valk skies ([4e2ddda](https://github.com/cryptiklemur/thrash-create-colony/commit/4e2dddaa625537d86de59a821e9c4ec084c4ae9d))
+
 # [0.15.0](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.14.1...v0.15.0) (2025-02-14)
 
 
