@@ -9,6 +9,7 @@ ServerEvents.tags('item', (x) => {
   x.add('ae2:p2p_attunements/fluid_p2p_tunnel', 'woodenbucket:wooden_bucket');
   x.add('vintagedelight:container_items', 'woodenbucket:wooden_bucket');
   x.add('farmersdelight:serving_containers', 'woodenbucket:wooden_bucket');
+  x.add('forge:immovable', '#vs_eureka:ship_helms');
 });
 
 ServerEvents.recipes((x) => {

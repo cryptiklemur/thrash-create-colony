@@ -354,7 +354,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "AmbientSounds_FORGE_v6.1.4_mc1.20.1.jar",
+                    "file_name": "AmbientSounds_FORGE_v6.1.6_mc1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -363,18 +363,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5968/59/AmbientSounds_FORGE_v6.1.4_mc1.20.1.jar",
-                    "id": "5968059",
+                    "url": "https://edge.forgecdn.net/files/6189/864/AmbientSounds_FORGE_v6.1.6_mc1.20.1.jar",
+                    "id": "6189864",
                     "parent_id": "254284",
                     "hashes": {
-                        "sha1": "4ed2c5bee5988f40cebef3bbc9dec39ab9096bf1",
-                        "md5": "10709a88a6c11f0c4d6cf9759297a704"
+                        "sha1": "1ac6f734ca821508816c77736e15f6190c710a6b",
+                        "md5": "8a13e5db399335fb9ec1596abd97385c"
                     },
                     "required_dependencies": [
                         "257814"
                     ],
-                    "size": 83885724,
-                    "date_published": "2024-12-06T14:06:33.837Z"
+                    "size": 83885823,
+                    "date_published": "2025-02-13T17:51:31.067Z"
                 }
             ]
         },
@@ -853,7 +853,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "balm-forge-1.20.1-7.3.14-all.jar",
+                    "file_name": "balm-forge-1.20.1-7.3.15-all.jar",
                     "mc_versions": [
                         "1.20.1",
                         "1.20"
@@ -862,16 +862,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6170/423/balm-forge-1.20.1-7.3.14-all.jar",
-                    "id": "6170423",
+                    "url": "https://edge.forgecdn.net/files/6189/418/balm-forge-1.20.1-7.3.15-all.jar",
+                    "id": "6189418",
                     "parent_id": "531761",
                     "hashes": {
-                        "sha1": "c0dd945794c9521c423dbfbac55ae2bc14d52db0",
-                        "md5": "d74217314517a69c06d51d47da9b9342"
+                        "sha1": "76db3d3c319dcdfb88231a648817069f07404dfa",
+                        "md5": "73148b2ad3c298907712d3c5a765174f"
                     },
                     "required_dependencies": [],
-                    "size": 403390,
-                    "date_published": "2025-02-08T08:27:29.943Z"
+                    "size": 404063,
+                    "date_published": "2025-02-13T15:32:30.637Z"
                 }
             ]
         },
@@ -1244,7 +1244,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "biomemusic-1.20.1-3.1.jar",
+                    "file_name": "biomemusic-1.20.1-3.3.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -1253,18 +1253,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6095/596/biomemusic-1.20.1-3.1.jar",
-                    "id": "6095596",
+                    "url": "https://edge.forgecdn.net/files/6193/616/biomemusic-1.20.1-3.3.jar",
+                    "id": "6193616",
                     "parent_id": "840873",
                     "hashes": {
-                        "sha1": "07a6d777935cfe34cbe13feeb61e6e0a2ecbf9b5",
-                        "md5": "90a4b6f4c0fc7e033e147191d1ffa30b"
+                        "sha1": "8460d5fc0f6747f5bb28713fe36959fce0fc78b1",
+                        "md5": "3fda878de4e10ea4e2cb21e6c2bb9904"
                     },
-                    "required_dependencies": [
-                        "326652"
-                    ],
-                    "size": 32600,
-                    "date_published": "2025-01-17T10:33:22.060Z"
+                    "required_dependencies": [],
+                    "size": 35058,
+                    "date_published": "2025-02-14T19:16:15.120Z"
                 }
             ]
         },
@@ -1958,6 +1956,42 @@
             ]
         },
         {
+            "pakku_id": "EdQvdqWwLkBK3sDx",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-clockwork"
+            },
+            "name": {
+                "curseforge": "Clockwork: Create x Valkyrien Skies"
+            },
+            "id": {
+                "curseforge": "807792"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "clockwork-1.20.1-0.1.16-forge-b3b22e39fe.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/5580/456/clockwork-1.20.1-0.1.16-forge-b3b22e39fe.jar",
+                    "id": "5580456",
+                    "parent_id": "807792",
+                    "hashes": {
+                        "sha1": "8005a91686ddd2197668d2a5fa41d7f7247273de",
+                        "md5": "cc52ebfe03509678566aa5bc1a95ff35"
+                    },
+                    "required_dependencies": [],
+                    "size": 3205758,
+                    "date_published": "2024-07-30T12:37:38.107Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "TaEJA0YocatKZw1t",
             "type": "MOD",
             "slug": {
@@ -2321,7 +2355,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "cookingforblockheads-forge-1.20.1-16.0.10.jar",
+                    "file_name": "cookingforblockheads-forge-1.20.1-16.0.11.jar",
                     "mc_versions": [
                         "1.20.1",
                         "1.20"
@@ -2330,18 +2364,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6119/301/cookingforblockheads-forge-1.20.1-16.0.10.jar",
-                    "id": "6119301",
+                    "url": "https://edge.forgecdn.net/files/6189/588/cookingforblockheads-forge-1.20.1-16.0.11.jar",
+                    "id": "6189588",
                     "parent_id": "231484",
                     "hashes": {
-                        "sha1": "50bac7180e66dfdc4c90db40bc36a195e267eae9",
-                        "md5": "98c0a7c9ac3e363c168bc06c534fceee"
+                        "sha1": "54d99e9ffba220402e62dc860916b1777b1458f7",
+                        "md5": "33abcdce6930f121e47a415f2726be13"
                     },
                     "required_dependencies": [
                         "531761"
                     ],
-                    "size": 822896,
-                    "date_published": "2025-01-24T10:10:11.010Z"
+                    "size": 822941,
+                    "date_published": "2025-02-13T16:20:27.580Z"
                 }
             ]
         },
@@ -4629,6 +4663,43 @@
                     "required_dependencies": [],
                     "size": 83883,
                     "date_published": "2024-02-09T11:12:07.397Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "F1aIWKHFvnqjpBkT",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-eureka"
+            },
+            "name": {
+                "curseforge": "Create: Eureka!"
+            },
+            "id": {
+                "curseforge": "1005816"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "create_eureka-1.0.0+forge-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5274/307/create_eureka-1.0.0+forge-1.20.1.jar",
+                    "id": "5274307",
+                    "parent_id": "1005816",
+                    "hashes": {
+                        "sha1": "13787586f39f766d75764ecde15ecc22303140eb",
+                        "md5": "bc63c1413cc1b6f0fdab9536cbdfe6a3"
+                    },
+                    "required_dependencies": [],
+                    "size": 569186,
+                    "date_published": "2024-04-19T13:40:37.113Z"
                 }
             ]
         },
@@ -6935,7 +7006,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "EnhancedVisuals_FORGE_v1.8.1_mc1.20.1.jar",
+                    "file_name": "EnhancedVisuals_FORGE_v1.8.2_mc1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -6944,18 +7015,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5370/490/EnhancedVisuals_FORGE_v1.8.1_mc1.20.1.jar",
-                    "id": "5370490",
+                    "url": "https://edge.forgecdn.net/files/6192/498/EnhancedVisuals_FORGE_v1.8.2_mc1.20.1.jar",
+                    "id": "6192498",
                     "parent_id": "255389",
                     "hashes": {
-                        "sha1": "647b4dfdb721fc873092ccfaca40c03235034ed8",
-                        "md5": "de2418c4becb5e0030d3c8d35659d101"
+                        "sha1": "780caf39421ccfc495d14cb287856ced97c32985",
+                        "md5": "8df8c9043267068df9f4e52de0116c93"
                     },
                     "required_dependencies": [
                         "257814"
                     ],
-                    "size": 4726281,
-                    "date_published": "2024-05-25T08:46:14.527Z"
+                    "size": 4726286,
+                    "date_published": "2025-02-14T13:11:44.420Z"
                 }
             ]
         },
@@ -7118,6 +7189,87 @@
                     ],
                     "size": 31704,
                     "date_published": "2023-07-17T19:56:32.790Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "xGdYcxKVJK2vu1KV",
+            "pakku_links": [
+                "HdEvrELLArMiPsli",
+                "9KYyblYlxaJo3E1k"
+            ],
+            "type": "RESOURCE_PACK",
+            "slug": {
+                "curseforge": "eureka-create-airships"
+            },
+            "name": {
+                "curseforge": "Eureka! Create Airships!"
+            },
+            "id": {
+                "curseforge": "807817"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Eureka Create 1.1.zip",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5144/69/Eureka Create 1.1.zip",
+                    "id": "5144069",
+                    "parent_id": "807817",
+                    "hashes": {
+                        "sha1": "8ee6d5c4386feece6498ed91aa9ec4c038f0f644",
+                        "md5": "458bd42efb795e9e3f467d5a0f12b6c7"
+                    },
+                    "required_dependencies": [
+                        "654384",
+                        "328085"
+                    ],
+                    "size": 197302,
+                    "date_published": "2024-02-28T20:08:01.840Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "HdEvrELLArMiPsli",
+            "pakku_links": [
+                "rKIIqU9l96vaDjF5"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "eureka-ships"
+            },
+            "name": {
+                "curseforge": "Eureka! Ships! for Valkyrien Skies (Forge/Fabric)"
+            },
+            "id": {
+                "curseforge": "654384"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "eureka-1201-1.5.1-beta.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/5321/630/eureka-1201-1.5.1-beta.3.jar",
+                    "id": "5321630",
+                    "parent_id": "654384",
+                    "hashes": {
+                        "sha1": "e506f80fb2ece9c54b80df2256980b0b97705b40",
+                        "md5": "47fa26554269a74449fc5159501a7cc2"
+                    },
+                    "required_dependencies": [
+                        "258371"
+                    ],
+                    "size": 501311,
+                    "date_published": "2024-05-06T20:18:03.517Z"
                 }
             ]
         },
@@ -11891,45 +12043,6 @@
             ]
         },
         {
-            "pakku_id": "J9uLEwP7YGkLBFwf",
-            "type": "RESOURCE_PACK",
-            "slug": {
-                "curseforge": "round-trees-mc-vanilla-1-8-1-13"
-            },
-            "name": {
-                "curseforge": "Round Trees"
-            },
-            "id": {
-                "curseforge": "296616"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "Round-Trees-7.1-1.19+.zip",
-                    "mc_versions": [
-                        "1.20.2",
-                        "1.20.5",
-                        "1.20.3",
-                        "1.20.1",
-                        "1.20",
-                        "1.20.6",
-                        "1.20.4"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/4434/39/Round-Trees-7.1-1.19+.zip",
-                    "id": "4434039",
-                    "parent_id": "296616",
-                    "hashes": {
-                        "sha1": "d81bbb9d42e1e48b84c9957883de4fbe79e94bb1",
-                        "md5": "081b608fc0fdd48878d3e1d19b53cda2"
-                    },
-                    "required_dependencies": [],
-                    "size": 144060,
-                    "date_published": "2023-03-12T16:38:24.490Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "7bLQ385IX8A1OwpZ",
             "type": "MOD",
             "slug": {
@@ -12631,7 +12744,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sophisticatedcore-1.20.1-1.2.9.867.jar",
+                    "file_name": "sophisticatedcore-1.20.1-1.2.12.872.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12640,16 +12753,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6186/192/sophisticatedcore-1.20.1-1.2.9.867.jar",
-                    "id": "6186192",
+                    "url": "https://edge.forgecdn.net/files/6190/554/sophisticatedcore-1.20.1-1.2.12.872.jar",
+                    "id": "6190554",
                     "parent_id": "618298",
                     "hashes": {
-                        "sha1": "299f93ebba92b0ba97261cf0d745cf91940feb2b",
-                        "md5": "548ae5a0489d81da310380bd81d27d00"
+                        "sha1": "fc868b381a475e04c78d104b5573a7012011ae27",
+                        "md5": "c619e3f47d149aaffc3deea511f68b47"
                     },
                     "required_dependencies": [],
-                    "size": 1152512,
-                    "date_published": "2025-02-12T18:01:02.820Z"
+                    "size": 1156871,
+                    "date_published": "2025-02-13T21:03:28.090Z"
                 }
             ]
         },
@@ -12668,7 +12781,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sophisticatedstorage-1.20.1-1.3.5.1068.jar",
+                    "file_name": "sophisticatedstorage-1.20.1-1.3.7.1072.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12677,18 +12790,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6178/603/sophisticatedstorage-1.20.1-1.3.5.1068.jar",
-                    "id": "6178603",
+                    "url": "https://edge.forgecdn.net/files/6193/871/sophisticatedstorage-1.20.1-1.3.7.1072.jar",
+                    "id": "6193871",
                     "parent_id": "619320",
                     "hashes": {
-                        "sha1": "7ae2f45de003dd056be306da3c8e4771ea044729",
-                        "md5": "194a9d4f3cc26b36d1217dae103dcc3d"
+                        "sha1": "da9c2f80f8c91770155534fc80f64c2c8d732f01",
+                        "md5": "688cc61afdf065f86aa5e31d500cef77"
                     },
                     "required_dependencies": [
                         "618298"
                     ],
-                    "size": 1520405,
-                    "date_published": "2025-02-10T15:17:08.160Z"
+                    "size": 1520528,
+                    "date_published": "2025-02-14T20:46:23.810Z"
                 }
             ]
         },
@@ -12827,7 +12940,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "starterkit-1.20.1-7.2.jar",
+                    "file_name": "starterkit-1.20.1-7.3.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12838,18 +12951,18 @@
                         "quilt"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6185/96/starterkit-1.20.1-7.2.jar",
-                    "id": "6185096",
+                    "url": "https://edge.forgecdn.net/files/6189/602/starterkit-1.20.1-7.3.jar",
+                    "id": "6189602",
                     "parent_id": "390717",
                     "hashes": {
-                        "sha1": "b800ab3c8ce80af46dc30b5d096414b1567f74b6",
-                        "md5": "26ae3669c3bdc01a66612f728559dfac"
+                        "sha1": "014d670846edb575d839a1330e6b891410d405f2",
+                        "md5": "ec4320cd78d19aa1b534bf0ca5e8cb1d"
                     },
                     "required_dependencies": [
                         "342584"
                     ],
-                    "size": 185027,
-                    "date_published": "2025-02-12T13:19:44.287Z"
+                    "size": 185205,
+                    "date_published": "2025-02-13T16:22:42.870Z"
                 }
             ]
         },
@@ -13275,6 +13388,42 @@
                     ],
                     "size": 196867,
                     "date_published": "2024-01-29T22:52:44.180Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "QStMpGlvauIMCxFQ",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "thirst-was-taken"
+            },
+            "name": {
+                "curseforge": "Thirst Was Taken"
+            },
+            "id": {
+                "curseforge": "679270"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ThirstWasTaken-1.20.1-1.3.13.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6110/320/ThirstWasTaken-1.20.1-1.3.13.jar",
+                    "id": "6110320",
+                    "parent_id": "679270",
+                    "hashes": {
+                        "sha1": "53e953e6e02bd32c377e62f55f0418facdb068dc",
+                        "md5": "aaa61e1342bcf1c67342c770cb4247ba"
+                    },
+                    "required_dependencies": [],
+                    "size": 214752,
+                    "date_published": "2025-01-21T16:29:08.727Z"
                 }
             ]
         },
@@ -13851,6 +14000,42 @@
                     "required_dependencies": [],
                     "size": 1045910,
                     "date_published": "2025-01-14T21:30:24.660Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "rKIIqU9l96vaDjF5",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "valkyrien-skies"
+            },
+            "name": {
+                "curseforge": "Valkyrien Skies (Forge/Fabric)"
+            },
+            "id": {
+                "curseforge": "258371"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "valkyrienskies-120-2.3.0-beta.5.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/5212/232/valkyrienskies-120-2.3.0-beta.5.jar",
+                    "id": "5212232",
+                    "parent_id": "258371",
+                    "hashes": {
+                        "sha1": "cf2ad09ca6b53f621b2a6af507ccacbc88fbba5a",
+                        "md5": "edbddf585b74a4c4e505bf8273c69ebe"
+                    },
+                    "required_dependencies": [],
+                    "size": 13774983,
+                    "date_published": "2024-03-26T06:47:54.333Z"
                 }
             ]
         },
