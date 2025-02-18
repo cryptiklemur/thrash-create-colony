@@ -1,3 +1,10 @@
+## [0.16.3](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.16.2...v0.16.3) (2025-02-18)
+
+
+### Bug Fixes
+
+* **recipe:** Adding pressing recipe for tungsten ingot ([559221b](https://github.com/cryptiklemur/thrash-create-colony/commit/559221bb9368ef71929534ece9fa09f2b3462a94))
+
 ## [0.16.2](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.16.1...v0.16.2) (2025-02-18)
 
 
