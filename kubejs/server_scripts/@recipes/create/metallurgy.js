@@ -1,8 +1,10 @@
 const dusts = ['copper', 'iron', 'gold', 'zinc'];
 
 ServerEvents.recipes((x) => {
-  dusts.forEach((dust) => {
-    const dirty = Item.of(`createmetallurgy:dirty_${dust}_dust`);
-    const clean = Item.of(`createmetallurgy:${dust}_dust`);
-  });
+  x.recipes.createmetallurgy.melting(
+    `createmetallurgy:molten_tungsten`,
+    `createmetallurgy:dirty_wolframite_dust`,
+    30,
+    'heated',
+  );
 });
