@@ -1,3 +1,10 @@
+## [0.16.2](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.16.1...v0.16.2) (2025-02-18)
+
+
+### Bug Fixes
+
+* **recipe:** Adding dirty wolframite recipe ([43ac04c](https://github.com/cryptiklemur/thrash-create-colony/commit/43ac04c642a2405b118d09a744ad5c437cbfe532))
+
 ## [0.16.1](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.16.0...v0.16.1) (2025-02-15)
 
 
