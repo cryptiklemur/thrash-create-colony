@@ -7,4 +7,8 @@ ServerEvents.recipes((x) => {
     30,
     'heated',
   );
+  x.recipes.create.compacting(
+    'createmetallurgy:tungsten_sheet',
+    `createmetallurgy:tungsten_ingot`,
+  );
 });
