@@ -1,3 +1,10 @@
+# [0.17.0](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.16.4...v0.17.0) (2025-02-18)
+
+
+### Features
+
+* **plugin:** Adding petrols parts and updating otgher mods ([c0c947b](https://github.com/cryptiklemur/thrash-create-colony/commit/c0c947b56e7be5a16335e8a88834e813564d4dd4))
+
 ## [0.16.4](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.16.3...v0.16.4) (2025-02-18)
 
 
