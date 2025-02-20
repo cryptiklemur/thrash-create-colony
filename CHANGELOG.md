@@ -1,3 +1,10 @@
+## [0.17.2](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.17.1...v0.17.2) (2025-02-20)
+
+
+### Bug Fixes
+
+* **recipe:** Adding magnetite recipe in energizer ([da9f25f](https://github.com/cryptiklemur/thrash-create-colony/commit/da9f25f2042b38fb1ab78c99792a1006f88eaedd))
+
 ## [0.17.1](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.17.0...v0.17.1) (2025-02-20)
 
 
