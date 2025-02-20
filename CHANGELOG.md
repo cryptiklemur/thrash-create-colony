@@ -1,3 +1,10 @@
+## [0.17.1](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.17.0...v0.17.1) (2025-02-20)
+
+
+### Bug Fixes
+
+* **recipe:** Fix tunsten sheet recipe from compacting to pressing ([bad612d](https://github.com/cryptiklemur/thrash-create-colony/commit/bad612dfb8d0d9c6b994243b582972018a0dcd8d))
+
 # [0.17.0](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.16.4...v0.17.0) (2025-02-18)
 
 
