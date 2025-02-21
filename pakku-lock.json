@@ -913,6 +913,9 @@
         },
         {
             "pakku_id": "fsXfIGRYp1KIRcbz",
+            "pakku_links": [
+                "FUoeBPrgBrK85Jlh"
+            ],
             "type": "MOD",
             "slug": {
                 "curseforge": "better-animations-collection"
@@ -2921,52 +2924,6 @@
                     ],
                     "size": 28966,
                     "date_published": "2024-01-01T20:43:03.563Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "QmTRAZwjIkCY5EUd",
-            "pakku_links": [
-                "pEHulyHblXbQq7ZD",
-                "9KYyblYlxaJo3E1k"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "create-air-forge"
-            },
-            "name": {
-                "curseforge": "Create Air [Forge]"
-            },
-            "id": {
-                "curseforge": "880593"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "createair-1.0-1.20.1.jar",
-                    "mc_versions": [
-                        "1.20.2",
-                        "1.20.3",
-                        "1.20.1",
-                        "1.20.4"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5047/180/createair-1.0-1.20.1.jar",
-                    "id": "5047180",
-                    "parent_id": "880593",
-                    "hashes": {
-                        "sha1": "9b0dba87681a090fced03398e810cf85019646bc",
-                        "md5": "3af08d44f972631544e8d58c805e9079"
-                    },
-                    "required_dependencies": [
-                        "878379",
-                        "328085"
-                    ],
-                    "size": 57634,
-                    "date_published": "2024-01-20T12:04:00.717Z"
                 }
             ]
         },
@@ -6768,7 +6725,7 @@
         {
             "pakku_id": "gYIXY8cFt8y3im9u",
             "pakku_links": [
-                "aEYZ0vlEGdgLmp6z"
+                "FUoeBPrgBrK85Jlh"
             ],
             "type": "MOD",
             "slug": {
@@ -6808,6 +6765,9 @@
         },
         {
             "pakku_id": "hqgGbJoYCUzzbFyZ",
+            "pakku_links": [
+                "FUoeBPrgBrK85Jlh"
+            ],
             "type": "MOD",
             "slug": {
                 "curseforge": "easy-magic"
@@ -8695,6 +8655,9 @@
         },
         {
             "pakku_id": "X346OF9lkwVrtmEu",
+            "pakku_links": [
+                "FUoeBPrgBrK85Jlh"
+            ],
             "type": "MOD",
             "slug": {
                 "curseforge": "hang-glider"
@@ -11823,7 +11786,7 @@
             ]
         },
         {
-            "pakku_id": "aEYZ0vlEGdgLmp6z",
+            "pakku_id": "FUoeBPrgBrK85Jlh",
             "type": "MOD",
             "slug": {
                 "curseforge": "puzzles-lib"
@@ -13440,83 +13403,6 @@
             ]
         },
         {
-            "pakku_id": "pEHulyHblXbQq7ZD",
-            "pakku_links": [
-                "aEYZ0vlEGdgLmp6z"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "new-thin-air"
-            },
-            "name": {
-                "curseforge": "Thin Air [Forge & Fabric]"
-            },
-            "id": {
-                "curseforge": "878379"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "ThinAir-v8.1.5-1.20.1-Forge.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5068/247/ThinAir-v8.1.5-1.20.1-Forge.jar",
-                    "id": "5068247",
-                    "parent_id": "878379",
-                    "hashes": {
-                        "sha1": "a15d5f434c02a5a76e185835093acd3de4b15d95",
-                        "md5": "d2e12f20a51a1e4cd2cdb078da3ca95b"
-                    },
-                    "required_dependencies": [
-                        "495476"
-                    ],
-                    "size": 196867,
-                    "date_published": "2024-01-29T22:52:44.180Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "QStMpGlvauIMCxFQ",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "thirst-was-taken"
-            },
-            "name": {
-                "curseforge": "Thirst Was Taken"
-            },
-            "id": {
-                "curseforge": "679270"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "ThirstWasTaken-1.20.1-1.3.13.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6110/320/ThirstWasTaken-1.20.1-1.3.13.jar",
-                    "id": "6110320",
-                    "parent_id": "679270",
-                    "hashes": {
-                        "sha1": "53e953e6e02bd32c377e62f55f0418facdb068dc",
-                        "md5": "aaa61e1342bcf1c67342c770cb4247ba"
-                    },
-                    "required_dependencies": [],
-                    "size": 214752,
-                    "date_published": "2025-01-21T16:29:08.727Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "tWTC1sBNoiAVuUFU",
             "type": "MOD",
             "slug": {
@@ -13816,6 +13702,9 @@
         },
         {
             "pakku_id": "DHIC0SHGoUiUDDmD",
+            "pakku_links": [
+                "FUoeBPrgBrK85Jlh"
+            ],
             "type": "MOD",
             "slug": {
                 "curseforge": "trading-post"
