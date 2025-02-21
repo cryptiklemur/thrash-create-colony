@@ -1,3 +1,10 @@
+## [0.17.3](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.17.2...v0.17.3) (2025-02-21)
+
+
+### Bug Fixes
+
+* **recipe:** Adding crushing recipe for thorium ore ([b8e13bf](https://github.com/cryptiklemur/thrash-create-colony/commit/b8e13bf6ada23850407625cbb2544758d2eb0c55))
+
 ## [0.17.2](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.17.1...v0.17.2) (2025-02-20)
 
 
