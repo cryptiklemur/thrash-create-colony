@@ -379,4 +379,15 @@ ServerEvents.recipes((x) => {
       }
     }
   }
+
+  const thorium = 'create_new_age:thorium';
+  x.recipes.create.crushing(
+    [
+      Item.of(thorium, 9),
+      Item.of(thorium, 9).withChance(0.75),
+      Item.of(thorium, 9).withChance(0.25),
+      Item.of('create_new_age:radioactive_thorium', 3).withChance(0.1),
+    ],
+    Item.of('create_new_age:thorium_ore'),
+  );
 });
