@@ -1,3 +1,10 @@
+## [0.17.4](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.17.3...v0.17.4) (2025-02-21)
+
+
+### Bug Fixes
+
+* **recipe:** Adding compressing recipe for all ores ([6fd2f8a](https://github.com/cryptiklemur/thrash-create-colony/commit/6fd2f8af9d934ea93cdae055ffcacdc4d12b53fa))
+
 ## [0.17.3](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.17.2...v0.17.3) (2025-02-21)
 
 
