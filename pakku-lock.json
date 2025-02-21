@@ -2085,7 +2085,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "collective-1.20.1-7.91.jar",
+                    "file_name": "collective-1.20.1-7.92.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -2096,16 +2096,16 @@
                         "quilt"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6184/435/collective-1.20.1-7.91.jar",
-                    "id": "6184435",
+                    "url": "https://edge.forgecdn.net/files/6209/646/collective-1.20.1-7.92.jar",
+                    "id": "6209646",
                     "parent_id": "342584",
                     "hashes": {
-                        "sha1": "d51db8d8ab911ce845a92bf0f05f21ea4b8a2a3e",
-                        "md5": "b0e7a2adb45259af140068996a6786b2"
+                        "sha1": "764c91e57b300368ea020c1bfb873d6314ed3001",
+                        "md5": "7a110ffeb7124063bb0baadab64ebec7"
                     },
                     "required_dependencies": [],
-                    "size": 649086,
-                    "date_published": "2025-02-12T09:47:43.907Z"
+                    "size": 653144,
+                    "date_published": "2025-02-19T14:03:17.370Z"
                 }
             ]
         },
@@ -3288,7 +3288,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "CreateCasing-1.20.1-1.6.2-fix1.jar",
+                    "file_name": "CreateCasing-1.20.1-1.6.2-fix3.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -3296,18 +3296,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5859/603/CreateCasing-1.20.1-1.6.2-fix1.jar",
-                    "id": "5859603",
+                    "url": "https://edge.forgecdn.net/files/6214/533/CreateCasing-1.20.1-1.6.2-fix3.jar",
+                    "id": "6214533",
                     "parent_id": "829380",
                     "hashes": {
-                        "sha1": "fb6cea30e70b576220728ffd440e2e6d86526011",
-                        "md5": "8de92a3d3ef1930baae2ae0493a14a97"
+                        "sha1": "a0873d3996d1e201bdb3a125bcf2bb6ad18bc9b1",
+                        "md5": "65c9868b970936bc30f0ab887001d45e"
                     },
-                    "required_dependencies": [
-                        "328085"
-                    ],
-                    "size": 8335091,
-                    "date_published": "2024-10-30T12:03:15.193Z"
+                    "required_dependencies": [],
+                    "size": 1399107,
+                    "date_published": "2025-02-20T19:30:17.667Z"
                 }
             ]
         },
@@ -5962,7 +5960,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "curios-forge-5.11.1+1.20.1.jar",
+                    "file_name": "curios-forge-5.12.0+1.20.1.jar",
                     "mc_versions": [
                         "1.20.1",
                         "1.20"
@@ -5972,16 +5970,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6058/834/curios-forge-5.11.1+1.20.1.jar",
-                    "id": "6058834",
+                    "url": "https://edge.forgecdn.net/files/6216/710/curios-forge-5.12.0+1.20.1.jar",
+                    "id": "6216710",
                     "parent_id": "309927",
                     "hashes": {
-                        "sha1": "73c11645c983180f0b0de7c0325caeba28a056d7",
-                        "md5": "6b0ae6e4b36ce6845f9d47c501c4de26"
+                        "sha1": "90b08ee6b0d1187550260ff9869c66a2ef854125",
+                        "md5": "ff100e443fb8371185bfe8caf43d49ab"
                     },
                     "required_dependencies": [],
-                    "size": 390918,
-                    "date_published": "2025-01-06T08:16:17.383Z"
+                    "size": 394715,
+                    "date_published": "2025-02-21T10:57:45.240Z"
                 }
             ]
         },
@@ -12796,7 +12794,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sophisticatedcore-1.20.1-1.2.14.875.jar",
+                    "file_name": "sophisticatedcore-1.20.1-1.2.18.885.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12805,16 +12803,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6201/348/sophisticatedcore-1.20.1-1.2.14.875.jar",
-                    "id": "6201348",
+                    "url": "https://edge.forgecdn.net/files/6214/959/sophisticatedcore-1.20.1-1.2.18.885.jar",
+                    "id": "6214959",
                     "parent_id": "618298",
                     "hashes": {
-                        "sha1": "a7e770f8b47bbe956bbd9a965ca478c5a74b94b9",
-                        "md5": "be031ef587453826e1a59be3e19101a8"
+                        "sha1": "bf52dda758f6b41b75e78d6dd9acf8912c487a95",
+                        "md5": "3798e48c55e8380b16c979116e4e9b9c"
                     },
                     "required_dependencies": [],
-                    "size": 1157423,
-                    "date_published": "2025-02-16T22:49:46.203Z"
+                    "size": 1166710,
+                    "date_published": "2025-02-20T21:18:59.433Z"
                 }
             ]
         },
@@ -12833,7 +12831,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sophisticatedstorage-1.20.1-1.3.8.1074.jar",
+                    "file_name": "sophisticatedstorage-1.20.1-1.3.9.1075.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12842,18 +12840,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6194/194/sophisticatedstorage-1.20.1-1.3.8.1074.jar",
-                    "id": "6194194",
+                    "url": "https://edge.forgecdn.net/files/6217/888/sophisticatedstorage-1.20.1-1.3.9.1075.jar",
+                    "id": "6217888",
                     "parent_id": "619320",
                     "hashes": {
-                        "sha1": "a0fac9047f09b60f5d5622c39ec447ee7f96b746",
-                        "md5": "8c01ff49aa5b9f6caab404bc55efcbb6"
+                        "sha1": "bc9a1b8b7e0e4df830940134d35a476637284b99",
+                        "md5": "e487e1257da49e3fe4f6ab57531a2f2c"
                     },
                     "required_dependencies": [
                         "618298"
                     ],
-                    "size": 1520579,
-                    "date_published": "2025-02-14T22:59:03.097Z"
+                    "size": 1531699,
+                    "date_published": "2025-02-21T17:03:37.840Z"
                 }
             ]
         },
@@ -14243,7 +14241,7 @@
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "alpha",
+                    "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/6184/430/Xaeros_Minimap_25.1.0_Forge_1.20.jar",
                     "id": "6184430",
                     "parent_id": "263420",
@@ -14272,7 +14270,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "XaerosWorldMap_1.39.2_Forge_1.20.jar",
+                    "file_name": "XaerosWorldMap_1.39.4_Forge_1.20.jar",
                     "mc_versions": [
                         "1.20.1",
                         "1.20"
@@ -14280,17 +14278,17 @@
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5987/149/XaerosWorldMap_1.39.2_Forge_1.20.jar",
-                    "id": "5987149",
+                    "release_type": "alpha",
+                    "url": "https://edge.forgecdn.net/files/6212/636/XaerosWorldMap_1.39.4_Forge_1.20.jar",
+                    "id": "6212636",
                     "parent_id": "317780",
                     "hashes": {
-                        "sha1": "75fa377a33128aa0f294b310838032ddd697810f",
-                        "md5": "d052e96d54415b5073acec65ae548245"
+                        "sha1": "cb2027cd4cb87704750c666205d16b6a0234a63d",
+                        "md5": "3da6919fb4f0c993772c073d787403e1"
                     },
                     "required_dependencies": [],
-                    "size": 931860,
-                    "date_published": "2024-12-13T08:18:53.190Z"
+                    "size": 933184,
+                    "date_published": "2025-02-20T09:16:59.333Z"
                 }
             ]
         },
@@ -14309,7 +14307,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "XaeroPlus-2.26.2+forge-1.20.1-WM1.39.2-MM25.1.0.jar",
+                    "file_name": "XaeroPlus-2.26.3+forge-1.20.1-WM1.39.4-MM25.1.0.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -14318,19 +14316,19 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6186/736/XaeroPlus-2.26.2+forge-1.20.1-WM1.39.2-MM25.1.0.jar",
-                    "id": "6186736",
+                    "url": "https://edge.forgecdn.net/files/6214/867/XaeroPlus-2.26.3+forge-1.20.1-WM1.39.4-MM25.1.0.jar",
+                    "id": "6214867",
                     "parent_id": "866084",
                     "hashes": {
-                        "sha1": "b6c120de88f19b478294d65215df13cab84617ed",
-                        "md5": "4db65d5b052463ef37c47982c71e0161"
+                        "sha1": "46f66e84e80402401d828a51b26b9d8025c97250",
+                        "md5": "4d6257cb3498c6c63220227c744c498a"
                     },
                     "required_dependencies": [
                         "317780",
                         "263420"
                     ],
-                    "size": 4899845,
-                    "date_published": "2025-02-12T20:30:04.703Z"
+                    "size": 4953678,
+                    "date_published": "2025-02-20T20:59:14.353Z"
                 }
             ]
         },
