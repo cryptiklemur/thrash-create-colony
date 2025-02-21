@@ -1,3 +1,10 @@
+# [0.18.0](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.17.4...v0.18.0) (2025-02-21)
+
+
+### Features
+
+* **mod:** Removing thin air and thirst ([d01136d](https://github.com/cryptiklemur/thrash-create-colony/commit/d01136dd6a0a7f81cd40aca84b0448a6fab1a28f))
+
 ## [0.17.4](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.17.3...v0.17.4) (2025-02-21)
 
 
