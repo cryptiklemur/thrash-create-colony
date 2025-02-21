@@ -265,6 +265,10 @@ ServerEvents.recipes((x) => {
       ],
       ore,
     );
+    x.recipes.create.compacting(Item.of(ore), [
+      Item.of('minecraft:stone'),
+      Item.of(raw.item, raw.count),
+    ]);
 
     for (const type of [
       'create:splashing',
