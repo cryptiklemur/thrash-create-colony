@@ -1,3 +1,10 @@
+## [0.18.3](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.18.2...v0.18.3) (2025-02-21)
+
+
+### Bug Fixes
+
+* **mod:** Updating mods ([e0dbe3a](https://github.com/cryptiklemur/thrash-create-colony/commit/e0dbe3ae8a6e02ee28ae6d7ed3d3797c435ca955))
+
 ## [0.18.2](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.18.1...v0.18.2) (2025-02-21)
 
 
