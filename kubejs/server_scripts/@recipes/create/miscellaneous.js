@@ -6,11 +6,14 @@ ServerEvents.recipes((x) => {
     '#forge:ingots/copper',
   ]);
 
-  x.recipes.create.crushing([
-    Item.of('biomesoplenty:rose_quartz_chunk', 4),
-    Item.of('biomesoplenty:rose_quartz_chunk', 4).withChance(0.75),
-    Item.of('biomesoplenty:rose_quartz_chunk', 4).withChance(0.25),
-  ]);
+  x.recipes.create.crushing(
+    [
+      Item.of('biomesoplenty:rose_quartz_chunk', 4),
+      Item.of('biomesoplenty:rose_quartz_chunk', 4).withChance(0.75),
+      Item.of('biomesoplenty:rose_quartz_chunk', 4).withChance(0.25),
+    ],
+    'biomesoplenty:rose_quartz_block',
+  );
 
   x.custom({
     type: 'create_new_age:energising',
