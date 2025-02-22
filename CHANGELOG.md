@@ -1,3 +1,10 @@
+## [0.18.5](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.18.4...v0.18.5) (2025-02-22)
+
+
+### Bug Fixes
+
+* **recipe:** Adding crushing recipe for rose quartz block ([e8d183b](https://github.com/cryptiklemur/thrash-create-colony/commit/e8d183b21fc7f507986ab737c00dc40c0582ebc7))
+
 ## [0.18.4](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.18.3...v0.18.4) (2025-02-22)
 
 
