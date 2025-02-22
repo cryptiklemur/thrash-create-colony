@@ -1,3 +1,10 @@
+## [0.18.4](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.18.3...v0.18.4) (2025-02-22)
+
+
+### Bug Fixes
+
+* **recipe:** Fixing wooden hopper -> iron hopper recipe ([69b8428](https://github.com/cryptiklemur/thrash-create-colony/commit/69b842873d44a27b5540ff04258a15b02b9b0e74))
+
 ## [0.18.3](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.18.2...v0.18.3) (2025-02-21)
 
 
