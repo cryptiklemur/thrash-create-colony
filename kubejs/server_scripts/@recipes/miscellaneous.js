@@ -13,7 +13,7 @@ ServerEvents.tags('item', (x) => {
 });
 
 ServerEvents.recipes((x) => {
-  x.shaped('minecraft:hopper', ['A  A', 'ABA', ' A '], {
+  x.shaped('minecraft:hopper', ['A A', 'ABA', ' A '], {
     A: '#forge:ingots/iron',
     B: 'woodenhopper:wooden_hopper',
   });
