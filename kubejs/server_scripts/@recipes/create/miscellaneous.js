@@ -35,6 +35,10 @@ ServerEvents.recipes((x) => {
   // WAD + Lava + unheated = 2 netherite scraps
   // WAD + heated = 3 netherite scraps
   // WAD + superheated = 5 netherite scraps
+  x.recipes.create.splashing(
+    'kubejs:washed_ancient_debris',
+    '#chipped:ancient_debris',
+  );
   x.recipes.create.compacting('2x minecraft:netherite_scrap', [
     Fluid.lava(100),
     Item.of('kubejs:washed_ancient_debris'),
