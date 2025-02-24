@@ -63,7 +63,6 @@ ServerEvents.recipes((x) => {
   );
 
   for (const color of Object.keys(colorMixtures)) {
-    console.log(`Creating recipes for mixtures for ${color}`);
     colorMixtures[color].forEach((recipe) => {
       x.shapeless(
         `minecraft:${color}_dye`,

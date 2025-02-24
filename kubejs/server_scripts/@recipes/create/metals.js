@@ -104,7 +104,7 @@ const metals = {
   },
   aluminum: {
     raw: { item: 'creatingspace:raw_aluminum', count: 3 },
-    ore: '#forge:raw_materials/aluminum',
+    ore: '#tfmg:stone_types/bauxite',
     mod: 'creatingspace',
     crushed: 'create:crushed_raw_aluminum',
     compressed: false,
@@ -120,17 +120,17 @@ const metals = {
   },
   crimson_iron: {
     raw: { item: 'silentgear:raw_crimson_iron', count: 9 },
-    ore: 'silentgear:raw_crimson_iron',
+    ore: '#forge:ores/crimson_iron',
     mod: 'silentgear',
-    crushed: false,
+    crushed: 'silentgear:crimson_iron_dust',
     compressed: false,
     washing: Item.of('minecraft:quartz').withChance(0.25),
   },
   azure_silver: {
     raw: { item: 'silentgear:raw_azure_silver', count: 9 },
-    ore: 'silentgear:raw_azure_silver',
+    ore: '#forge:ores/azure_silver',
     mod: 'silentgear',
-    crushed: false,
+    crushed: 'silentgear:azure_silver_dust',
     compressed: false,
   },
   silver: {

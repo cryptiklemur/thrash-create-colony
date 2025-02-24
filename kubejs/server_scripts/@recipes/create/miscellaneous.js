@@ -55,4 +55,10 @@ ServerEvents.recipes((x) => {
     100,
     'superheated',
   );
+
+  // Bort
+  x.recipes.create.crushing(
+    ['3x silentgear:bort', Item.of('2x silentgear:bort').withChance(0.25)],
+    '#forge:ores/bort',
+  );
 });
