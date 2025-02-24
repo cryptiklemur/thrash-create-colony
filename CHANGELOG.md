@@ -1,3 +1,10 @@
+# [0.19.0](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.18.5...v0.19.0) (2025-02-24)
+
+
+### Features
+
+* **recipe:** Adding new recipes for brown dye, black dye, green dye, and yellow dye. ([6a6aaff](https://github.com/cryptiklemur/thrash-create-colony/commit/6a6aafff674b9585e443b3364142c3e5f1425040))
+
 ## [0.18.5](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.18.4...v0.18.5) (2025-02-22)
 
 
