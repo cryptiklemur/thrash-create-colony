@@ -853,7 +853,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "balm-forge-1.20.1-7.3.17-all.jar",
+                    "file_name": "balm-forge-1.20.1-7.3.18-all.jar",
                     "mc_versions": [
                         "1.20.1",
                         "1.20"
@@ -862,16 +862,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6205/942/balm-forge-1.20.1-7.3.17-all.jar",
-                    "id": "6205942",
+                    "url": "https://edge.forgecdn.net/files/6224/877/balm-forge-1.20.1-7.3.18-all.jar",
+                    "id": "6224877",
                     "parent_id": "531761",
                     "hashes": {
-                        "sha1": "11a07e360bd9e277ed0855a9bc822d5eb1f0756b",
-                        "md5": "53d8e27fa40951de6942a9b1f8edecc0"
+                        "sha1": "7357358c762ca4d1148f958060ce599075e59f47",
+                        "md5": "c289bb503be7903f53d04e04988aaf09"
                     },
                     "required_dependencies": [],
-                    "size": 442273,
-                    "date_published": "2025-02-18T09:49:39.267Z"
+                    "size": 442600,
+                    "date_published": "2025-02-23T10:06:47.577Z"
                 }
             ]
         },
@@ -1514,7 +1514,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "bucketlib-1.20.1-2.3.5.2.jar",
+                    "file_name": "bucketlib-1.20.1-2.3.5.3.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -1523,16 +1523,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6110/874/bucketlib-1.20.1-2.3.5.2.jar",
-                    "id": "6110874",
+                    "url": "https://edge.forgecdn.net/files/6221/102/bucketlib-1.20.1-2.3.5.3.jar",
+                    "id": "6221102",
                     "parent_id": "560156",
                     "hashes": {
-                        "sha1": "30c0dc207d607c5470a1c356c6afa03c2aa88554",
-                        "md5": "bcac642c4f8af706087826305664d2d4"
+                        "sha1": "56ebdeb1d4bfbd69572f21525eee45ba76c6017f",
+                        "md5": "e509514d111254f2a5a7466423fcdd4b"
                     },
                     "required_dependencies": [],
-                    "size": 140596,
-                    "date_published": "2025-01-21T19:12:34.883Z"
+                    "size": 141866,
+                    "date_published": "2025-02-22T13:27:24.443Z"
                 }
             ]
         },
@@ -2085,7 +2085,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "collective-1.20.1-7.92.jar",
+                    "file_name": "collective-1.20.1-7.93.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -2096,16 +2096,16 @@
                         "quilt"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6209/646/collective-1.20.1-7.92.jar",
-                    "id": "6209646",
+                    "url": "https://edge.forgecdn.net/files/6224/948/collective-1.20.1-7.93.jar",
+                    "id": "6224948",
                     "parent_id": "342584",
                     "hashes": {
-                        "sha1": "764c91e57b300368ea020c1bfb873d6314ed3001",
-                        "md5": "7a110ffeb7124063bb0baadab64ebec7"
+                        "sha1": "c4feddd2423d2b512d9aa9bf1d09907f0939d484",
+                        "md5": "00a31be12fb7fb185a4ccb538a116b5a"
                     },
                     "required_dependencies": [],
-                    "size": 653144,
-                    "date_published": "2025-02-19T14:03:17.370Z"
+                    "size": 654394,
+                    "date_published": "2025-02-23T10:23:51.450Z"
                 }
             ]
         },
@@ -6231,7 +6231,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Dramatic Skys Demo 1.5.3.31.zip",
+                    "file_name": "Dramatic Skys Demo 1.5.3.32.zip",
                     "mc_versions": [
                         "1.20.2",
                         "1.20.5",
@@ -6246,16 +6246,16 @@
                         "1.20-Snapshot"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6046/801/Dramatic Skys Demo 1.5.3.31.zip",
-                    "id": "6046801",
+                    "url": "https://edge.forgecdn.net/files/6223/639/Dramatic Skys Demo 1.5.3.32.zip",
+                    "id": "6223639",
                     "parent_id": "231821",
                     "hashes": {
-                        "sha1": "e8068643feafcbf167ec8a858f6d9a8d6cab849c",
-                        "md5": "af91967a7b91c7d0be44ea92a2086d6a"
+                        "sha1": "68cd949c00fe8e4142b119b87b97e0df4ae331e9",
+                        "md5": "2cf6e142533e40153989c117cbbdf169"
                     },
                     "required_dependencies": [],
-                    "size": 11383911,
-                    "date_published": "2025-01-02T20:03:12.097Z"
+                    "size": 11383940,
+                    "date_published": "2025-02-23T00:28:45.147Z"
                 }
             ]
         },
@@ -12755,7 +12755,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sophisticatedbackpacks-1.20.1-3.23.5.1200.jar",
+                    "file_name": "sophisticatedbackpacks-1.20.1-3.23.5.1203.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12764,18 +12764,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6194/202/sophisticatedbackpacks-1.20.1-3.23.5.1200.jar",
-                    "id": "6194202",
+                    "url": "https://edge.forgecdn.net/files/6223/94/sophisticatedbackpacks-1.20.1-3.23.5.1203.jar",
+                    "id": "6223094",
                     "parent_id": "422301",
                     "hashes": {
-                        "sha1": "0c37ad3ebe6c4383bb9a56a938e4c6cb0824405b",
-                        "md5": "0b62ab2f8491ca74a15fe416a0a7073f"
+                        "sha1": "0a78d5c80be3e167493da5d4afe07ce0f0bf8a88",
+                        "md5": "1dd9c408ab6f8925b99efe7b61ccf58e"
                     },
                     "required_dependencies": [
                         "618298"
                     ],
-                    "size": 896741,
-                    "date_published": "2025-02-14T23:01:43.803Z"
+                    "size": 896825,
+                    "date_published": "2025-02-22T21:57:54.557Z"
                 }
             ]
         },
@@ -12794,7 +12794,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sophisticatedcore-1.20.1-1.2.18.885.jar",
+                    "file_name": "sophisticatedcore-1.20.1-1.2.20.894.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12803,16 +12803,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6214/959/sophisticatedcore-1.20.1-1.2.18.885.jar",
-                    "id": "6214959",
+                    "url": "https://edge.forgecdn.net/files/6226/747/sophisticatedcore-1.20.1-1.2.20.894.jar",
+                    "id": "6226747",
                     "parent_id": "618298",
                     "hashes": {
-                        "sha1": "bf52dda758f6b41b75e78d6dd9acf8912c487a95",
-                        "md5": "3798e48c55e8380b16c979116e4e9b9c"
+                        "sha1": "37b456020bfd51148f971ae200a60a2a12f64218",
+                        "md5": "ea51603948383c3c62f48543350d2e52"
                     },
                     "required_dependencies": [],
-                    "size": 1166710,
-                    "date_published": "2025-02-20T21:18:59.433Z"
+                    "size": 1167752,
+                    "date_published": "2025-02-23T18:29:52.163Z"
                 }
             ]
         },

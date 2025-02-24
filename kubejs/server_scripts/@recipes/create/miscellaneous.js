@@ -29,4 +29,26 @@ ServerEvents.recipes((x) => {
       },
     ],
   });
+
+  // Wash ancient debris into Washed Ancient Debris (new item, same item/block as chipped:sanded_ancient_debris)
+  // Washed Ancient Debris in a compacting basin:
+  // WAD + Lava + unheated = 2 netherite scraps
+  // WAD + heated = 3 netherite scraps
+  // WAD + superheated = 5 netherite scraps
+  x.recipes.create.compacting('2x minecraft:netherite_scrap', [
+    Fluid.lava(100),
+    Item.of('kubejs:washed_ancient_debris'),
+  ]);
+  x.recipes.create.compacting(
+    '3x minecraft:netherite_scrap',
+    Item.of('kubejs:washed_ancient_debris'),
+    100,
+    'heated',
+  );
+  x.recipes.create.compacting(
+    '5x minecraft:netherite_scrap',
+    Item.of('kubejs:washed_ancient_debris'),
+    100,
+    'superheated',
+  );
 });
