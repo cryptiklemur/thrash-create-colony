@@ -1,3 +1,10 @@
+## [0.19.2](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.19.1...v0.19.2) (2025-02-24)
+
+
+### Bug Fixes
+
+* **recipe:** Fixing ore/raw/crushed issue for silentgear ores ([7b9e0a1](https://github.com/cryptiklemur/thrash-create-colony/commit/7b9e0a1b50ba5810958f2f98f95362b712a22972))
+
 ## [0.19.1](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.19.0...v0.19.1) (2025-02-24)
 
 
