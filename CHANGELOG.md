@@ -1,3 +1,10 @@
+## [0.19.1](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.19.0...v0.19.1) (2025-02-24)
+
+
+### Bug Fixes
+
+* **recipe:** Adding splashing recipe to create washed ancient debris ([1746054](https://github.com/cryptiklemur/thrash-create-colony/commit/17460544d51397d3cc658b17cff747cb1556e0e8))
+
 # [0.19.0](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.18.5...v0.19.0) (2025-02-24)
 
 
