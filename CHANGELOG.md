@@ -1,3 +1,10 @@
+## [0.21.2](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.21.1...v0.21.2) (2025-02-25)
+
+
+### Bug Fixes
+
+* **kubejs:** Fixing create deco recipe to allow for multiple sheets ([5287db8](https://github.com/cryptiklemur/thrash-create-colony/commit/5287db846aac209bcb0b076a93e5d3d5f66ec109))
+
 ## [0.21.1](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.21.0...v0.21.1) (2025-02-25)
 
 
