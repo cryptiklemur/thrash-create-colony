@@ -101,6 +101,48 @@
             ]
         },
         {
+            "pakku_id": "za010A76GtXRx6iA",
+            "pakku_links": [
+                "Ci3YmrufTpXj9RvL"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "aeinfinitybooster"
+            },
+            "name": {
+                "curseforge": "AEInfinityBooster"
+            },
+            "id": {
+                "curseforge": "559313"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "AEInfinityBooster-1.20.1-1.0.0+47.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6220/237/AEInfinityBooster-1.20.1-1.0.0+47.jar",
+                    "id": "6220237",
+                    "parent_id": "559313",
+                    "hashes": {
+                        "sha1": "5bf37e0693199fd58a4b5ce16bfb20848a807458",
+                        "md5": "02a7983fa7c8bf7ac6c286a520a9208d"
+                    },
+                    "required_dependencies": [
+                        "223794"
+                    ],
+                    "size": 24816,
+                    "date_published": "2025-02-22T07:27:33.323Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "KcAco3ZCtnw5qqk8",
             "type": "MOD",
             "slug": {
@@ -3195,6 +3237,49 @@
                     ],
                     "size": 2123089,
                     "date_published": "2023-11-02T19:05:48.163Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "gDogeLbOzLv2ZZCU",
+            "pakku_links": [
+                "wPV5KsyuvYJvsb1l",
+                "9KYyblYlxaJo3E1k"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-contraption-terminals"
+            },
+            "name": {
+                "curseforge": "Create Contraption Terminals"
+            },
+            "id": {
+                "curseforge": "1059879"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "createcontraptionterminals-1.20-1.1.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6093/711/createcontraptionterminals-1.20-1.1.0.jar",
+                    "id": "6093711",
+                    "parent_id": "1059879",
+                    "hashes": {
+                        "sha1": "177c78cc6eabddb45d631cc54a05683fa16d162e",
+                        "md5": "1f2d4fc6c5b9be741af72c99e4c9c80b"
+                    },
+                    "required_dependencies": [
+                        "378609",
+                        "328085"
+                    ],
+                    "size": 88503,
+                    "date_published": "2025-01-16T18:08:50.863Z"
                 }
             ]
         },
@@ -9501,6 +9586,139 @@
             ]
         },
         {
+            "pakku_id": "Zx6G2C9nt6ZeAsui",
+            "pakku_links": [
+                "lXqRP6KxXDK1rG0q",
+                "AIizzGFRD6XYBAkH"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "kubejs-diesel-generators"
+            },
+            "name": {
+                "curseforge": "KubeJS Diesel Generators"
+            },
+            "id": {
+                "curseforge": "1152400"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "dg_js-1.20.1-1.1.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5972/372/dg_js-1.20.1-1.1.0.jar",
+                    "id": "5972372",
+                    "parent_id": "1152400",
+                    "hashes": {
+                        "sha1": "e781f4e0ae7f3ffdb233fee5b2b043d234972b68",
+                        "md5": "16866ffac49f3c06dfd2dc17e24a8622"
+                    },
+                    "required_dependencies": [
+                        "869316",
+                        "238086"
+                    ],
+                    "size": 66779,
+                    "date_published": "2024-12-07T21:31:18.450Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "XOZCiOyuiaZXiTYl",
+            "pakku_links": [
+                "izdeW2l4rvDPCqFr",
+                "AIizzGFRD6XYBAkH"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "kubejs-tfmg"
+            },
+            "name": {
+                "curseforge": "KubeJS TFMG"
+            },
+            "id": {
+                "curseforge": "1151941"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "tfmgjs-1.20.1-1.2.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5991/318/tfmgjs-1.20.1-1.2.0.jar",
+                    "id": "5991318",
+                    "parent_id": "1151941",
+                    "hashes": {
+                        "sha1": "a0c728670c6dcf56d654fdfef5a3351cb6371e3e",
+                        "md5": "39ff9bd7adf0e92c1eabe666af04c139"
+                    },
+                    "required_dependencies": [
+                        "693815",
+                        "238086"
+                    ],
+                    "size": 206795,
+                    "date_published": "2024-12-14T19:22:00.607Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "EnTyDx873LwOO2vD",
+            "pakku_links": [
+                "rKIIqU9l96vaDjF5",
+                "k500fsg7heoYm2ed",
+                "AIizzGFRD6XYBAkH"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "kubevs"
+            },
+            "name": {
+                "curseforge": "KubeVS"
+            },
+            "id": {
+                "curseforge": "915793"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kubevs-1.20.1-forge-1.1.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6103/122/kubevs-1.20.1-forge-1.1.0.jar",
+                    "id": "6103122",
+                    "parent_id": "915793",
+                    "hashes": {
+                        "sha1": "6b9f36fda98f77066d2d258cd3d86bb0529cc61e",
+                        "md5": "1bf0206c45ad7d025b165418635beeb6"
+                    },
+                    "required_dependencies": [
+                        "258371",
+                        "351264",
+                        "238086"
+                    ],
+                    "size": 542290,
+                    "date_published": "2025-01-19T13:46:24.863Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "bo4wvP1f4u3z4K2v",
             "type": "MOD",
             "slug": {
@@ -14094,6 +14312,53 @@
                     ],
                     "size": 1120218,
                     "date_published": "2024-10-26T14:54:26.820Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "yry8E5dTBAyPpgDv",
+            "pakku_links": [
+                "Xk1RJYOpjBKAxIAz",
+                "AIizzGFRD6XYBAkH",
+                "jkSrbybl7AMvE9XJ",
+                "9KYyblYlxaJo3E1k"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "vintage-kubejs"
+            },
+            "name": {
+                "curseforge": "Vintage KubeJS"
+            },
+            "id": {
+                "curseforge": "1077532"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "vintage_kubejs-1.20.1-1.0.0rc-2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/5607/145/vintage_kubejs-1.20.1-1.0.0rc-2.jar",
+                    "id": "5607145",
+                    "parent_id": "1077532",
+                    "hashes": {
+                        "sha1": "ca49a4163794cc0f94a31a17f6956be11979db53",
+                        "md5": "23321f4db3ec489d8605f54efecf813e"
+                    },
+                    "required_dependencies": [
+                        "946579",
+                        "238086",
+                        "429371",
+                        "328085"
+                    ],
+                    "size": 53779,
+                    "date_published": "2024-08-08T08:54:11.013Z"
                 }
             ]
         },

@@ -61,4 +61,6 @@ ServerEvents.recipes((x) => {
     ['3x silentgear:bort', Item.of('2x silentgear:bort').withChance(0.25)],
     '#forge:ores/bort',
   );
+
+  // Convert Andesite mechanical tools to Train versions, with train casing
 });
