@@ -75,6 +75,7 @@ const metals = {
     crushed: 'createmetallurgy:crushed_raw_wolframite',
     compressed: false,
     washing: false,
+    dust: 'createmetallurgy:dirty_wolframite_dust',
   },
   lead: {
     raw: { item: 'tfmg:raw_lead', count: 3 },

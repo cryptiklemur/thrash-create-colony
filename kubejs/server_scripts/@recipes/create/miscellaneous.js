@@ -1,3 +1,12 @@
+const decoMetals = ['andesite', 'zinc'];
+
+ServerEvents.tags('item', (x) => {
+  decoMetals.forEach((metal) => {
+    x.add('forge:plates', `createdeco:${metal}_sheet`);
+    x.add(`forge:plates/${metal}`, `createdeco:${metal}_sheet`);
+  });
+});
+
 ServerEvents.recipes((x) => {
   x.shapeless('9x createloveandwar:brass_mix', [
     '#forge:ingots/zinc',
@@ -62,5 +71,14 @@ ServerEvents.recipes((x) => {
     '#forge:ores/bort',
   );
 
-  // Convert Andesite mechanical tools to Train versions, with train casing
+  decoMetals.forEach((metal) => {
+    x.replaceInput(
+      {
+        input: `createdeco:${metal}_sheet`,
+        output: `createdeco:${metal}_sheet_metal`,
+      },
+      `createdeco:${metal}_sheet`,
+      `#forge:plates/${metal}`,
+    );
+  });
 });
