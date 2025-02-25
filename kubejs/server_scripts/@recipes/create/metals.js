@@ -29,6 +29,7 @@ function debug() {
  *        crushed: string | boolean,
  *        compressed: string | boolean,
  *        washing: boolean | string | OutputItem
+ *        dust: string | undefined,
  *      }
  *    }
  * }
@@ -109,6 +110,7 @@ const metals = {
     crushed: 'create:crushed_raw_aluminum',
     compressed: false,
     washing: false,
+    dust: 'kubejs:aluminum_dust',
   },
   cobalt: {
     raw: { item: 'creatingspace:raw_cobalt', count: 3 },
@@ -140,6 +142,7 @@ const metals = {
     crushed: 'create:crushed_raw_silver',
     washing: Item.of('minecraft:emerald').withChance(0.5),
     compressed: false,
+    dust: 'kubejs:silver_dust',
   },
 };
 
@@ -233,6 +236,8 @@ ServerEvents.recipes((x) => {
     let compressedBlock = `create_compressed:crushed_${metal}_pile`;
     let ingot = metals[metal].ingot || `${mod}:${metal}_ingot`;
     let nugget = metals[metal].nugget || `${mod}:${metal}_nugget`;
+    let dust = metals[metal].dust || `createmetallurgy:dirty_${metal}_dust`;
+
     let crushedOrNugget =
       crushed && Item.exists(crushed)
         ? crushed
@@ -316,6 +321,24 @@ ServerEvents.recipes((x) => {
         x.smelting(nugget, item);
         x.blasting(nugget, item);
       });
+    }
+
+    if (Item.exists(crushed)) {
+      if (Item.exists(nugget) && !Item.exists(dust)) {
+        debug(`[ADD][create:crushing] ${crushed} -> ${nugget}`);
+        x.recipes.create.crushing(
+          [nugget, Item.of(nugget).withChance(0.05)],
+          crushed,
+        );
+      }
+
+      if (Item.exists(dust)) {
+        debug(`[ADD][create:crushing] ${crushed} -> ${dust}`);
+        x.recipes.create.crushing(
+          [dust, Item.of(dust).withChance(0.05)],
+          crushed,
+        );
+      }
     }
 
     if (Item.exists(nugget) && Item.exists(crushed)) {

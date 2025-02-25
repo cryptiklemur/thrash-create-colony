@@ -5,6 +5,18 @@ ServerEvents.recipes((x) => {
     30,
     'heated',
   );
+  x.recipes.createmetallurgy.melting(
+    `createmetallurgy:molten_aluminum`,
+    `kubejs:aluminum_dust`,
+    30,
+    'heated',
+  );
+  x.recipes.createmetallurgy.melting(
+    `createmetallurgy:molten_silver`,
+    `kubejs:silver_dust`,
+    30,
+    'heated',
+  );
   x.recipes.create.pressing(
     'createmetallurgy:tungsten_sheet',
     `createmetallurgy:tungsten_ingot`,
