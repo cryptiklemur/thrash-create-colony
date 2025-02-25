@@ -1,19 +1,7 @@
 ServerEvents.recipes((x) => {
   x.recipes.createmetallurgy.melting(
-    `createmetallurgy:molten_tungsten`,
+    Fluid.of(`createmetallurgy:molten_tungsten`, 90),
     `createmetallurgy:dirty_wolframite_dust`,
-    30,
-    'heated',
-  );
-  x.recipes.createmetallurgy.melting(
-    `createmetallurgy:molten_aluminum`,
-    `kubejs:aluminum_dust`,
-    30,
-    'heated',
-  );
-  x.recipes.createmetallurgy.melting(
-    `createmetallurgy:molten_silver`,
-    `kubejs:silver_dust`,
     30,
     'heated',
   );
