@@ -1,3 +1,10 @@
+# [0.21.0](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.20.1...v0.21.0) (2025-02-25)
+
+
+### Features
+
+* **kubejs:** Adding aluminum dust and silver dust ([da66a69](https://github.com/cryptiklemur/thrash-create-colony/commit/da66a6915625d76281809af1317b638a3ec2b752))
+
 ## [0.20.1](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.20.0...v0.20.1) (2025-02-25)
 
 
