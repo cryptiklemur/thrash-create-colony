@@ -1,3 +1,10 @@
+## [0.21.3](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.21.2...v0.21.3) (2025-02-25)
+
+
+### Bug Fixes
+
+* **kubejs:** Fixing #forge:millable_to_green_dye ([8362310](https://github.com/cryptiklemur/thrash-create-colony/commit/8362310246e7ac4251266d3d6ee708962032c6e5))
+
 ## [0.21.2](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.21.1...v0.21.2) (2025-02-25)
 
 
