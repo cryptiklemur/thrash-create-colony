@@ -1,3 +1,10 @@
+## [0.21.1](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.21.0...v0.21.1) (2025-02-25)
+
+
+### Bug Fixes
+
+* **kubejs:** Fixing tag issues, and amount of molten metals created ([7b422f4](https://github.com/cryptiklemur/thrash-create-colony/commit/7b422f4fccbe4a50b64a9c0113ccc26009ed990e))
+
 # [0.21.0](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.20.1...v0.21.0) (2025-02-25)
 
 
