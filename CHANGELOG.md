@@ -1,3 +1,10 @@
+# [0.20.0](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.19.2...v0.20.0) (2025-02-25)
+
+
+### Features
+
+* **mod:** Adding new mods ([0d4e77c](https://github.com/cryptiklemur/thrash-create-colony/commit/0d4e77c434eeb9435306d2090bfb0e8f717fa426))
+
 ## [0.19.2](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.19.1...v0.19.2) (2025-02-24)
 
 
