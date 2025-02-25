@@ -1,3 +1,10 @@
+## [0.20.1](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.20.0...v0.20.1) (2025-02-25)
+
+
+### Bug Fixes
+
+* **config:** Adding a belt and back curio slot ([8dc40d4](https://github.com/cryptiklemur/thrash-create-colony/commit/8dc40d41e89dc3b708be6005a1735fac2744dc3b))
+
 # [0.20.0](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.19.2...v0.20.0) (2025-02-25)
 
 
