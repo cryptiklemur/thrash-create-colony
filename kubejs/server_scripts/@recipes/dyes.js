@@ -12,11 +12,17 @@ const colorMixtures = {
 const defaultOptions = { shapeless: true, milling: true, crushing: true };
 
 ServerEvents.tags('item', (x) => {
-  const greenMillableItems = Block.getTaggedIds('dynamictrees:foliage').filter(
-    (b) => Item.exists(b) && !Item.of(b).hasTag('minecraft:flowers'),
+  x.add(
+    'forge:millable_to_green_dye',
+    '#minecraft:saplings',
+    '#minecraft:leaves',
+    '#vintagedelight:slime_ball_fermenting',
+    '#chipped:vine',
+    'minecraft:tall_grass',
+    'minecraft:grass',
+    'minecraft:fern',
+    'minecraft:large_fern',
   );
-
-  x.add('forge:millable_to_green_dye', greenMillableItems);
   x.add(
     'forge:millable_to_yellow_dye',
     '#forge:ingots/gold',
