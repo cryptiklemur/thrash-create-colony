@@ -1,3 +1,10 @@
+## [0.21.4](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.21.3...v0.21.4) (2025-02-26)
+
+
+### Bug Fixes
+
+* **recipes:** Cleaning up tag mismatches ([236f597](https://github.com/cryptiklemur/thrash-create-colony/commit/236f5970a8f54d5e9f27efea5b8244effdcb42dc))
+
 ## [0.21.3](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.21.2...v0.21.3) (2025-02-25)
 
 
