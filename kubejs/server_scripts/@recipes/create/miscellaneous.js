@@ -73,4 +73,18 @@ ServerEvents.recipes((x) => {
   );
 
   x.remove({ id: 'jei:/oreganized/create/mixing/electrum_ingot' });
+
+  x.remove({
+    type: 'create:crushing',
+    input: 'minecraft:blackstone',
+  });
+
+  x.recipes.create.crushing(
+    [
+      Item.of('minecraft:coal').withChance(0.5),
+      Item.of('create_netherless:netherite_fragment').withChance(0.01),
+      Item.of('minecrfaft:wither_skeleton_skull').withChance(0.01),
+    ],
+    'minecraft:blackstone',
+  );
 });
