@@ -590,24 +590,25 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Aquaculture-1.20.1-2.5.3.jar",
+                    "file_name": "Aquaculture-1.20.1-2.5.4.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "loaders": [
+                        "neoforge",
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5919/146/Aquaculture-1.20.1-2.5.3.jar",
-                    "id": "5919146",
+                    "url": "https://edge.forgecdn.net/files/6236/166/Aquaculture-1.20.1-2.5.4.jar",
+                    "id": "6236166",
                     "parent_id": "60028",
                     "hashes": {
-                        "sha1": "332c2cbcb6a76e367fc953756eb3870fd6f61f6b",
-                        "md5": "4de63e04dd2ed6ee53493be6a9c8afb8"
+                        "sha1": "b9b08176ced2545a76aeec670391538f57f4de7c",
+                        "md5": "2512dcc287156dcf5159edec483a3af9"
                     },
                     "required_dependencies": [],
-                    "size": 601193,
-                    "date_published": "2024-11-19T11:22:17.457Z"
+                    "size": 601090,
+                    "date_published": "2025-02-25T20:10:27.337Z"
                 }
             ]
         },
@@ -2554,7 +2555,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.0.jar.jar",
+                    "file_name": "corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.1.jar",
                     "mc_versions": [
                         "1.20.2",
                         "1.20.3",
@@ -2566,16 +2567,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6201/433/corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.0.jar.jar",
-                    "id": "6201433",
+                    "url": "https://edge.forgecdn.net/files/6235/713/corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.1.jar",
+                    "id": "6235713",
                     "parent_id": "1138130",
                     "hashes": {
-                        "sha1": "ed2038ddd65365771f8979546db0ca9d8e4996d7",
-                        "md5": "7b8ce802f924b1cdea99c46901699993"
+                        "sha1": "e2162553deb2fb1f8b2473e5c8adb060f30a39d4",
+                        "md5": "98625444e30b0d20b9b34f7024fe6925"
                     },
                     "required_dependencies": [],
-                    "size": 8688,
-                    "date_published": "2025-02-16T23:27:19.337Z"
+                    "size": 9073,
+                    "date_published": "2025-02-25T18:26:49.267Z"
                 }
             ]
         },
@@ -7142,7 +7143,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "entityculling-forge-1.7.2-mc1.20.1.jar",
+                    "file_name": "entityculling-forge-1.7.3-mc1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -7150,16 +7151,16 @@
                         "forge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/5968/677/entityculling-forge-1.7.2-mc1.20.1.jar",
-                    "id": "5968677",
+                    "url": "https://edge.forgecdn.net/files/6236/056/entityculling-forge-1.7.3-mc1.20.1.jar",
+                    "id": "6236056",
                     "parent_id": "448233",
                     "hashes": {
-                        "sha1": "fafd5e44573df4b7842243fcfcb05dfbd85ad5e5",
-                        "md5": "57c8efca30eb7fbf83757148e1dd5290"
+                        "sha1": "09c17c8794a0e00d2ccb51b8d7c1b812498c5c33",
+                        "md5": "34ae0d54004066bac5c13ab2129978b8"
                     },
                     "required_dependencies": [],
-                    "size": 73584,
-                    "date_published": "2024-12-06T18:09:06.967Z"
+                    "size": 77548,
+                    "date_published": "2025-02-25T19:44:37.793Z"
                 }
             ]
         },
@@ -8946,7 +8947,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "immersive_aircraft-1.1.8+1.20.1-forge.jar",
+                    "file_name": "immersive_aircraft-1.2.0+1.20.1-forge.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -8954,16 +8955,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6052/289/immersive_aircraft-1.1.8+1.20.1-forge.jar",
-                    "id": "6052289",
+                    "url": "https://edge.forgecdn.net/files/6235/501/immersive_aircraft-1.2.0+1.20.1-forge.jar",
+                    "id": "6235501",
                     "parent_id": "666014",
                     "hashes": {
-                        "sha1": "2ab98071913415862fe3d72828b7d5c9856035e7",
-                        "md5": "5ca2496630aa98a29d79bb5068c01369"
+                        "sha1": "ba0aec13a0ebea094625169be61eda8116857677",
+                        "md5": "baa3e8dc843555df1d3d9ae70159c21c"
                     },
                     "required_dependencies": [],
-                    "size": 2175827,
-                    "date_published": "2025-01-04T12:27:36.707Z"
+                    "size": 2178763,
+                    "date_published": "2025-02-25T17:55:53.023Z"
                 }
             ]
         },
@@ -10885,7 +10886,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "mysterious_mountain_lib-1.5.17-1.20.1.jar",
+                    "file_name": "mysterious_mountain_lib-1.5.18-1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -10894,16 +10895,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5842/4/mysterious_mountain_lib-1.5.17-1.20.1.jar",
-                    "id": "5842004",
+                    "url": "https://edge.forgecdn.net/files/6229/421/mysterious_mountain_lib-1.5.18-1.20.1.jar",
+                    "id": "6229421",
                     "parent_id": "368098",
                     "hashes": {
-                        "sha1": "9bbd4c38cbd0a1bdf492fa74cae0bb478be3048b",
-                        "md5": "df197f8204a737769a8cb319bed0d4bc"
+                        "sha1": "70a29e7a65d4fdd872400b43877c0d964c032f2a",
+                        "md5": "115bc88dbf5bbd8250dff4ea6bc2c31c"
                     },
                     "required_dependencies": [],
-                    "size": 304359,
-                    "date_published": "2024-10-24T16:07:11.063Z"
+                    "size": 305217,
+                    "date_published": "2025-02-24T11:48:55.683Z"
                 }
             ]
         },
@@ -12347,6 +12348,44 @@
             ]
         },
         {
+            "pakku_id": "DTheAnEp73RPQGx2",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "seasonhud"
+            },
+            "name": {
+                "curseforge": "SeasonHUD"
+            },
+            "id": {
+                "curseforge": "690971"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "seasonhud-forge-1.20.1-1.12.1.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6211/931/seasonhud-forge-1.20.1-1.12.1.jar",
+                    "id": "6211931",
+                    "parent_id": "690971",
+                    "hashes": {
+                        "sha1": "2b736cc72ad0db27b003277e33e8a00e901f0aa6",
+                        "md5": "edf1cc509e546bafd0a705210186e728"
+                    },
+                    "required_dependencies": [],
+                    "size": 281812,
+                    "date_published": "2025-02-20T02:49:56.157Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "tz3ZVR7TDV68yIBT",
             "type": "MOD",
             "slug": {
@@ -12399,7 +12438,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "SereneSeasons-forge-1.20.1-9.1.0.0.jar",
+                    "file_name": "SereneSeasons-forge-1.20.1-9.1.0.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12407,18 +12446,18 @@
                         "forge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/5790/653/SereneSeasons-forge-1.20.1-9.1.0.0.jar",
-                    "id": "5790653",
+                    "url": "https://edge.forgecdn.net/files/6229/152/SereneSeasons-forge-1.20.1-9.1.0.1.jar",
+                    "id": "6229152",
                     "parent_id": "291874",
                     "hashes": {
-                        "sha1": "ce7e1bb6fcf56d4291914f50f33b39a0306802fc",
-                        "md5": "6c66265f8beab84de3adf6aa020cbfab"
+                        "sha1": "28ca0061579221351e77c029e32cf5041fb378c7",
+                        "md5": "922d396f85784fec027d18342ecbfb21"
                     },
                     "required_dependencies": [
                         "955399"
                     ],
-                    "size": 160862,
-                    "date_published": "2024-10-07T05:05:42.950Z"
+                    "size": 159837,
+                    "date_published": "2025-02-24T09:47:25Z"
                 }
             ]
         },
@@ -12973,7 +13012,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sophisticatedbackpacks-1.20.1-3.23.5.1203.jar",
+                    "file_name": "sophisticatedbackpacks-1.20.1-3.23.5.1205.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12982,18 +13021,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6223/94/sophisticatedbackpacks-1.20.1-3.23.5.1203.jar",
-                    "id": "6223094",
+                    "url": "https://edge.forgecdn.net/files/6230/202/sophisticatedbackpacks-1.20.1-3.23.5.1205.jar",
+                    "id": "6230202",
                     "parent_id": "422301",
                     "hashes": {
-                        "sha1": "0a78d5c80be3e167493da5d4afe07ce0f0bf8a88",
-                        "md5": "1dd9c408ab6f8925b99efe7b61ccf58e"
+                        "sha1": "b77d64c96feca036121a080ec7901cadf20e35d0",
+                        "md5": "b61bcaa582d80401720e0e5b8421af91"
                     },
                     "required_dependencies": [
                         "618298"
                     ],
-                    "size": 896825,
-                    "date_published": "2025-02-22T21:57:54.557Z"
+                    "size": 897123,
+                    "date_published": "2025-02-24T16:11:24.587Z"
                 }
             ]
         },
@@ -14543,7 +14582,7 @@
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "alpha",
+                    "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/6212/636/XaerosWorldMap_1.39.4_Forge_1.20.jar",
                     "id": "6212636",
                     "parent_id": "317780",
