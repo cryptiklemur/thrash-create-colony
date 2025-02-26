@@ -1464,43 +1464,6 @@
             ]
         },
         {
-            "pakku_id": "SKg1CO214Gx2l5F2",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "botarium"
-            },
-            "name": {
-                "curseforge": "Botarium"
-            },
-            "id": {
-                "curseforge": "704113"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "botarium-forge-1.20.1-2.3.4.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5486/70/botarium-forge-1.20.1-2.3.4.jar",
-                    "id": "5486070",
-                    "parent_id": "704113",
-                    "hashes": {
-                        "sha1": "a6928cb03b7c5f81900d3d3c8e8c8f6a89a51a5b",
-                        "md5": "c204f9d834da78a3972fc98da96730aa"
-                    },
-                    "required_dependencies": [],
-                    "size": 157633,
-                    "date_published": "2024-06-29T17:38:58.730Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "arySmlw8p22hv6X8",
             "pakku_links": [
                 "6w88Gzd8Xd1ZM3Ic"
@@ -3357,6 +3320,48 @@
             ]
         },
         {
+            "pakku_id": "PKMStsRdoY2qkgsw",
+            "pakku_links": [
+                "9KYyblYlxaJo3E1k"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-decoration-casing"
+            },
+            "name": {
+                "curseforge": "Create Decoration Casing"
+            },
+            "id": {
+                "curseforge": "782293"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Create_Deco_Casing_3.1.0_1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4776/904/Create_Deco_Casing_3.1.0_1.20.1.jar",
+                    "id": "4776904",
+                    "parent_id": "782293",
+                    "hashes": {
+                        "sha1": "8baddcbb49de1e7356581bf5b83215195ee0b0a8",
+                        "md5": "6a42afef82de14c135796c724db3f567"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 1030577,
+                    "date_published": "2023-10-01T07:40:40.843Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "0Sap4F81fp5EjSYs",
             "pakku_links": [
                 "9KYyblYlxaJo3E1k"
@@ -4675,6 +4680,49 @@
             ]
         },
         {
+            "pakku_id": "PHz6rKCEviUHprMh",
+            "pakku_links": [
+                "9KYyblYlxaJo3E1k",
+                "k500fsg7heoYm2ed"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-enchantable-machinery"
+            },
+            "name": {
+                "curseforge": "Create: Enchantable Machinery (Forge)"
+            },
+            "id": {
+                "curseforge": "1061749"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "createenchantablemachinery-2.9.10-mc1.20.1-forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6211/5/createenchantablemachinery-2.9.10-mc1.20.1-forge.jar",
+                    "id": "6211005",
+                    "parent_id": "1061749",
+                    "hashes": {
+                        "sha1": "c0898b2b51d2d2b500afde91c4e0d60bf85cde7c",
+                        "md5": "e4ff4fbdd04003b8bd3c1f9b3a74b8ed"
+                    },
+                    "required_dependencies": [
+                        "328085",
+                        "351264"
+                    ],
+                    "size": 1003364,
+                    "date_published": "2025-02-19T20:59:56.667Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "wTXiPNh69Qka9YAb",
             "type": "MOD",
             "slug": {
@@ -5110,6 +5158,43 @@
             ]
         },
         {
+            "pakku_id": "SDp3uFbP2krcoO2v",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-metalwork"
+            },
+            "name": {
+                "curseforge": "Create: Metalwork"
+            },
+            "id": {
+                "curseforge": "966104"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "create-metalwork-1.20.1-1.0.10-forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6138/757/create-metalwork-1.20.1-1.0.10-forge.jar",
+                    "id": "6138757",
+                    "parent_id": "966104",
+                    "hashes": {
+                        "sha1": "e539ffd24a0fb49f432aff09a6bd0573ed421e28",
+                        "md5": "e0df015a0cf4e1de619ae5a5a5553567"
+                    },
+                    "required_dependencies": [],
+                    "size": 3656660,
+                    "date_published": "2025-01-30T04:53:11.407Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "l7Ru2zCOhGKQK3kH",
             "type": "MOD",
             "slug": {
@@ -5259,48 +5344,6 @@
             ]
         },
         {
-            "pakku_id": "aLPkiH8dZwrjk3Zb",
-            "pakku_links": [
-                "SKg1CO214Gx2l5F2"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "create-new-age"
-            },
-            "name": {
-                "curseforge": "Create: New Age"
-            },
-            "id": {
-                "curseforge": "905861"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "create-new-age-forge-1.20.1-1.1.2.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5080/957/create-new-age-forge-1.20.1-1.1.2.jar",
-                    "id": "5080957",
-                    "parent_id": "905861",
-                    "hashes": {
-                        "sha1": "92fcbc49d41a4d1b2038b469154a4c36e3934e36",
-                        "md5": "849f2be17ade31494ced55cb5c03aa8b"
-                    },
-                    "required_dependencies": [
-                        "704113",
-                        "328085"
-                    ],
-                    "size": 663575,
-                    "date_published": "2024-02-04T17:46:12.533Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "4MtKWwZygXuFypfh",
             "type": "MOD",
             "slug": {
@@ -5417,6 +5460,48 @@
                     ],
                     "size": 116083,
                     "date_published": "2024-11-08T21:33:02.010Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "sT9RczBkRBRRBR5T",
+            "pakku_links": [
+                "9KYyblYlxaJo3E1k"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-smart-crafter"
+            },
+            "name": {
+                "curseforge": "Create: Smart Crafter"
+            },
+            "id": {
+                "curseforge": "1105414"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "smartcrafter-0.1.7.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5750/586/smartcrafter-0.1.7.jar",
+                    "id": "5750586",
+                    "parent_id": "1105414",
+                    "hashes": {
+                        "sha1": "7b056a02678d56c06b23c6a1908b4f46bb626d73",
+                        "md5": "525c2b474ecbd48b23c55ff85e45357f"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 395165,
+                    "date_published": "2024-09-23T21:23:16.447Z"
                 }
             ]
         },
