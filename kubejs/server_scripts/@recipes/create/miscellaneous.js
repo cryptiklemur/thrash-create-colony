@@ -24,21 +24,6 @@ ServerEvents.recipes((x) => {
     'biomesoplenty:rose_quartz_block',
   );
 
-  x.custom({
-    type: 'create_new_age:energising',
-    energy_needed: 10000,
-    ingredients: [
-      {
-        tag: 'forge:ores/iron',
-      },
-    ],
-    results: [
-      {
-        item: 'create_new_age:magnetite_block',
-      },
-    ],
-  });
-
   // Wash ancient debris into Washed Ancient Debris (new item, same item/block as chipped:sanded_ancient_debris)
   // Washed Ancient Debris in a compacting basin:
   // WAD + Lava + unheated = 2 netherite scraps
