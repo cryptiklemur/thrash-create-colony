@@ -75,10 +75,17 @@ ServerEvents.recipes((x) => {
     x.replaceInput(
       {
         input: `createdeco:${metal}_sheet`,
-        output: `createdeco:${metal}_sheet_metal`,
       },
       `createdeco:${metal}_sheet`,
       `#forge:plates/${metal}`,
     );
   });
+
+  x.replaceInput(
+    { input: `oreganized:electrum_ingot` },
+    'oreganized:electrum_ingot',
+    '#forge:ingots/electrum',
+  );
+
+  x.remove({ id: 'jei:/oreganized/create/mixing/electrum_ingot' });
 });
