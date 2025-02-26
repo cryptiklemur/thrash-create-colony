@@ -1,3 +1,10 @@
+## [0.21.8](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.21.7...v0.21.8) (2025-02-26)
+
+
+### Bug Fixes
+
+* **recipe:** Merging blackstone crushing recipes ([182cebc](https://github.com/cryptiklemur/thrash-create-colony/commit/182cebc229bae112e2161713b966b3534c2b2930))
+
 ## [0.21.7](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.21.6...v0.21.7) (2025-02-26)
 
 
