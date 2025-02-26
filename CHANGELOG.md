@@ -1,3 +1,10 @@
+## [0.21.7](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.21.6...v0.21.7) (2025-02-26)
+
+
+### Bug Fixes
+
+* **recipe:** Removing Create: New Age stuff ([ae826dc](https://github.com/cryptiklemur/thrash-create-colony/commit/ae826dc3084afaece7d408e7b6aa079e6d6fca9c))
+
 ## [0.21.6](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.21.5...v0.21.6) (2025-02-26)
 
 
