@@ -83,7 +83,7 @@ ServerEvents.recipes((x) => {
     [
       Item.of('minecraft:coal').withChance(0.5),
       Item.of('create_netherless:netherite_fragment').withChance(0.01),
-      Item.of('minecrfaft:wither_skeleton_skull').withChance(0.01),
+      Item.of('minecraft:wither_skeleton_skull').withChance(0.01),
     ],
     'minecraft:blackstone',
   );
