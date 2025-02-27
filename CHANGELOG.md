@@ -1,3 +1,10 @@
+## [0.21.9](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.21.8...v0.21.9) (2025-02-27)
+
+
+### Bug Fixes
+
+* **recipe:** Fixing typo in recipe ([6e8f8e1](https://github.com/cryptiklemur/thrash-create-colony/commit/6e8f8e1a3f16920e0e5cd97f547e93c29b476f66))
+
 ## [0.21.8](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.21.7...v0.21.8) (2025-02-26)
 
 
