@@ -87,4 +87,21 @@ ServerEvents.recipes((x) => {
     ],
     'minecraft:blackstone',
   );
+
+  x.recipes.create
+    .mixing(Item.of('minecraft:redstone', 9), [
+      Item.of('#forge:netherrack'),
+      Item.of('#forge:nuggets/iron', 9),
+    ])
+    .heated();
+
+  x.recipes.create_mechanical_extruder.extruding('minecraft:obsidian', [
+    'minecraft:lava',
+    'minecraft:water',
+  ]);
+  x.recipes.create_mechanical_extruder.extruding(
+    'minecraft:crying_obsidian',
+    ['minecraft:lava', 'minecraft:water'],
+    'minecraft:soul_campfire',
+  );
 });

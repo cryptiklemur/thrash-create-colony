@@ -9,6 +9,9 @@
     "projects": {
         "cupboard": {
             "update_strategy": "NONE"
+        },
+        "create": {
+            "update_strategy": "NONE"
         }
     }
 }

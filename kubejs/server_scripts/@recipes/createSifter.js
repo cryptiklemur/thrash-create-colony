@@ -20,6 +20,11 @@ const map = {
     'create:crushed_raw_gold': [0, 0, 0.005, 0.025, [0.05, 0.025]],
     'create:crushed_raw_silver': [0, 0, 0.005, 0.025, [0.05, 0.025]],
   },
+  'minecraft:soul_sand': {
+    'minecrfaft:quartz': [0, 0, 0, 0.05, [0.1125, 0.0375]],
+    'minecraft:ghast_tear': [0, 0, 0, 0, 0.0125],
+    'create:experience_nugget': [0, 0, 0, 0.05, 0.1],
+  },
 };
 
 const meshes = [
@@ -43,7 +48,7 @@ ServerEvents.recipes((x) => {
         }
         for (const chance of chances) {
           if (chance > 0) {
-            curr.push(Item.of(output).withChance(chance));
+            curr.push(Item.of(output).withChance(chance / 2));
           }
         }
 
