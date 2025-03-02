@@ -1,3 +1,13 @@
+## [0.22.5](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.22.4...v0.22.5) (2025-03-02)
+
+
+### Reverts
+
+* Revert "fix(mods): Updating dependencies" ([01ba9f0](https://github.com/cryptiklemur/thrash-create-colony/commit/01ba9f0ca1638378b2a66b1dd9be02cf596886b1))
+* Revert "fix(mods): Updating dependencies" ([c7fffcb](https://github.com/cryptiklemur/thrash-create-colony/commit/c7fffcb2f7fb5e9001b8232141e3b891149fbbfc))
+* Revert "fix(mods): Updating dependencies" ([a0f1b59](https://github.com/cryptiklemur/thrash-create-colony/commit/a0f1b5930f15406e14d614b7ceca7a3d4dd2f4e8))
+* Revert "fix(mods): Updating dependencies" ([177d3f3](https://github.com/cryptiklemur/thrash-create-colony/commit/177d3f302ed3986014b088cb930286400bb8fcd7))
+
 ## [0.22.4](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.22.3...v0.22.4) (2025-03-02)
 
 
