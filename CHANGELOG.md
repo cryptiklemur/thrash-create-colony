@@ -1,3 +1,11 @@
+## [0.22.1](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.22.0...v0.22.1) (2025-03-02)
+
+
+### Bug Fixes
+
+* **mods:** Updating dependencies ([cf41813](https://github.com/cryptiklemur/thrash-create-colony/commit/cf41813953c0c93a5d84d026748d3095a63c3b5b))
+* **mods:** Updating dependencies ([baf795c](https://github.com/cryptiklemur/thrash-create-colony/commit/baf795c7278e4c785c6d99c4c969c14d99fe8eda))
+
 # [0.22.0](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.21.9...v0.22.0) (2025-03-01)
 
 
