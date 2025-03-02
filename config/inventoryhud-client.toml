@@ -89,10 +89,10 @@
 	invHalign = "MIDDLE"
 	#Inventory HUD position (X)
 	#Range: -9999 ~ 9999
-	xPos = 0
+	xPos = -211
 	#Inventory HUD position (Y)
 	#Range: -9999 ~ 9999
-	yPos = 92
+	yPos = 45
 	#Armor HUD vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	armValign = "BOTTOM"
