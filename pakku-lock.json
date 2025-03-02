@@ -14667,6 +14667,47 @@
             ]
         },
         {
+            "pakku_id": "DHIC0SHGoUiUDDmD",
+            "pakku_links": [
+                "FUoeBPrgBrK85Jlh"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "trading-post"
+            },
+            "name": {
+                "curseforge": "Trading Post [Forge & Fabric]"
+            },
+            "id": {
+                "curseforge": "539057"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "TradingPost-v8.0.2-1.20.1-Forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5057/539/TradingPost-v8.0.2-1.20.1-Forge.jar",
+                    "id": "5057539",
+                    "parent_id": "539057",
+                    "hashes": {
+                        "sha1": "b5cfd0afd134d118124fb12f5e605574938ddffd",
+                        "md5": "249fec67b0501cf25fe33b3bd2408e13"
+                    },
+                    "required_dependencies": [
+                        "495476"
+                    ],
+                    "size": 123478,
+                    "date_published": "2024-01-24T22:15:06.710Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "EVAIoiSbDEiEYDaO",
             "pakku_links": [
                 "I4CFrOrzhXSbx5mL",
