@@ -10,8 +10,14 @@
         "cupboard": {
             "update_strategy": "NONE"
         },
-        "create": {
-            "update_strategy": "NONE"
-        }
+      "create": {
+        "update_strategy": "NONE"
+      },
+      "petrolpark-library": {
+        "update_strategy": "NONE"
+      },
+      "petrols-parts": {
+        "update_strategy": "NONE"
+      }
     }
 }

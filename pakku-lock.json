@@ -12233,6 +12233,85 @@
             ]
         },
         {
+            "pakku_id": "eBTd0Sv9Q0m6rYTr",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "petrols-parts"
+            },
+            "name": {
+                "curseforge": "Petrol's Parts (Create add-on)"
+            },
+            "id": {
+                "curseforge": "1093607"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "petrolsparts-1.20.1-1.1.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6110/215/petrolsparts-1.20.1-1.1.3.jar",
+                    "id": "6110215",
+                    "parent_id": "1093607",
+                    "hashes": {
+                        "sha1": "f4dd5c780431157af5e3ce6d8cc8d1dd1cd32581",
+                        "md5": "e7b693908b484182b952fc2b66b6480c"
+                    },
+                    "required_dependencies": [
+                        "328085",
+                        "1093595"
+                    ],
+                    "size": 301279,
+                    "date_published": "2025-01-21T15:52:56.857Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "oan6lsRocgWTmDkg",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "petrolpark-library"
+            },
+            "name": {
+                "curseforge": "Petrolpark Library"
+            },
+            "id": {
+                "curseforge": "1093595"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "petrolpark-1.20.1-1.4.2-all.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6252/654/petrolpark-1.20.1-1.4.2-all.jar",
+                    "id": "6252654",
+                    "parent_id": "1093595",
+                    "hashes": {
+                        "sha1": "a0385ad020cfeb53b82293fc66f9888932a3458d",
+                        "md5": "95298ca31fa62b393f077230a0c22567"
+                    },
+                    "required_dependencies": [],
+                    "size": 798829,
+                    "date_published": "2025-03-01T19:26:12.577Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "fL9f9HPnaKCxl3El",
             "pakku_links": [
                 "8nGksAbfojovCE7s"
