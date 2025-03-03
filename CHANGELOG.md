@@ -1,3 +1,10 @@
+## [0.22.6](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.22.5...v0.22.6) (2025-03-03)
+
+
+### Bug Fixes
+
+* **mod:** Removing chunky ([716cc0c](https://github.com/cryptiklemur/thrash-create-colony/commit/716cc0c3951e1e82c28b32f163c3fc023e9410fe))
+
 ## [0.22.5](https://github.com/cryptiklemur/thrash-create-colony/compare/v0.22.4...v0.22.5) (2025-03-02)
 
 
