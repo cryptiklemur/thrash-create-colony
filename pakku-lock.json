@@ -1888,48 +1888,6 @@
             ]
         },
         {
-            "pakku_id": "hF7KghW8fg9SLPXt",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "chunky-pregenerator-forge"
-            },
-            "name": {
-                "curseforge": "Chunky (Forge/NeoForge)"
-            },
-            "id": {
-                "curseforge": "485681"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "Chunky-1.3.146.jar",
-                    "mc_versions": [
-                        "1.20.2",
-                        "1.20.5",
-                        "1.20.3",
-                        "1.20.1",
-                        "1.20",
-                        "1.20.6",
-                        "1.20.4"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5320/28/Chunky-1.3.146.jar",
-                    "id": "5320028",
-                    "parent_id": "485681",
-                    "hashes": {
-                        "sha1": "0b782d12b4ac3b03a94c28f32e9b2d5587d1dd50",
-                        "md5": "ed46120ac4f30ec8e03f6416e295577c"
-                    },
-                    "required_dependencies": [],
-                    "size": 341451,
-                    "date_published": "2024-05-06T07:10:57.567Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "TpjM49zxVjXpIexs",
             "type": "MOD",
             "slug": {
